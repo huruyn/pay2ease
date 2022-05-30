@@ -1,0 +1,415 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MortgagePrepayment Component matches the snapshot 1`] = `
+<div
+  className="page-content"
+>
+  <div
+    style={
+      Object {
+        "backgroundColor": "#F2F3F2",
+        "padding": 10,
+      }
+    }
+  >
+    <p
+      style={
+        Object {
+          "marginBottom": 0,
+          "textAlign": "center",
+        }
+      }
+    >
+      Mortgage Prepayment
+    </p>
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "#FAF0F3",
+        "padding": 10,
+      }
+    }
+  >
+    <div
+      className="d-flex justify-content-between"
+    >
+      <p
+        className="d-flex"
+        style={
+          Object {
+            "fontSize": 14,
+            "marginBottom": 0,
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "border": "1px dotted grey",
+              "height": 25,
+              "marginRight": 10,
+              "textAlign": "center",
+              "width": 20,
+            }
+          }
+        >
+          P
+        </div>
+        You don't have an account that allows you to complete this request
+      </p>
+      <p>
+        {
+        Result #0328
+        }
+      </p>
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "#DEE9F7",
+        "padding": 10,
+      }
+    }
+  >
+    <p
+      className="d-flex"
+      style={
+        Object {
+          "fontSize": 14,
+          "marginBottom": 0,
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "border": "1px dotted grey",
+            "height": 25,
+            "marginRight": 10,
+            "textAlign": "center",
+            "width": 20,
+          }
+        }
+      >
+        P
+      </div>
+      <ul>
+        <li>
+          Make sure you have enough money in your account when submitting your prepayment request. Use the same account for your prepayment that you use for your regular mortgage payments
+        </li>
+        <li>
+          Your payment is effective immediately. Depending on your province, it may take up to five business days for this to be reflected on your mortgage account.
+        </li>
+        <li>
+          All fields are required unless stated as optional. If you need help, contact ZippyX Mortgage at 1-888-264-6843 or
+           
+          <span
+            style={
+              Object {
+                "textDecoration": "underline",
+              }
+            }
+          >
+            write to us
+          </span>
+          .
+        </li>
+      </ul>
+    </p>
+  </div>
+  <div
+    className="mt-4 pb-4 row"
+  >
+    <div
+      className="bg-light p-3 col-md-12"
+      style={
+        Object {
+          "borderBottom": "1px solid grey",
+          "fontWeight": 500,
+        }
+      }
+    >
+      <span
+        style={
+          Object {
+            "color": "rgb(220, 53, 69)",
+            "marginRight": 5,
+          }
+        }
+      >
+        +
+      </span>
+      <span>
+        Before you begin
+      </span>
+    </div>
+  </div>
+  <div
+    className="mt-4 row"
+  >
+    <div
+      className="bg-light p-3 col-md-12"
+      style={
+        Object {
+          "fontWeight": 500,
+        }
+      }
+    >
+      <span
+        style={
+          Object {
+            "color": "rgb(220, 53, 69)",
+            "marginRight": 5,
+          }
+        }
+      >
+        +
+      </span>
+      <span>
+        Make a mortgage payment with your Aventura or Gold Bonus Points. Make a
+         
+        <span
+          style={
+            Object {
+              "textDecoration": "underline",
+            }
+          }
+        >
+          Payment with Points
+        </span>
+      </span>
+      <span>
+         today
+      </span>
+    </div>
+  </div>
+  <div
+    className="mt-3"
+  >
+    <div
+      className="mt-3 row"
+    >
+      <div
+        className="col-md-6"
+      >
+        <label
+          className="form-label"
+          htmlFor="mortgage_account"
+        >
+          Mortgage Account
+        </label>
+        <div
+          className="row"
+        >
+          <div
+            className="col-md-12"
+          >
+            <select
+              className="form-select"
+              id="mortgage_account"
+            >
+              <option>
+                 
+              </option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-md-6"
+      >
+        <label
+          className="form-label"
+          htmlFor="payment_amount"
+        >
+          Amount of prepayment
+        </label>
+        <div
+          className="input-group"
+        >
+          <span
+            className="input-group-text"
+          >
+            $
+          </span>
+          <input
+            aria-label="Amount (to the nearest dollar)"
+            className="form-control"
+          />
+        </div>
+        <small
+          className="mb-3 text-muted form-text"
+        >
+          Minimum of $100.
+        </small>
+      </div>
+    </div>
+    <div
+      className="mt-3 row"
+    >
+      <div
+        className="col-md-6"
+      >
+        <label
+          className="form-label"
+          htmlFor="from_acount"
+        >
+          From
+        </label>
+        <div
+          className="row"
+        >
+          <div
+            className="col-md-12"
+          >
+            <select
+              className="form-select"
+              id="from_acount"
+            >
+              <option>
+                - Choose an account -
+              </option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-md-4"
+      >
+        <label
+          className="form-label"
+          htmlFor="daytime_phone"
+        >
+          Datetime phone
+        </label>
+        <input
+          aria-describedby="daytime_phone"
+          className="form-control"
+          id="daytime_phone"
+        />
+      </div>
+      <div
+        className="col-md-2"
+      >
+        <label
+          className="form-label"
+          htmlFor="extension"
+        >
+          Extension
+        </label>
+        <input
+          aria-describedby="extension"
+          className="form-control"
+          id="extension"
+        />
+      </div>
+    </div>
+    <div
+      className="mt-3 row"
+    >
+      <div
+        className="col-md-6"
+      >
+        <label
+          className="form-label"
+          htmlFor="email"
+        >
+          Email
+        </label>
+        <input
+          aria-describedby="email"
+          className="form-control"
+          id="email"
+        />
+        <div
+          className="form-check"
+        >
+          <input
+            className="form-check-input"
+            disabled={false}
+            type="checkbox"
+          />
+          <label
+            className="form-check-label"
+            title=""
+          >
+            Send status updates to this email address
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="mt-4 pb-4 row"
+  >
+    <div
+      className="bg-light p-3 col-md-12"
+      style={
+        Object {
+          "borderBottom": "1px solid grey",
+          "fontWeight": 500,
+        }
+      }
+    >
+      <span
+        style={
+          Object {
+            "color": "rgb(220, 53, 69)",
+            "marginRight": 5,
+          }
+        }
+      >
+        +
+      </span>
+      <span>
+        Note
+      </span>
+    </div>
+  </div>
+  <div
+    className="mt-4"
+  >
+    <div
+      className="mt-4 row"
+    >
+      <div
+        className="col"
+      >
+        <button
+          className="d-flex btn btn-light"
+          disabled={false}
+          type="button"
+        >
+          <div
+            style={
+              Object {
+                "border": "1px dotted grey",
+                "height": 25,
+                "marginRight": 10,
+                "textAlign": "center",
+                "width": 20,
+              }
+            }
+          >
+            P
+          </div>
+          Cancel
+        </button>
+      </div>
+      <div
+        className="d-flex justify-content-end col"
+      >
+        <button
+          className="zippy-btn d-flex btn btn-primary"
+          disabled={false}
+          type="button"
+        >
+          Next
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

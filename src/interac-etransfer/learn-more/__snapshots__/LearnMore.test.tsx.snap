@@ -1,0 +1,712 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LearnMore Component matches the snapshot 1`] = `
+<div
+  className="page-content"
+>
+  <div
+    className="d-flex justify-content-between align-items-center"
+  >
+    <h3>
+      Learn About Interac E-Transfer
+    </h3>
+  </div>
+  <div
+    className="content-wrapper"
+  >
+    <div
+      className="mt-3 row"
+    >
+      <div
+        className="col-md-9"
+      >
+        <h5>
+          Send and receive money by email or mobile phone number
+        </h5>
+        <p
+          className="mt-3"
+        >
+          With Interac e-Transfer, you can use ZippyX to send and receive money electronically. It's great alternative to cash or cheques and all you need to get started is an email address or Canadian mobile phone number.
+        </p>
+        <ul
+          className="mt-4"
+          style={
+            Object {
+              "listStyle": "none",
+              "padding": 2,
+            }
+          }
+        >
+          <li
+            style={
+              Object {
+                "borderBottom": "1px solid grey",
+                "paddingBottom": 10,
+                "paddingTop": 10,
+              }
+            }
+          >
+            <a
+              className="text-decoration-none text-black"
+              href="/"
+              style={
+                Object {
+                  "display": "block",
+                  "marginBottom": 5,
+                  "marginTop": 5,
+                }
+              }
+            >
+              How do I begin using the Service?
+              <span
+                style={
+                  Object {
+                    "color": "rgb(220, 53, 69)",
+                    "marginLeft": 5,
+                  }
+                }
+              >
+                &gt;
+              </span>
+            </a>
+          </li>
+          <li
+            style={
+              Object {
+                "borderBottom": "1px solid grey",
+                "paddingBottom": 10,
+                "paddingTop": 10,
+              }
+            }
+          >
+            <a
+              className="text-decoration-none text-black"
+              href="/"
+              style={
+                Object {
+                  "display": "block",
+                  "marginBottom": 5,
+                  "marginTop": 5,
+                }
+              }
+            >
+              What financial institutions participate in the Interac e-Transfer Service?
+              <span
+                style={
+                  Object {
+                    "color": "rgb(220, 53, 69)",
+                    "marginLeft": 5,
+                  }
+                }
+              >
+                &gt;
+              </span>
+            </a>
+          </li>
+          <li
+            style={
+              Object {
+                "borderBottom": "1px solid grey",
+                "paddingBottom": 10,
+                "paddingTop": 10,
+              }
+            }
+          >
+            <a
+              className="text-decoration-none text-black"
+              href="/"
+              style={
+                Object {
+                  "display": "block",
+                  "marginBottom": 5,
+                  "marginTop": 5,
+                }
+              }
+            >
+              Which bank accounts can be used for sending and receiving and Interac e-Transfer?
+              <span
+                style={
+                  Object {
+                    "color": "rgb(220, 53, 69)",
+                    "marginLeft": 5,
+                  }
+                }
+              >
+                &gt;
+              </span>
+            </a>
+          </li>
+          <li
+            style={
+              Object {
+                "borderBottom": "1px solid grey",
+                "paddingBottom": 10,
+                "paddingTop": 10,
+              }
+            }
+          >
+            <a
+              className="text-decoration-none text-black"
+              href="/"
+              style={
+                Object {
+                  "display": "block",
+                  "marginBottom": 5,
+                  "marginTop": 5,
+                }
+              }
+            >
+              How do I send money by Interac e-Transfer?
+              <span
+                style={
+                  Object {
+                    "color": "rgb(220, 53, 69)",
+                    "marginLeft": 5,
+                  }
+                }
+              >
+                &gt;
+              </span>
+            </a>
+          </li>
+          <li
+            style={
+              Object {
+                "borderBottom": "1px solid grey",
+                "paddingBottom": 10,
+                "paddingTop": 10,
+              }
+            }
+          >
+            <a
+              className="text-decoration-none text-black"
+              href="/"
+              style={
+                Object {
+                  "display": "block",
+                  "marginBottom": 5,
+                  "marginTop": 5,
+                }
+              }
+            >
+              How do I receive money by Interac e-Transfer?
+              <span
+                style={
+                  Object {
+                    "color": "rgb(220, 53, 69)",
+                    "marginLeft": 5,
+                  }
+                }
+              >
+                &gt;
+              </span>
+            </a>
+          </li>
+          <li
+            style={
+              Object {
+                "borderBottom": "1px solid grey",
+                "paddingBottom": 10,
+                "paddingTop": 10,
+              }
+            }
+          >
+            <a
+              className="text-decoration-none text-black"
+              href="/"
+              style={
+                Object {
+                  "display": "block",
+                  "marginBottom": 5,
+                  "marginTop": 5,
+                }
+              }
+            >
+              Is there a limit on how much money can be sent or received by Interac e-Transfer?
+              <span
+                style={
+                  Object {
+                    "color": "rgb(220, 53, 69)",
+                    "marginLeft": 5,
+                  }
+                }
+              >
+                &gt;
+              </span>
+            </a>
+          </li>
+          <li
+            style={
+              Object {
+                "borderBottom": "1px solid grey",
+                "paddingBottom": 10,
+                "paddingTop": 10,
+              }
+            }
+          >
+            <a
+              className="text-decoration-none text-black"
+              href="/"
+              style={
+                Object {
+                  "display": "block",
+                  "marginBottom": 5,
+                  "marginTop": 5,
+                }
+              }
+            >
+              Are there fees for using Interac e-Transfer?
+              <span
+                style={
+                  Object {
+                    "color": "rgb(220, 53, 69)",
+                    "marginLeft": 5,
+                  }
+                }
+              >
+                &gt;
+              </span>
+            </a>
+          </li>
+          <li
+            style={
+              Object {
+                "borderBottom": "1px solid grey",
+                "paddingBottom": 10,
+                "paddingTop": 10,
+              }
+            }
+          >
+            <a
+              className="text-decoration-none text-black"
+              href="/"
+              style={
+                Object {
+                  "display": "block",
+                  "marginBottom": 5,
+                  "marginTop": 5,
+                }
+              }
+            >
+              How can I check the status of an Interac e-Transfer?
+              <span
+                style={
+                  Object {
+                    "color": "rgb(220, 53, 69)",
+                    "marginLeft": 5,
+                  }
+                }
+              >
+                &gt;
+              </span>
+            </a>
+          </li>
+        </ul>
+        <div
+          className="mt-4 p-3"
+          style={
+            Object {
+              "borderBottom": "1px solid #e5e5e5",
+              "borderTop": "1px solid #e5e5e5",
+            }
+          }
+        >
+          <div
+            className="d-flex justify-content-end row"
+          >
+            <button
+              className="zippy-btn d-flex btn btn-primary"
+              disabled={false}
+              style={
+                Object {
+                  "width": "auto",
+                }
+              }
+              type="button"
+            >
+              Send Money
+            </button>
+          </div>
+        </div>
+        <div
+          className="mt-4"
+        >
+          <div
+            className="d-flex"
+          >
+            <div
+              style={
+                Object {
+                  "border": "1px dotted grey",
+                  "height": 25,
+                  "marginRight": 10,
+                  "textAlign": "center",
+                  "width": 20,
+                }
+              }
+            >
+              P
+            </div>
+            <span
+              style={
+                Object {
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Note:
+            </span>
+          </div>
+          <div>
+            <span>
+              Your use of Interac e-Transfer is subject to the 
+            </span>
+            <div
+              className="row"
+            >
+              <div
+                className="d-flex align-items-center mt-2 col-md-12"
+              >
+                <div
+                  style={
+                    Object {
+                      "border": "1px dotted grey",
+                      "height": 25,
+                      "marginRight": 10,
+                      "textAlign": "center",
+                      "width": 20,
+                    }
+                  }
+                >
+                  P
+                </div>
+                <span>
+                  Interac e-Transfer Terms and Conditions (PDF, 197KB).
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-md-3"
+      >
+        <div
+          className="p-3 bg-white mt-2 card"
+        >
+          <div
+            className="card-title h5"
+          >
+            You can also:
+          </div>
+          <div
+            className="card-body"
+          >
+            <a
+              className="text-decoration-none text-black"
+              href="/"
+              style={
+                Object {
+                  "display": "block",
+                  "fontSize": 12,
+                  "marginBottom": 5,
+                  "marginTop": 5,
+                }
+              }
+            >
+              View upcoming bill payments and transfers
+              <span
+                style={
+                  Object {
+                    "color": "rgb(220, 53, 69)",
+                    "marginLeft": 5,
+                  }
+                }
+              >
+                &gt;
+              </span>
+            </a>
+            <a
+              className="text-decoration-none text-black"
+              href="/"
+              style={
+                Object {
+                  "display": "block",
+                  "fontSize": 12,
+                  "marginBottom": 5,
+                  "marginTop": 5,
+                }
+              }
+            >
+              Stop a payment
+              <span
+                style={
+                  Object {
+                    "color": "rgb(220, 53, 69)",
+                    "marginLeft": 5,
+                  }
+                }
+              >
+                &gt;
+              </span>
+            </a>
+            <a
+              className="text-decoration-none text-black"
+              href="/"
+              style={
+                Object {
+                  "display": "block",
+                  "fontSize": 12,
+                  "marginBottom": 5,
+                  "marginTop": 5,
+                }
+              }
+            >
+              Change your statement preferences
+              <span
+                style={
+                  Object {
+                    "color": "rgb(220, 53, 69)",
+                    "marginLeft": 5,
+                  }
+                }
+              >
+                &gt;
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="footer-content-wrapper"
+  >
+    <div
+      className="quick-links container"
+    >
+      <div
+        className="row"
+      >
+        <h3
+          className="col-sm-12"
+        >
+          Quick Links
+        </h3>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="col-sm-2"
+        >
+          <ul>
+            <li>
+              <a
+                className="text-decoration-none"
+                href="/"
+                onClick={[Function]}
+              >
+                Home
+              </a>
+            </li>
+            <li>
+              Please Review Our Legal Stuff by visiting our
+               
+              <a
+                className="text-decoration-none"
+                href="/legal"
+                onClick={[Function]}
+              >
+                Privacy Policy | TOU | EULA | CardHolder T&C Pages
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          className="col-sm-2"
+        >
+          8465 W Sahara Ave. Las Vegas, NEVADA
+          <ul>
+            <li>
+              <a
+                href="tel:+17026231876"
+              >
+                1.702.623.1876
+              </a>
+            </li>
+            <li>
+              <a
+                href="mailto:contact@zippy.cash"
+              >
+                contact@zippy.cash
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div
+      className="container"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-12 col-sm-12 col-xs-12 text-left"
+        >
+          © 2021 Zippy Cash LLC  All rights reserved.
+          <br />
+          <br />
+          The Program Manager for the Zippy Cash® Prepaid Visa Debit Card is PayQuicker, LLC
+          <br />
+          Zippy Cash® is a registered trademark of Zippy Cash, LLC
+          <br />
+          The Zippy Cash Prepaid Visa Debit Card is issued by Metropolitan Commercial Bank (Member FDIC) pursuant to a license from Visa U.S.A. Inc. “Metropolitan Commercial Bank” and “Metropolitan” are registered trademarks of Metropolitan Commercial Bank ©2014. BY USING THIS CARD YOU AGREE TO THE TERMS AND CONDITIONS OF THE CARDHOLDER AGREEMENT AND FEE SCHEDULE, IF ANY. All trademarks and service marks are the property of their respective owners.
+          <br />
+          In compliance with the USA PATRIOT Act* and other laws, anyone who is a US resident over 18 with a valid Social Security number and a verifiable physical US address (no PO boxes or APO addresses) can apply for an Zippy Cash Card. This information must be provided, along with other information pertinent to receiving approval, when applying for a Zippy Cash Card. Currently, we do not issue the Zippy Cash Card to residents of Puerto Rico, Guam, the Virgin Islands, American Samoa, or other US territories.
+          <br />
+          *Important information for opening a card account: To help the federal government fight the funding of terrorism and money laundering activities, the USA PATRIOT Act requires all financial institutions and their third parties to obtain, verify and record information that identifies each person who opens a card account. What this means for you: When you open a card account, we will ask for your name, address, date of birth, social security number or country identification number, and other information that will allows us to identify you. We may also request a copy of your driver’s license or other documentation bearing your photo as verification of your identity.
+          <br />
+          Apple and the Apple logo are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc. Google Play is a trademark of Google Inc. Data rates may apply. Samsung Pay is a trademark of Samsung Inc.
+        </div>
+      </div>
+    </div>
+    <footer
+      className="container mb-3"
+    >
+      <div
+        className="d-none d-md-block"
+      >
+        <div
+          className="d-flex justify-content-between border-bottom"
+        />
+        <div
+          className="d-flex justify-content-between border-top"
+        >
+          <div
+            className=""
+          >
+            <div
+              className="footer-link mt-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/personal-profile"
+              >
+                dev docs
+              </a>
+            </div>
+            <div
+              className="footer-link mt-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/"
+                onClick={[Function]}
+              >
+                Lore
+              </a>
+            </div>
+            <div
+              className="footer-link mt-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/"
+                onClick={[Function]}
+              >
+                Ipsum
+              </a>
+            </div>
+            <div
+              className="footer-link mt-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/"
+                onClick={[Function]}
+              >
+                Nullam Atoidio
+              </a>
+            </div>
+          </div>
+          <div
+            className="copyright mt-1"
+          >
+            <span>
+              © 2021 Lorem ipsum dolor sit amet, consectetuer
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="d-block d-md-none"
+      >
+        <div
+          className="d-flex border-bottom"
+        >
+          <div
+            className="d-flex flex-column me-2"
+          >
+            <div
+              className="footer-link mt-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/personal-profile"
+              >
+                dev docs
+              </a>
+            </div>
+            <div
+              className="footer-link mb-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/"
+                onClick={[Function]}
+              >
+                Lore
+              </a>
+            </div>
+            <div
+              className="footer-link mb-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/"
+                onClick={[Function]}
+              >
+                Ipsum
+              </a>
+            </div>
+            <div
+              className="footer-link mb-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/"
+                onClick={[Function]}
+              >
+                Nullam Atoidio
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          className="d-flex justify-content-end border-top"
+        >
+          <div
+            className="copyright mt-2 text-end small"
+          >
+            <span>
+              © 2021 Lorem ipsum dolor sit amet, consectetuer
+            </span>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</div>
+`;

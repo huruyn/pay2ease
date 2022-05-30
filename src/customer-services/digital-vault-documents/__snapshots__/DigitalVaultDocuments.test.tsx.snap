@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DigitalVaultDocuments Component matches the snapshot 1`] = `
+<div
+  className="page-content"
+>
+  <h4>
+    DIGITAL VAULT
+  </h4>
+  <h5
+    className="pb-2 pt-3 mt-2"
+    style={
+      Object {
+        "borderBottom": "1px solid grey",
+      }
+    }
+  >
+    All files
+  </h5>
+  <div
+    className="d-flex flex-column align-items-center"
+  >
+    <div
+      className="mt-4"
+      style={
+        Object {
+          "border": "1px dotted grey",
+          "height": 65,
+          "marginRight": 10,
+          "textAlign": "center",
+          "width": 60,
+        }
+      }
+    >
+      P
+    </div>
+    <p
+      className="mt-2"
+      style={
+        Object {
+          "maxWidth": 400,
+          "textAlign": "center",
+        }
+      }
+    >
+      You have no documents available for viewing. Your files will display when you open a new account and consent to electronic document delivery.
+    </p>
+    <p
+      className="mt-2"
+    >
+      {
+      Result #5367
+      }
+    </p>
+  </div>
+</div>
+`;

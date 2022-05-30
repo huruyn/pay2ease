@@ -1,0 +1,556 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddCardHolder Component matches the snapshot 1`] = `
+<div
+  className="page-content"
+>
+  <div
+    style={
+      Object {
+        "backgroundColor": "#F2F3F2",
+        "padding": 10,
+      }
+    }
+  >
+    <p
+      style={
+        Object {
+          "marginBottom": 0,
+          "textAlign": "center",
+        }
+      }
+    >
+      Add a Cardholder
+    </p>
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "#FAF0F3",
+        "padding": 10,
+      }
+    }
+  >
+    <div
+      className="d-flex justify-content-between"
+    >
+      <p
+        className="d-flex"
+        style={
+          Object {
+            "fontSize": 14,
+            "marginBottom": 0,
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "border": "1px dotted grey",
+              "height": 25,
+              "marginRight": 10,
+              "textAlign": "center",
+              "width": 20,
+            }
+          }
+        >
+          P
+        </div>
+        We are sorry. You do not have a credit card that allows you to complete this request.
+      </p>
+      <p>
+        {
+        Result #0356
+        }
+      </p>
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "#DEE9F7",
+        "padding": 10,
+      }
+    }
+  >
+    <p
+      className="d-flex"
+      style={
+        Object {
+          "fontSize": 14,
+          "marginBottom": 0,
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "border": "1px dotted grey",
+            "height": 25,
+            "marginRight": 10,
+            "textAlign": "center",
+            "width": 20,
+          }
+        }
+      >
+        P
+      </div>
+      <ul>
+        <li>
+          The additional card will be mailed to the primary cardholder or business within 2 or 4 weeks.
+        </li>
+        <li>
+          All fields are required unless stated as optional.
+        </li>
+      </ul>
+    </p>
+  </div>
+  <div
+    className="mt-4 row"
+  >
+    <div
+      className="bg-light p-3 col-md-12"
+      style={
+        Object {
+          "fontWeight": 500,
+        }
+      }
+    >
+      <span
+        style={
+          Object {
+            "color": "rgb(220, 53, 69)",
+            "marginRight": 5,
+          }
+        }
+      >
+        +
+      </span>
+      <span>
+        Before you begin
+      </span>
+    </div>
+  </div>
+  <div
+    className="mt-3"
+  >
+    <div
+      className="mt-3 row"
+    >
+      <div
+        className="col-md-6"
+      >
+        <label
+          className="form-label"
+          htmlFor="credit_card"
+        >
+          Credit Card
+        </label>
+        <input
+          aria-describedby="credit_card"
+          className="form-control"
+          id="credit_card"
+        />
+      </div>
+      <div
+        className="col-md-2"
+      >
+        <label
+          className="form-label"
+          htmlFor="title"
+        >
+          Title
+        </label>
+        <input
+          aria-describedby="title"
+          className="form-control"
+          id="title"
+        />
+      </div>
+      <div
+        className="col-md-4"
+      >
+        <label
+          className="form-label"
+          htmlFor="first_name"
+        >
+          First Name
+        </label>
+        <input
+          aria-describedby="first_name"
+          className="form-control"
+          id="first_name"
+        />
+      </div>
+    </div>
+    <div
+      className="mt-3 row"
+    >
+      <div
+        className="col-md-2"
+      >
+        <label
+          className="form-label"
+          htmlFor="credit_card"
+        >
+          Initials
+        </label>
+        <input
+          aria-describedby="credit_card"
+          className="form-control"
+          id="credit_card"
+        />
+      </div>
+      <div
+        className="col-md-4"
+      >
+        <label
+          className="form-label"
+          htmlFor="title"
+        >
+          Last Name
+        </label>
+        <input
+          aria-describedby="title"
+          className="form-control"
+          id="title"
+        />
+      </div>
+      <div
+        className="col-md-6"
+      >
+        <label
+          className="form-label"
+          htmlFor="first_name"
+        >
+          Date of birth
+        </label>
+        <div
+          className="row"
+        >
+          <div
+            className="col-auto"
+          >
+            <select
+              className="form-select"
+            >
+              <option>
+                Month
+              </option>
+            </select>
+          </div>
+          <div
+            className="col-auto"
+          >
+            <select
+              className="form-select"
+            >
+              <option>
+                Day
+              </option>
+            </select>
+          </div>
+          <div
+            className="col-auto"
+          >
+            <select
+              className="form-select"
+            >
+              <option>
+                Year
+              </option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="mt-3 row"
+    >
+      <div
+        className="col-md-6"
+      >
+        <label
+          className="form-label"
+          htmlFor="credit_card"
+        >
+          Home phone
+        </label>
+        <input
+          aria-describedby="credit_card"
+          className="form-control"
+          id="credit_card"
+        />
+      </div>
+      <div
+        className="col-md-4"
+      >
+        <label
+          className="form-label"
+          htmlFor="title"
+        >
+          Business phone
+        </label>
+        <input
+          aria-describedby="title"
+          className="form-control"
+          id="title"
+        />
+      </div>
+      <div
+        className="col-md-2"
+      >
+        <label
+          className="form-label"
+          htmlFor="first_name"
+        >
+          Extension
+        </label>
+        <input
+          aria-describedby="first_name"
+          className="form-control"
+          id="first_name"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="mt-4"
+  >
+    <h5
+      style={
+        Object {
+          "borderBottom": "1px solid grey",
+          "paddingBottom": 15,
+          "paddingTop": 10,
+        }
+      }
+    >
+      Address
+    </h5>
+    <div
+      className="pt-3 pb-3"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-12"
+        >
+          <div
+            className="form-check"
+          >
+            <input
+              className="form-check-input"
+              disabled={false}
+              type="checkbox"
+            />
+            <label
+              className="form-check-label"
+              title=""
+            >
+              Same address as primary cardholder
+            </label>
+          </div>
+        </div>
+      </div>
+      <div
+        className="mt-3 row"
+      >
+        <div
+          className="col-md-6"
+        >
+          <label
+            className="form-label"
+            htmlFor="address"
+          >
+            Address
+          </label>
+          <input
+            aria-describedby="address"
+            className="form-control"
+            id="address"
+          />
+        </div>
+        <div
+          className="col-md-6"
+        >
+          <label
+            className="form-label"
+            htmlFor="city"
+          >
+            City
+          </label>
+          <input
+            aria-describedby="city"
+            className="form-control"
+            id="city"
+          />
+        </div>
+      </div>
+      <div
+        className="mt-3 row"
+      >
+        <div
+          className="col-md-6"
+        >
+          <label
+            className="form-label"
+            htmlFor="province"
+          >
+            Province
+          </label>
+          <input
+            aria-describedby="province"
+            className="form-control"
+            id="province"
+          />
+        </div>
+        <div
+          className="col-md-6"
+        >
+          <label
+            className="form-label"
+            htmlFor="postal_code"
+          >
+            Postal Code
+          </label>
+          <input
+            aria-describedby="postal_code"
+            className="form-control"
+            id="postal_code"
+          />
+        </div>
+      </div>
+      <div
+        className="mt-3 row"
+      >
+        <div
+          className="col-md-6"
+        >
+          <label
+            className="form-label"
+            htmlFor="email"
+          >
+            Email
+          </label>
+          <input
+            aria-describedby="email"
+            className="form-control"
+            id="email"
+          />
+          <div
+            className="form-check"
+          >
+            <input
+              className="form-check-input"
+              disabled={false}
+              type="checkbox"
+            />
+            <label
+              className="form-check-label"
+              title=""
+            >
+              Send status updates to this email address
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="mt-4 pb-4 row"
+    style={
+      Object {
+        "borderBottom": "1px solid grey",
+      }
+    }
+  >
+    <div
+      className="bg-light p-3 col-md-12"
+      style={
+        Object {
+          "borderBottom": "1px solid grey",
+          "fontWeight": 500,
+        }
+      }
+    >
+      <span
+        style={
+          Object {
+            "color": "rgb(220, 53, 69)",
+            "marginRight": 5,
+          }
+        }
+      >
+        +
+      </span>
+      <span>
+        Terms and Conditions
+      </span>
+    </div>
+    <div
+      className="mt-3 col-md-12"
+    >
+      <div
+        className="form-check"
+      >
+        <input
+          className="form-check-input"
+          disabled={false}
+          type="checkbox"
+        />
+        <label
+          className="form-check-label"
+          title=""
+        >
+          I have read, understand and agree to the terms and Conditions.
+        </label>
+      </div>
+    </div>
+  </div>
+  <div
+    className="mt-4"
+  >
+    <div
+      className="mt-4 row"
+    >
+      <div
+        className="col"
+      >
+        <button
+          className="d-flex btn btn-light"
+          disabled={false}
+          type="button"
+        >
+          <div
+            style={
+              Object {
+                "border": "1px dotted grey",
+                "height": 25,
+                "marginRight": 10,
+                "textAlign": "center",
+                "width": 20,
+              }
+            }
+          >
+            P
+          </div>
+          Cancel
+        </button>
+      </div>
+      <div
+        className="d-flex justify-content-end col"
+      >
+        <button
+          className="zippy-btn d-flex btn btn-primary"
+          disabled={false}
+          type="button"
+        >
+          Next
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

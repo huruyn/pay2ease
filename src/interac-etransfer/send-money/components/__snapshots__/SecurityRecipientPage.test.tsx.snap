@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Security Recipient Page Component matches the snapshot 1`] = `
+Array [
+  <h4>
+    Security Question for Recipient
+  </h4>,
+  <p
+    className="mt-4 mb-4"
+  >
+    CHELSEA TOUGH is registered for Autodeposit. This transfer does not require a security question
+  </p>,
+  <hr
+    style={
+      Object {
+        "height": "1px",
+        "width": "100%",
+      }
+    }
+  />,
+  <div
+    className="mt-4 mb-4 row"
+  >
+    <div
+      className="col"
+    >
+      <button
+        className="d-flex btn btn-light"
+        disabled={false}
+        type="button"
+      >
+        <div
+          style={
+            Object {
+              "border": "1px dotted grey",
+              "height": 25,
+              "marginRight": 10,
+              "textAlign": "center",
+              "width": 20,
+            }
+          }
+        >
+          P
+        </div>
+        Cancel
+      </button>
+    </div>
+    <div
+      className="d-flex justify-content-end col"
+    >
+      <button
+        className="d-flex btn btn-outline-danger"
+        disabled={false}
+        onClick={[Function]}
+        style={
+          Object {
+            "marginRight": 10,
+          }
+        }
+        type="button"
+      >
+        Back
+      </button>
+      <button
+        className="zippy-btn d-flex btn btn-danger"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        Continue
+      </button>
+    </div>
+  </div>,
+]
+`;

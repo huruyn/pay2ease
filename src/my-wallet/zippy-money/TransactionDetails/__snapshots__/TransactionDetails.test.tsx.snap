@@ -1,0 +1,159 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TransactionDetails Component matches the snapshot 1`] = `
+<div
+  className=""
+>
+  <div
+    className="zippy-cash-container-wrap"
+  >
+    <div
+      className="backdrop backdrop-image-2"
+    />
+    <div
+      className="zippy-cash-container"
+    >
+      <div
+        className="zippy-cash-container-header"
+      >
+        <h1
+          className="title"
+        >
+          Personal Account
+        </h1>
+        <h2
+          className="catch"
+        >
+          Made Fun With Zippy!
+        </h2>
+      </div>
+      <div
+        className="zippy-cash-container-body"
+      >
+        <div
+          className="title"
+        >
+          Transaction Completed
+        </div>
+        <div
+          className="details"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="col-6"
+            >
+              To
+            </div>
+            <div
+              className="col-6"
+            >
+              <strong>
+                
+              </strong>
+            </div>
+          </div>
+          <div
+            className="row"
+          >
+            <div
+              className="col-6"
+            >
+              Transfer Date
+            </div>
+            <div
+              className="col-6"
+            >
+              
+            </div>
+          </div>
+          <div
+            className="row"
+          >
+            <div
+              className="col-6"
+            >
+              Transfer Time (UTC)
+            </div>
+            <div
+              className="col-6"
+            >
+              
+            </div>
+          </div>
+          <div
+            className="row"
+          >
+            <div
+              className="col-6"
+            >
+              Transfer Amount
+            </div>
+            <div
+              className="col-6"
+            >
+              <span
+                className="amount"
+              >
+                $ 0.00 CAD
+              </span>
+            </div>
+          </div>
+          <div
+            className="row"
+          >
+            <div
+              className="col-6"
+            >
+              Reference Number (Keep For Your Records)
+            </div>
+            <div
+              className="col-6"
+            >
+              *3942439898
+            </div>
+          </div>
+          <div
+            className="row"
+          >
+            <div
+              className="col-6"
+            >
+              Transaction ID
+            </div>
+            <div
+              className="col-6"
+            />
+          </div>
+          <div
+            className="row"
+          >
+            <div
+              className="col-6"
+            >
+              Expiry Date
+            </div>
+            <div
+              className="col-6"
+            >
+              
+            </div>
+          </div>
+        </div>
+        <div
+          className="action"
+        >
+          <button
+            className="zippy-btn btn btn-primary"
+            disabled={false}
+            type="button"
+          >
+            Send Another Transfer
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

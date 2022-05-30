@@ -1,0 +1,120 @@
+@import './colors';
+
+.btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  box-shadow: none;
+
+  &:visited,
+  &:hover,
+  &:focus {
+    box-shadow: none;
+  }
+
+  &.zippy-btn {
+    background: linear-gradient(83.49deg, $color-red 31.24%, $color-orange 99.49%);
+    border-radius: 7px;
+    border: none;
+    padding: 10px 20px;
+
+    &.w-full {
+      width: 100%;
+    }
+
+    &.zippy-flat {
+      background: $color-gray-15;
+      color: $color-black;
+    }
+
+    &.transparent {
+      background: transparent;
+    }
+
+    &.transaction-status {
+      text-decoration: underline;
+
+      &.btn-completed {
+        color: $color-green;
+      }
+
+      &.btn-pending {
+        color: $color-dark-gray;
+      }
+
+      &.btn-cancelled {
+        color: $color-orange;
+      }
+
+      &.btn-failed {
+        color: $color-red;
+      }
+    }
+
+    &.btn-neutral {
+      color: $color-dark-gray;
+      background: $color-background;
+    }
+  }
+
+  &.my-buttonred {
+    font-weight: bold;
+    font-size: 2em;
+    padding: 0px 15px;
+    box-shadow: 5px 5px #88888840;
+    border-radius: 10px !important;
+    color: $color-white;
+    background-color: #FF1926;
+  }
+
+  .loading {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    border-width: 0.2em;
+  }
+}
+
+.btn-transparent {
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  vertical-align: middle;
+
+  &:visited,
+  &:hover,
+  &:focus {
+    background: transparent;
+    border: none;
+  }
+}
+
+.zippy-btn-group {
+  &.btn-group {
+    background-color: $color-background;
+    border-radius: 38px;
+
+    & > .btn {
+      @extend .zippy-btn;
+      padding: 5px 20px;
+      width: 100%;
+
+      &.active {
+        border-radius: 38px;
+        opacity: 1;
+      }
+
+      &:not(.active) {
+        background: transparent;
+        color: $color-dark-gray;
+      }
+
+      &:focus {
+        box-shadow: none;
+      }
+    }
+  }
+}

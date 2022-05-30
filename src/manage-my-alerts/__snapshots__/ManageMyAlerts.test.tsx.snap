@@ -1,0 +1,3731 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Manage Alert Component Render manage-my-alerts page 1`] = `
+<div>
+  <div
+    class="page-content"
+  >
+    <div
+      class="d-flex justify-content-between align-items-center"
+    >
+      <h3>
+        Manage My Alerts
+      </h3>
+    </div>
+    <div
+      class="content-wrapper"
+    >
+      <div
+        class="mt-3 row"
+      >
+        <div
+          class="col-md-8"
+        >
+          <ul>
+            <li>
+              Alerts are notifictions that ZippyX sends to keep you informed of transactions and monitor your ZippyX accounts.
+            </li>
+            <li>
+              Most alerts are sent automatically to My Messages by default and to any other additional contact methods you select and save.
+            </li>
+            <li>
+              If you choose to activate Push Notifications, you must also enable them on your mobile device.
+            </li>
+            <li>
+              Push Notifications are personalized alerts sent directly to your mobile device that can help you stay on top of your ZippyX accounts. If you sign into ZippyX from a mobile device other than your own, Your alerts may be sent to that device until another user signs in to the application.
+            </li>
+            <li>
+              Some fraud prevention alerts cannot be turned off.
+            </li>
+          </ul>
+          <ul
+            class="mt-2 mb-3 nav nav-tabs"
+            role="tablist"
+          >
+            <li
+              class="nav-item"
+              role="presentation"
+            >
+              <button
+                aria-controls="status-tab-tabpane-fraud"
+                aria-selected="true"
+                class="nav-link active"
+                data-rr-ui-event-key="fraud"
+                id="status-tab-tab-fraud"
+                role="tab"
+                type="button"
+              >
+                FRAUD PREVENTION
+              </button>
+            </li>
+            <li
+              class="nav-item"
+              role="presentation"
+            >
+              <button
+                aria-controls="status-tab-tabpane-transactions"
+                class="nav-link"
+                data-rr-ui-event-key="transactions"
+                id="status-tab-tab-transactions"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                TRANSACTIONS
+              </button>
+            </li>
+            <li
+              class="nav-item"
+              role="presentation"
+            >
+              <button
+                aria-controls="status-tab-tabpane-reminders"
+                class="nav-link"
+                data-rr-ui-event-key="reminders"
+                id="status-tab-tab-reminders"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                REMINDERS
+              </button>
+            </li>
+          </ul>
+          <div
+            class="tab-content"
+          >
+            <div
+              aria-labelledby="status-tab-tab-fraud"
+              class="tab-pane active"
+              id="status-tab-tabpane-fraud"
+              role="tabpanel"
+            >
+              <div
+                class="row"
+                style="background-color: rgb(239, 239, 239); border-bottom: 1px solid grey;"
+              >
+                <div
+                  class="col-md-8"
+                >
+                  <p
+                    style="margin-top: 12px;"
+                  >
+                    GET ALERTED WHEN...
+                  </p>
+                </div>
+                <div
+                  class="col-md-4"
+                >
+                  <p
+                    style="margin-top: 12px;"
+                  >
+                    SEND ALERT TO...
+                  </p>
+                </div>
+              </div>
+              <div
+                class="row"
+                style="padding: 10px; border-bottom: 1px solid grey;"
+              >
+                <div
+                  class="col-md-8"
+                >
+                  <div
+                    class="d-flex"
+                    style="font-weight: bold;"
+                  >
+                    There was unusual activity on my card
+                    <div
+                      style="width: 20px; height: 25px; border: 1px dotted grey; text-align: center; margin-right: 10px;"
+                    >
+                      P
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-4"
+                >
+                  <div
+                    class="form-check"
+                  >
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                    />
+                    <label
+                      class="form-check-label"
+                      title=""
+                    >
+                      My Messages
+                    </label>
+                  </div>
+                  <div
+                    class="form-check"
+                  >
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                    />
+                    <label
+                      class="form-check-label"
+                      title=""
+                    >
+                      Email
+                    </label>
+                  </div>
+                  <div
+                    class="form-check"
+                  >
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                    />
+                    <label
+                      class="form-check-label"
+                      title=""
+                    >
+                      Text Message
+                    </label>
+                  </div>
+                  <div
+                    class="form-check"
+                  >
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                    />
+                    <label
+                      class="form-check-label"
+                      title=""
+                    >
+                      Push Notification
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="row"
+                style="padding: 10px; border-bottom: 1px solid grey;"
+              >
+                <div
+                  class="col-md-8"
+                >
+                  <div
+                    class="d-flex"
+                    style="font-weight: bold;"
+                  >
+                    Changes have been made to my ZippyX passwords
+                    <div
+                      style="width: 20px; height: 25px; border: 1px dotted grey; text-align: center; margin-right: 10px;"
+                    >
+                      P
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-4"
+                >
+                  <div
+                    class="form-check"
+                  >
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                    />
+                    <label
+                      class="form-check-label"
+                      title=""
+                    >
+                      My Messages
+                    </label>
+                  </div>
+                  <div
+                    class="form-check"
+                  >
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                    />
+                    <label
+                      class="form-check-label"
+                      title=""
+                    >
+                      Email
+                    </label>
+                  </div>
+                  <div
+                    class="form-check"
+                  >
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                    />
+                    <label
+                      class="form-check-label"
+                      title=""
+                    >
+                      Text Message
+                    </label>
+                  </div>
+                  <div
+                    class="form-check"
+                  >
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                    />
+                    <label
+                      class="form-check-label"
+                      title=""
+                    >
+                      Push Notification
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="row"
+                style="padding: 10px; border-bottom: 1px solid grey;"
+              >
+                <div
+                  class="col-md-8"
+                >
+                  <div
+                    class="d-flex"
+                    style="font-weight: bold;"
+                  >
+                    My personal information has been updated on my profile
+                    <div
+                      style="width: 20px; height: 25px; border: 1px dotted grey; text-align: center; margin-right: 10px;"
+                    >
+                      P
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-4"
+                >
+                  <div
+                    class="form-check"
+                  >
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                    />
+                    <label
+                      class="form-check-label"
+                      title=""
+                    >
+                      My Messages
+                    </label>
+                  </div>
+                  <div
+                    class="form-check"
+                  >
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                    />
+                    <label
+                      class="form-check-label"
+                      title=""
+                    >
+                      Email
+                    </label>
+                  </div>
+                  <div
+                    class="form-check"
+                  >
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                    />
+                    <label
+                      class="form-check-label"
+                      title=""
+                    >
+                      Text Message
+                    </label>
+                  </div>
+                  <div
+                    class="form-check"
+                  >
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                    />
+                    <label
+                      class="form-check-label"
+                      title=""
+                    >
+                      Push Notification
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="row"
+                style="padding: 10px; border-bottom: 1px solid grey;"
+              >
+                <div
+                  class="col-md-8"
+                >
+                  <div
+                    class="d-flex"
+                    style="font-weight: bold;"
+                  >
+                    A bill payee or Interac e-Transfer contact was added
+                    <div
+                      style="width: 20px; height: 25px; border: 1px dotted grey; text-align: center; margin-right: 10px;"
+                    >
+                      P
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-4"
+                >
+                  <div
+                    class="form-check"
+                  >
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                    />
+                    <label
+                      class="form-check-label"
+                      title=""
+                    >
+                      My Messages
+                    </label>
+                  </div>
+                  <div
+                    class="form-check"
+                  >
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                    />
+                    <label
+                      class="form-check-label"
+                      title=""
+                    >
+                      Email
+                    </label>
+                  </div>
+                  <div
+                    class="form-check"
+                  >
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                    />
+                    <label
+                      class="form-check-label"
+                      title=""
+                    >
+                      Text Message
+                    </label>
+                  </div>
+                  <div
+                    class="form-check"
+                  >
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                    />
+                    <label
+                      class="form-check-label"
+                      title=""
+                    >
+                      Push Notification
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="row"
+                style="padding: 10px; border-bottom: 1px solid grey;"
+              >
+                <div
+                  class="col-md-12"
+                >
+                  <div
+                    class="form-check"
+                  >
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                    />
+                    <label
+                      class="form-check-label"
+                      title=""
+                    >
+                      There waas an attempt to exceed my ATM daily
+                    </label>
+                  </div>
+                  <div
+                    class="d-flex"
+                    style="font-weight: bold;"
+                  >
+                    withdrawal limit
+                    <div
+                      style="width: 20px; height: 25px; border: 1px dotted grey; text-align: center; margin-right: 10px;"
+                    >
+                      P
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="row"
+                style="padding: 10px; border-bottom: 1px solid grey;"
+              >
+                <div
+                  class="d-flex col-md-12"
+                >
+                  <div
+                    class="form-check"
+                  >
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                    />
+                    <label
+                      class="form-check-label"
+                      title=""
+                    >
+                      There was an attempt to exceed your Point of Sale daily limit
+                    </label>
+                  </div>
+                  <div
+                    style="font-weight: bold;"
+                  >
+                    <div
+                      style="width: 20px; height: 25px; border: 1px dotted grey; text-align: center; margin-right: 10px;"
+                    >
+                      P
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="row"
+                style="padding: 10px; border-bottom: 1px solid grey;"
+              >
+                <div
+                  class="col-md-12"
+                >
+                  <div
+                    class="form-check"
+                  >
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                    />
+                    <label
+                      class="form-check-label"
+                      title=""
+                    >
+                      A bank machine withdrawal is more than this amount:
+                    </label>
+                  </div>
+                  <div
+                    class="d-flex"
+                    style="font-weight: bold;"
+                  >
+                    <div
+                      class="mb-3 input-group"
+                      style="width: 200px;"
+                    >
+                      <span
+                        class="input-group-text"
+                        id="basic-addon1"
+                      >
+                        $
+                      </span>
+                      <input
+                        aria-describedby="basic-addon1"
+                        class="form-control"
+                      />
+                    </div>
+                    <div
+                      style="width: 20px; height: 25px; border: 1px dotted grey; text-align: center; margin-right: 10px;"
+                    >
+                      P
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="row"
+                style="padding: 10px; border-bottom: 1px solid grey;"
+              >
+                <div
+                  class="col-md-12"
+                >
+                  <div
+                    class="form-check"
+                  >
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                    />
+                    <label
+                      class="form-check-label"
+                      title=""
+                    >
+                      There was a debit card purchase more than:
+                    </label>
+                  </div>
+                  <div
+                    class="d-flex"
+                    style="font-weight: bold;"
+                  >
+                    <div
+                      class="mb-3 input-group"
+                      style="width: 200px;"
+                    >
+                      <span
+                        class="input-group-text"
+                        id="basic-addon1"
+                      >
+                        $
+                      </span>
+                      <input
+                        aria-describedby="basic-addon1"
+                        class="form-control"
+                      />
+                    </div>
+                    <div
+                      style="width: 20px; height: 25px; border: 1px dotted grey; text-align: center; margin-right: 10px;"
+                    >
+                      P
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="mt-4 p-3"
+                style="border-top: 1px solid #e5e5e5; border-bottom: 1px solid #e5e5e5;"
+              >
+                <div
+                  class="d-flex justify-content-end row"
+                >
+                  <button
+                    class="d-flex btn btn-outline-danger"
+                    style="width: auto; margin-right: 10px;"
+                    type="button"
+                  >
+                    Reset
+                  </button>
+                  <button
+                    class="zippy-btn d-flex btn btn-primary"
+                    style="width: auto; margin-right: 10px;"
+                    type="button"
+                  >
+                    Save
+                  </button>
+                </div>
+              </div>
+              <div
+                class="mt-2"
+              >
+                <div
+                  class="d-flex"
+                >
+                  <div
+                    style="width: 20px; height: 25px; border: 1px dotted grey; text-align: center; margin-right: 10px;"
+                  >
+                    P
+                  </div>
+                  <span
+                    style="font-weight: bold;"
+                  >
+                    Note:
+                  </span>
+                </div>
+                <div
+                  class="d-flex flex-column"
+                >
+                  <ul>
+                    <li>
+                      An inactive alert status applies to bank accoiunts that were automatically transferred from Paperless to eStatements. If your alert status is displayed as 'Inactive', it means you have not agreed to the terms and conditions for eStatements. Once you have accepted the terms and conditions, you alerts will be activated and you will not see an 'Inactive' alert status.
+                    </li>
+                    <li>
+                      In the case of credit cards, your alerts status will always be active.
+                    </li>
+                    <li>
+                      ZippyX Alerts Terms and Conditions are now a part of the
+                      <a
+                        class="text-black"
+                        href="/"
+                      >
+                        Electronic Access Agreement
+                      </a>
+                    </li>
+                  </ul>
+                  <div
+                    class="row"
+                  >
+                    <div
+                      class="d-flex align-items-center mt-2 col-md-12"
+                    >
+                      <div
+                        style="width: 20px; height: 25px; border: 1px dotted grey; text-align: center; margin-right: 10px;"
+                      >
+                        P
+                      </div>
+                      <span>
+                        eStatement Terms and Conditions (last updated: November 2011) (PDF, 145KB).
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-labelledby="status-tab-tab-transactions"
+              class="tab-pane"
+              id="status-tab-tabpane-transactions"
+              role="tabpanel"
+            >
+              <div
+                class="row"
+                style="background-color: rgb(239, 239, 239); border-bottom: 1px solid grey;"
+              >
+                <div
+                  class="col-md-8"
+                >
+                  <p
+                    style="margin-top: 12px;"
+                  >
+                    GET ALERTED WHEN...
+                  </p>
+                </div>
+                <div
+                  class="col-md-4"
+                >
+                  <p
+                    style="margin-top: 12px;"
+                  >
+                    SEND ALERT TO...
+                  </p>
+                </div>
+              </div>
+              <div
+                style="margin: 20px 5px;"
+              >
+                <div
+                  class="d-flex"
+                >
+                  <div
+                    class="form-check"
+                  >
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                    />
+                    <label
+                      class="form-check-label"
+                      title=""
+                    >
+                      A scheduled bill payment has failed
+                    </label>
+                  </div>
+                  <i />
+                </div>
+                <hr
+                  style="height: 2px;"
+                />
+              </div>
+              <div
+                style="margin: 20px 5px;"
+              >
+                <div
+                  class="d-flex"
+                >
+                  <div
+                    class="form-check"
+                  >
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                    />
+                    <label
+                      class="form-check-label"
+                      title=""
+                    >
+                      A scheduled bill payment was successful
+                    </label>
+                  </div>
+                  <i />
+                </div>
+                <hr
+                  style="height: 2px;"
+                />
+              </div>
+              <div
+                style="margin: 20px 5px;"
+              >
+                <div
+                  class="d-flex"
+                >
+                  <div
+                    class="form-check"
+                  >
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                    />
+                    <label
+                      class="form-check-label"
+                      title=""
+                    >
+                      A scheduled transfer has failed
+                    </label>
+                  </div>
+                  <i />
+                </div>
+                <hr
+                  style="height: 2px;"
+                />
+              </div>
+              <div
+                style="margin: 20px 5px;"
+              >
+                <div
+                  class="d-flex"
+                >
+                  <div
+                    class="form-check"
+                  >
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                    />
+                    <label
+                      class="form-check-label"
+                      title=""
+                    >
+                      A scheduled transfer was successful
+                    </label>
+                  </div>
+                  <i />
+                </div>
+                <hr
+                  style="height: 2px;"
+                />
+              </div>
+              <div
+                style="margin: 20px 5px;"
+              >
+                <div
+                  class="d-flex"
+                >
+                  <div
+                    class="form-check"
+                  >
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                    />
+                    <label
+                      class="form-check-label"
+                      title=""
+                    >
+                      An interac e-Transfer was sent
+                    </label>
+                  </div>
+                  <i />
+                </div>
+                <hr
+                  style="height: 2px;"
+                />
+              </div>
+              <div
+                style="margin: 20px 5px;"
+              >
+                <div
+                  class="d-flex"
+                >
+                  <div
+                    class="form-check"
+                  >
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                    />
+                    <label
+                      class="form-check-label"
+                      title=""
+                    >
+                      A return has been made
+                    </label>
+                  </div>
+                  <i />
+                </div>
+                <hr
+                  style="height: 2px;"
+                />
+              </div>
+              <div
+                style="margin: 20px 5px;"
+              >
+                <div
+                  class="d-flex"
+                >
+                  <div
+                    class="form-check"
+                  >
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                    />
+                    <label
+                      class="form-check-label"
+                      title=""
+                    >
+                      Held funds are now available
+                    </label>
+                  </div>
+                  <i />
+                </div>
+                <hr
+                  style="height: 2px;"
+                />
+              </div>
+              <div
+                class="d-flex justify-content-end row"
+              >
+                <button
+                  class="btn btn-outline-danger"
+                  style="width: auto; margin-right: 10px;"
+                  type="button"
+                >
+                  Reset
+                </button>
+                <button
+                  class="zippy-btn btn btn-primary"
+                  style="width: auto; margin-right: 10px;"
+                  type="button"
+                >
+                  Save
+                </button>
+              </div>
+              <div
+                class="mt-2"
+              >
+                <hr
+                  style="margin-top: 3rem; height: 2px;"
+                />
+                <div
+                  class="d-flex"
+                >
+                  <div
+                    style="width: 20px; height: 25px; border: 1px dotted grey; text-align: center; margin-right: 10px;"
+                  >
+                    P
+                  </div>
+                  <span
+                    style="font-weight: bold;"
+                  >
+                    Note:
+                  </span>
+                </div>
+                <div
+                  class="d-flex flex-column"
+                >
+                  <ul>
+                    <li>
+                      An inactive alert status applies to bank accounts that were automatically transferred from Paperless to eStatements. If your alert status is displayed as 'Inactive', it means you have not agreed to the terms and conditions for eStatements. Once you have accepted the terms and conditions, your alerts will be activated and you will not see an 'Inactive' alert status.
+                    </li>
+                    <li>
+                      In the case of credit cards, your alerts status will always be active.
+                    </li>
+                    <li>
+                      ZippyX Alerts Terms and Conditions are now a part of the
+                      <a
+                        class="text-black"
+                        href="/"
+                      >
+                        Electronic Access Agreement
+                      </a>
+                    </li>
+                  </ul>
+                  <div
+                    class="row"
+                  >
+                    <div
+                      class="d-flex align-items-center mt-2 col-md-12"
+                    >
+                      <div
+                        style="width: 20px; height: 25px; border: 1px dotted grey; text-align: center; margin-right: 10px;"
+                      >
+                        P
+                      </div>
+                      <span>
+                        eStatement Terms and Conditions (last updated: November 2011) (PDF, 145KB).
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-labelledby="status-tab-tab-reminders"
+              class="tab-pane"
+              id="status-tab-tabpane-reminders"
+              role="tabpanel"
+            >
+              <div
+                class="row"
+                style="background-color: rgb(239, 239, 239); border-bottom: 1px solid grey;"
+              >
+                <div
+                  class="col-md-8"
+                >
+                  <p
+                    style="margin-top: 12px;"
+                  >
+                    GET ALERTED WHEN...
+                  </p>
+                </div>
+                <div
+                  class="col-md-4"
+                >
+                  <p
+                    style="margin-top: 12px;"
+                  >
+                    SEND ALERT TO...
+                  </p>
+                </div>
+              </div>
+              <div
+                style="margin: 20px 5px;"
+              >
+                <div
+                  class="d-flex"
+                >
+                  <div
+                    class="form-check"
+                  >
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                    />
+                    <label
+                      class="form-check-label"
+                      title=""
+                    >
+                      A postdated bill advance notification was sent
+                    </label>
+                  </div>
+                  <i />
+                </div>
+                <hr
+                  style="height: 2px;"
+                />
+              </div>
+              <div
+                style="margin: 20px 5px;"
+              >
+                <div
+                  class="d-flex"
+                >
+                  <div
+                    class="form-check"
+                  >
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                    />
+                    <label
+                      class="form-check-label"
+                      title=""
+                    >
+                      A reminder that an upcoming scheduled transfer is due
+                    </label>
+                  </div>
+                  <i />
+                </div>
+                <hr
+                  style="height: 2px;"
+                />
+              </div>
+              <div
+                style="margin: 20px 5px;"
+              >
+                <div
+                  class="d-flex"
+                >
+                  <div
+                    class="form-check"
+                  >
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                    />
+                    <label
+                      class="form-check-label"
+                      title=""
+                    >
+                      A new message is available in My Messages
+                    </label>
+                  </div>
+                  <i />
+                </div>
+                <hr
+                  style="height: 2px;"
+                />
+              </div>
+              <div
+                style="margin: 20px 5px;"
+              >
+                <div
+                  class="d-flex"
+                >
+                  <div
+                    class="form-check"
+                  >
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                    />
+                    <label
+                      class="form-check-label"
+                      title=""
+                    >
+                      A scheduled transfer was successful
+                    </label>
+                  </div>
+                  <i />
+                </div>
+                <hr
+                  style="height: 2px;"
+                />
+              </div>
+              <div
+                style="margin: 20px 5px;"
+              >
+                <div
+                  class="d-flex"
+                >
+                  <div
+                    class="form-check"
+                  >
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                    />
+                    <label
+                      class="form-check-label"
+                      title=""
+                    >
+                      There are new documents available in your ZippyX Dgital Vault
+                    </label>
+                  </div>
+                  <i />
+                </div>
+                <hr
+                  style="height: 2px;"
+                />
+              </div>
+              <span
+                style="font-size: 20px;"
+              >
+                <span
+                  style="color: rgb(239, 53, 69); margin-right: 5px;"
+                >
+                  +
+                </span>
+                Notice of change
+              </span>
+              <hr
+                style="height: 2px;"
+              />
+              <div
+                class="d-flex justify-content-end row"
+              >
+                <button
+                  class="btn btn-outline-danger"
+                  style="width: auto; margin-right: 10px;"
+                  type="button"
+                >
+                  Reset
+                </button>
+                <button
+                  class="zippy-btn btn btn-primary"
+                  style="width: auto; margin-right: 10px;"
+                  type="button"
+                >
+                  Save
+                </button>
+              </div>
+              <div
+                class="mt-2"
+              >
+                <hr
+                  style="margin-top: 3rem; height: 2px;"
+                />
+                <div
+                  class="d-flex"
+                >
+                  <div
+                    style="width: 20px; height: 25px; border: 1px dotted grey; text-align: center; margin-right: 10px;"
+                  >
+                    P
+                  </div>
+                  <span
+                    style="font-weight: bold;"
+                  >
+                    Note:
+                  </span>
+                </div>
+                <div
+                  class="d-flex flex-column"
+                >
+                  <ul>
+                    <li>
+                      An inactive alert status applies to bank accounts that were automatically transferred from Paperless to eStatements. If your alert status is displayed as 'Inactive', it means you have not agreed to the terms and conditions for eStatements. Once you have accepted the terms and conditions, your alerts will be activated and you will not see an 'Inactive' alert status.
+                    </li>
+                    <li>
+                      In the case of credit cards, your alerts status will always be active.
+                    </li>
+                    <li>
+                      ZippyX Alerts Terms and Conditions are now a part of the
+                      <a
+                        class="text-black"
+                        href="/"
+                      >
+                        Electronic Access Agreement
+                      </a>
+                    </li>
+                  </ul>
+                  <div
+                    class="row"
+                  >
+                    <div
+                      class="d-flex align-items-center mt-2 col-md-12"
+                    >
+                      <div
+                        style="width: 20px; height: 25px; border: 1px dotted grey; text-align: center; margin-right: 10px;"
+                      >
+                        P
+                      </div>
+                      <span>
+                        eStatement Terms and Conditions (last updated: November 2011) (PDF, 145KB).
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-md-4"
+        >
+          <div
+            class="bg-white card"
+          >
+            <div
+              class="card-body"
+            >
+              <h5
+                class="mt-4 mb-3"
+              >
+                Contact Information
+              </h5>
+              <div
+                class="d-flex justify-content-between"
+                style="border-bottom: 1px solid grey; padding-top: 5px; padding-bottom: 5px;"
+              >
+                <div>
+                  <div
+                    style="font-weight: bold;"
+                  >
+                    Email
+                  </div>
+                  <div
+                    style="color: grey;"
+                  >
+                    dtough@hotmail.com
+                  </div>
+                </div>
+                <button
+                  class="text-black btn btn-link"
+                  type="button"
+                >
+                  Edit
+                </button>
+              </div>
+              <div
+                class="d-flex justify-content-between"
+                style="border-bottom: 1px solid grey; padding-top: 5px; padding-bottom: 5px;"
+              >
+                <div>
+                  <div
+                    style="font-weight: bold;"
+                  >
+                    SMS mobile phone
+                  </div>
+                  <div
+                    style="color: grey;"
+                  >
+                    410-553-1372
+                  </div>
+                </div>
+                <button
+                  class="text-black btn btn-link"
+                  type="button"
+                >
+                  Edit
+                </button>
+              </div>
+              <div
+                class="d-flex justify-content-between"
+                style="border-bottom: 1px solid grey; padding-top: 5px; padding-bottom: 5px;"
+              >
+                <div>
+                  <div
+                    style="font-weight: bold;"
+                  >
+                    Home Phone
+                  </div>
+                  <div
+                    style="color: grey;"
+                  >
+                    410-553-1372
+                  </div>
+                </div>
+                <button
+                  class="text-black btn btn-link"
+                  type="button"
+                >
+                  Edit
+                </button>
+              </div>
+              <div
+                class="d-flex justify-content-between"
+                style="padding-top: 5px; padding-bottom: 5px;"
+              >
+                <div>
+                  <div
+                    style="font-weight: bold;"
+                  >
+                    Business Phone
+                  </div>
+                </div>
+                <button
+                  class="text-black btn btn-link"
+                  type="button"
+                >
+                  Edit
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="bg-white mt-4 card"
+          >
+            <div
+              class="card-body"
+            >
+              <h5>
+                Did you know?
+              </h5>
+              <p>
+                You can avoid late credit card payments when you receive your credit card minimum payment amount and due date via email or SMS
+              </p>
+              <a
+                class="text-decoration-none text-black"
+                href="/"
+                style="margin-top: 10px; margin-bottom: 5px; display: block; font-size: 15px;"
+              >
+                Turns on Minimum Payment Due alert now
+                <span
+                  style="color: rgb(220, 53, 69); margin-left: 5px;"
+                >
+                  &gt;
+                </span>
+              </a>
+              <a
+                class="text-decoration-none text-black"
+                href="/"
+                style="margin-top: 10px; margin-bottom: 5px; display: block; font-size: 15px;"
+              >
+                Apply for a ZippyX Credit Card today
+                <span
+                  style="color: rgb(220, 53, 69); margin-left: 5px;"
+                >
+                  &gt;
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="footer-content-wrapper"
+    >
+      <div
+        class="quick-links container"
+      >
+        <div
+          class="row"
+        >
+          <h3
+            class="col-sm-12"
+          >
+            Quick Links
+          </h3>
+        </div>
+        <div
+          class="row"
+        >
+          <div
+            class="col-sm-2"
+          >
+            <ul>
+              <li>
+                <a
+                  class="text-decoration-none"
+                  href="/"
+                >
+                  Home
+                </a>
+              </li>
+              <li>
+                Please Review Our Legal Stuff by visiting our
+                 
+                <a
+                  class="text-decoration-none"
+                  href="/legal"
+                >
+                  Privacy Policy | TOU | EULA | CardHolder T&C Pages
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="col-sm-2"
+          >
+            8465 W Sahara Ave. Las Vegas, NEVADA
+            <ul>
+              <li>
+                <a
+                  href="tel:+17026231876"
+                >
+                  1.702.623.1876
+                </a>
+              </li>
+              <li>
+                <a
+                  href="mailto:contact@zippy.cash"
+                >
+                  contact@zippy.cash
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div
+        class="container"
+      >
+        <div
+          class="row"
+        >
+          <div
+            class="col-md-12 col-sm-12 col-xs-12 text-left"
+          >
+            © 2021 Zippy Cash LLC  All rights reserved.
+            <br />
+            <br />
+            The Program Manager for the Zippy Cash® Prepaid Visa Debit Card is PayQuicker, LLC
+            <br />
+            Zippy Cash® is a registered trademark of Zippy Cash, LLC
+            <br />
+            The Zippy Cash Prepaid Visa Debit Card is issued by Metropolitan Commercial Bank (Member FDIC) pursuant to a license from Visa U.S.A. Inc. “Metropolitan Commercial Bank” and “Metropolitan” are registered trademarks of Metropolitan Commercial Bank ©2014. BY USING THIS CARD YOU AGREE TO THE TERMS AND CONDITIONS OF THE CARDHOLDER AGREEMENT AND FEE SCHEDULE, IF ANY. All trademarks and service marks are the property of their respective owners.
+            <br />
+            In compliance with the USA PATRIOT Act* and other laws, anyone who is a US resident over 18 with a valid Social Security number and a verifiable physical US address (no PO boxes or APO addresses) can apply for an Zippy Cash Card. This information must be provided, along with other information pertinent to receiving approval, when applying for a Zippy Cash Card. Currently, we do not issue the Zippy Cash Card to residents of Puerto Rico, Guam, the Virgin Islands, American Samoa, or other US territories.
+            <br />
+            *Important information for opening a card account: To help the federal government fight the funding of terrorism and money laundering activities, the USA PATRIOT Act requires all financial institutions and their third parties to obtain, verify and record information that identifies each person who opens a card account. What this means for you: When you open a card account, we will ask for your name, address, date of birth, social security number or country identification number, and other information that will allows us to identify you. We may also request a copy of your driver’s license or other documentation bearing your photo as verification of your identity.
+            <br />
+            Apple and the Apple logo are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc. Google Play is a trademark of Google Inc. Data rates may apply. Samsung Pay is a trademark of Samsung Inc.
+          </div>
+        </div>
+      </div>
+      <footer
+        class="container mb-3"
+      >
+        <div
+          class="d-none d-md-block"
+        >
+          <div
+            class="d-flex justify-content-between border-bottom"
+          />
+          <div
+            class="d-flex justify-content-between border-top"
+          >
+            <div
+              class=""
+            >
+              <div
+                class="footer-link mt-1"
+              >
+                <a
+                  class="text-decoration-none"
+                  href="/personal-profile"
+                >
+                  dev docs
+                </a>
+              </div>
+              <div
+                class="footer-link mt-1"
+              >
+                <a
+                  class="text-decoration-none"
+                  href="/"
+                >
+                  Lore
+                </a>
+              </div>
+              <div
+                class="footer-link mt-1"
+              >
+                <a
+                  class="text-decoration-none"
+                  href="/"
+                >
+                  Ipsum
+                </a>
+              </div>
+              <div
+                class="footer-link mt-1"
+              >
+                <a
+                  class="text-decoration-none"
+                  href="/"
+                >
+                  Nullam Atoidio
+                </a>
+              </div>
+            </div>
+            <div
+              class="copyright mt-1"
+            >
+              <span>
+                © 2021 Lorem ipsum dolor sit amet, consectetuer
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="d-block d-md-none"
+        >
+          <div
+            class="d-flex border-bottom"
+          >
+            <div
+              class="d-flex flex-column me-2"
+            >
+              <div
+                class="footer-link mt-1"
+              >
+                <a
+                  class="text-decoration-none"
+                  href="/personal-profile"
+                >
+                  dev docs
+                </a>
+              </div>
+              <div
+                class="footer-link mb-1"
+              >
+                <a
+                  class="text-decoration-none"
+                  href="/"
+                >
+                  Lore
+                </a>
+              </div>
+              <div
+                class="footer-link mb-1"
+              >
+                <a
+                  class="text-decoration-none"
+                  href="/"
+                >
+                  Ipsum
+                </a>
+              </div>
+              <div
+                class="footer-link mb-1"
+              >
+                <a
+                  class="text-decoration-none"
+                  href="/"
+                >
+                  Nullam Atoidio
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="d-flex justify-content-end border-top"
+          >
+            <div
+              class="copyright mt-2 text-end small"
+            >
+              <span>
+                © 2021 Lorem ipsum dolor sit amet, consectetuer
+              </span>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Manage Alert Component matches the snapshot 1`] = `
+<div
+  className="page-content"
+>
+  <div
+    className="d-flex justify-content-between align-items-center"
+  >
+    <h3>
+      Manage My Alerts
+    </h3>
+  </div>
+  <div
+    className="content-wrapper"
+  >
+    <div
+      className="mt-3 row"
+    >
+      <div
+        className="col-md-8"
+      >
+        <ul>
+          <li>
+            Alerts are notifictions that ZippyX sends to keep you informed of transactions and monitor your ZippyX accounts.
+          </li>
+          <li>
+            Most alerts are sent automatically to My Messages by default and to any other additional contact methods you select and save.
+          </li>
+          <li>
+            If you choose to activate Push Notifications, you must also enable them on your mobile device.
+          </li>
+          <li>
+            Push Notifications are personalized alerts sent directly to your mobile device that can help you stay on top of your ZippyX accounts. If you sign into ZippyX from a mobile device other than your own, Your alerts may be sent to that device until another user signs in to the application.
+          </li>
+          <li>
+            Some fraud prevention alerts cannot be turned off.
+          </li>
+        </ul>
+        <ul
+          className="mt-2 mb-3 nav nav-tabs"
+          onKeyDown={[Function]}
+          role="tablist"
+        >
+          <li
+            className="nav-item"
+            role="presentation"
+          >
+            <button
+              aria-controls="status-tab-tabpane-fraud"
+              aria-selected={true}
+              className="nav-link active"
+              data-rr-ui-event-key="fraud"
+              disabled={false}
+              id="status-tab-tab-fraud"
+              onClick={[Function]}
+              role="tab"
+              type="button"
+            >
+              FRAUD PREVENTION
+            </button>
+          </li>
+          <li
+            className="nav-item"
+            role="presentation"
+          >
+            <button
+              aria-controls="status-tab-tabpane-transactions"
+              className="nav-link"
+              data-rr-ui-event-key="transactions"
+              disabled={false}
+              id="status-tab-tab-transactions"
+              onClick={[Function]}
+              role="tab"
+              tabIndex={-1}
+              type="button"
+            >
+              TRANSACTIONS
+            </button>
+          </li>
+          <li
+            className="nav-item"
+            role="presentation"
+          >
+            <button
+              aria-controls="status-tab-tabpane-reminders"
+              className="nav-link"
+              data-rr-ui-event-key="reminders"
+              disabled={false}
+              id="status-tab-tab-reminders"
+              onClick={[Function]}
+              role="tab"
+              tabIndex={-1}
+              type="button"
+            >
+              REMINDERS
+            </button>
+          </li>
+        </ul>
+        <div
+          className="tab-content"
+        >
+          <div
+            aria-labelledby="status-tab-tab-fraud"
+            className="tab-pane active"
+            id="status-tab-tabpane-fraud"
+            role="tabpanel"
+          >
+            <div
+              className="row"
+              style={
+                Object {
+                  "backgroundColor": "#EFEFEF",
+                  "borderBottom": "1px solid grey",
+                }
+              }
+            >
+              <div
+                className="col-md-8"
+              >
+                <p
+                  style={
+                    Object {
+                      "marginTop": 12,
+                    }
+                  }
+                >
+                  GET ALERTED WHEN...
+                </p>
+              </div>
+              <div
+                className="col-md-4"
+              >
+                <p
+                  style={
+                    Object {
+                      "marginTop": 12,
+                    }
+                  }
+                >
+                  SEND ALERT TO...
+                </p>
+              </div>
+            </div>
+            <div
+              className="row"
+              style={
+                Object {
+                  "borderBottom": "1px solid grey",
+                  "padding": 10,
+                }
+              }
+            >
+              <div
+                className="col-md-8"
+              >
+                <div
+                  className="d-flex"
+                  style={
+                    Object {
+                      "fontWeight": "bold",
+                    }
+                  }
+                >
+                  There was unusual activity on my card
+                  <div
+                    style={
+                      Object {
+                        "border": "1px dotted grey",
+                        "height": 25,
+                        "marginRight": 10,
+                        "textAlign": "center",
+                        "width": 20,
+                      }
+                    }
+                  >
+                    P
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-md-4"
+              >
+                <div
+                  className="form-check"
+                >
+                  <input
+                    className="form-check-input"
+                    disabled={false}
+                    type="checkbox"
+                  />
+                  <label
+                    className="form-check-label"
+                    title=""
+                  >
+                    My Messages
+                  </label>
+                </div>
+                <div
+                  className="form-check"
+                >
+                  <input
+                    className="form-check-input"
+                    disabled={false}
+                    type="checkbox"
+                  />
+                  <label
+                    className="form-check-label"
+                    title=""
+                  >
+                    Email
+                  </label>
+                </div>
+                <div
+                  className="form-check"
+                >
+                  <input
+                    className="form-check-input"
+                    disabled={false}
+                    type="checkbox"
+                  />
+                  <label
+                    className="form-check-label"
+                    title=""
+                  >
+                    Text Message
+                  </label>
+                </div>
+                <div
+                  className="form-check"
+                >
+                  <input
+                    className="form-check-input"
+                    disabled={false}
+                    type="checkbox"
+                  />
+                  <label
+                    className="form-check-label"
+                    title=""
+                  >
+                    Push Notification
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div
+              className="row"
+              style={
+                Object {
+                  "borderBottom": "1px solid grey",
+                  "padding": 10,
+                }
+              }
+            >
+              <div
+                className="col-md-8"
+              >
+                <div
+                  className="d-flex"
+                  style={
+                    Object {
+                      "fontWeight": "bold",
+                    }
+                  }
+                >
+                  Changes have been made to my ZippyX passwords
+                  <div
+                    style={
+                      Object {
+                        "border": "1px dotted grey",
+                        "height": 25,
+                        "marginRight": 10,
+                        "textAlign": "center",
+                        "width": 20,
+                      }
+                    }
+                  >
+                    P
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-md-4"
+              >
+                <div
+                  className="form-check"
+                >
+                  <input
+                    className="form-check-input"
+                    disabled={false}
+                    type="checkbox"
+                  />
+                  <label
+                    className="form-check-label"
+                    title=""
+                  >
+                    My Messages
+                  </label>
+                </div>
+                <div
+                  className="form-check"
+                >
+                  <input
+                    className="form-check-input"
+                    disabled={false}
+                    type="checkbox"
+                  />
+                  <label
+                    className="form-check-label"
+                    title=""
+                  >
+                    Email
+                  </label>
+                </div>
+                <div
+                  className="form-check"
+                >
+                  <input
+                    className="form-check-input"
+                    disabled={false}
+                    type="checkbox"
+                  />
+                  <label
+                    className="form-check-label"
+                    title=""
+                  >
+                    Text Message
+                  </label>
+                </div>
+                <div
+                  className="form-check"
+                >
+                  <input
+                    className="form-check-input"
+                    disabled={false}
+                    type="checkbox"
+                  />
+                  <label
+                    className="form-check-label"
+                    title=""
+                  >
+                    Push Notification
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div
+              className="row"
+              style={
+                Object {
+                  "borderBottom": "1px solid grey",
+                  "padding": 10,
+                }
+              }
+            >
+              <div
+                className="col-md-8"
+              >
+                <div
+                  className="d-flex"
+                  style={
+                    Object {
+                      "fontWeight": "bold",
+                    }
+                  }
+                >
+                  My personal information has been updated on my profile
+                  <div
+                    style={
+                      Object {
+                        "border": "1px dotted grey",
+                        "height": 25,
+                        "marginRight": 10,
+                        "textAlign": "center",
+                        "width": 20,
+                      }
+                    }
+                  >
+                    P
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-md-4"
+              >
+                <div
+                  className="form-check"
+                >
+                  <input
+                    className="form-check-input"
+                    disabled={false}
+                    type="checkbox"
+                  />
+                  <label
+                    className="form-check-label"
+                    title=""
+                  >
+                    My Messages
+                  </label>
+                </div>
+                <div
+                  className="form-check"
+                >
+                  <input
+                    className="form-check-input"
+                    disabled={false}
+                    type="checkbox"
+                  />
+                  <label
+                    className="form-check-label"
+                    title=""
+                  >
+                    Email
+                  </label>
+                </div>
+                <div
+                  className="form-check"
+                >
+                  <input
+                    className="form-check-input"
+                    disabled={false}
+                    type="checkbox"
+                  />
+                  <label
+                    className="form-check-label"
+                    title=""
+                  >
+                    Text Message
+                  </label>
+                </div>
+                <div
+                  className="form-check"
+                >
+                  <input
+                    className="form-check-input"
+                    disabled={false}
+                    type="checkbox"
+                  />
+                  <label
+                    className="form-check-label"
+                    title=""
+                  >
+                    Push Notification
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div
+              className="row"
+              style={
+                Object {
+                  "borderBottom": "1px solid grey",
+                  "padding": 10,
+                }
+              }
+            >
+              <div
+                className="col-md-8"
+              >
+                <div
+                  className="d-flex"
+                  style={
+                    Object {
+                      "fontWeight": "bold",
+                    }
+                  }
+                >
+                  A bill payee or Interac e-Transfer contact was added
+                  <div
+                    style={
+                      Object {
+                        "border": "1px dotted grey",
+                        "height": 25,
+                        "marginRight": 10,
+                        "textAlign": "center",
+                        "width": 20,
+                      }
+                    }
+                  >
+                    P
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-md-4"
+              >
+                <div
+                  className="form-check"
+                >
+                  <input
+                    className="form-check-input"
+                    disabled={false}
+                    type="checkbox"
+                  />
+                  <label
+                    className="form-check-label"
+                    title=""
+                  >
+                    My Messages
+                  </label>
+                </div>
+                <div
+                  className="form-check"
+                >
+                  <input
+                    className="form-check-input"
+                    disabled={false}
+                    type="checkbox"
+                  />
+                  <label
+                    className="form-check-label"
+                    title=""
+                  >
+                    Email
+                  </label>
+                </div>
+                <div
+                  className="form-check"
+                >
+                  <input
+                    className="form-check-input"
+                    disabled={false}
+                    type="checkbox"
+                  />
+                  <label
+                    className="form-check-label"
+                    title=""
+                  >
+                    Text Message
+                  </label>
+                </div>
+                <div
+                  className="form-check"
+                >
+                  <input
+                    className="form-check-input"
+                    disabled={false}
+                    type="checkbox"
+                  />
+                  <label
+                    className="form-check-label"
+                    title=""
+                  >
+                    Push Notification
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div
+              className="row"
+              style={
+                Object {
+                  "borderBottom": "1px solid grey",
+                  "padding": 10,
+                }
+              }
+            >
+              <div
+                className="col-md-12"
+              >
+                <div
+                  className="form-check"
+                >
+                  <input
+                    className="form-check-input"
+                    disabled={false}
+                    type="checkbox"
+                  />
+                  <label
+                    className="form-check-label"
+                    title=""
+                  >
+                    There waas an attempt to exceed my ATM daily
+                  </label>
+                </div>
+                <div
+                  className="d-flex"
+                  style={
+                    Object {
+                      "fontWeight": "bold",
+                    }
+                  }
+                >
+                  withdrawal limit
+                  <div
+                    style={
+                      Object {
+                        "border": "1px dotted grey",
+                        "height": 25,
+                        "marginRight": 10,
+                        "textAlign": "center",
+                        "width": 20,
+                      }
+                    }
+                  >
+                    P
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="row"
+              style={
+                Object {
+                  "borderBottom": "1px solid grey",
+                  "padding": 10,
+                }
+              }
+            >
+              <div
+                className="d-flex col-md-12"
+              >
+                <div
+                  className="form-check"
+                >
+                  <input
+                    className="form-check-input"
+                    disabled={false}
+                    type="checkbox"
+                  />
+                  <label
+                    className="form-check-label"
+                    title=""
+                  >
+                    There was an attempt to exceed your Point of Sale daily limit
+                  </label>
+                </div>
+                <div
+                  style={
+                    Object {
+                      "fontWeight": "bold",
+                    }
+                  }
+                >
+                  <div
+                    style={
+                      Object {
+                        "border": "1px dotted grey",
+                        "height": 25,
+                        "marginRight": 10,
+                        "textAlign": "center",
+                        "width": 20,
+                      }
+                    }
+                  >
+                    P
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="row"
+              style={
+                Object {
+                  "borderBottom": "1px solid grey",
+                  "padding": 10,
+                }
+              }
+            >
+              <div
+                className="col-md-12"
+              >
+                <div
+                  className="form-check"
+                >
+                  <input
+                    className="form-check-input"
+                    disabled={false}
+                    type="checkbox"
+                  />
+                  <label
+                    className="form-check-label"
+                    title=""
+                  >
+                    A bank machine withdrawal is more than this amount:
+                  </label>
+                </div>
+                <div
+                  className="d-flex"
+                  style={
+                    Object {
+                      "fontWeight": "bold",
+                    }
+                  }
+                >
+                  <div
+                    className="mb-3 input-group"
+                    style={
+                      Object {
+                        "width": 200,
+                      }
+                    }
+                  >
+                    <span
+                      className="input-group-text"
+                      id="basic-addon1"
+                    >
+                      $
+                    </span>
+                    <input
+                      aria-describedby="basic-addon1"
+                      className="form-control"
+                    />
+                  </div>
+                  <div
+                    style={
+                      Object {
+                        "border": "1px dotted grey",
+                        "height": 25,
+                        "marginRight": 10,
+                        "textAlign": "center",
+                        "width": 20,
+                      }
+                    }
+                  >
+                    P
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="row"
+              style={
+                Object {
+                  "borderBottom": "1px solid grey",
+                  "padding": 10,
+                }
+              }
+            >
+              <div
+                className="col-md-12"
+              >
+                <div
+                  className="form-check"
+                >
+                  <input
+                    className="form-check-input"
+                    disabled={false}
+                    type="checkbox"
+                  />
+                  <label
+                    className="form-check-label"
+                    title=""
+                  >
+                    There was a debit card purchase more than:
+                  </label>
+                </div>
+                <div
+                  className="d-flex"
+                  style={
+                    Object {
+                      "fontWeight": "bold",
+                    }
+                  }
+                >
+                  <div
+                    className="mb-3 input-group"
+                    style={
+                      Object {
+                        "width": 200,
+                      }
+                    }
+                  >
+                    <span
+                      className="input-group-text"
+                      id="basic-addon1"
+                    >
+                      $
+                    </span>
+                    <input
+                      aria-describedby="basic-addon1"
+                      className="form-control"
+                    />
+                  </div>
+                  <div
+                    style={
+                      Object {
+                        "border": "1px dotted grey",
+                        "height": 25,
+                        "marginRight": 10,
+                        "textAlign": "center",
+                        "width": 20,
+                      }
+                    }
+                  >
+                    P
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="mt-4 p-3"
+              style={
+                Object {
+                  "borderBottom": "1px solid #e5e5e5",
+                  "borderTop": "1px solid #e5e5e5",
+                }
+              }
+            >
+              <div
+                className="d-flex justify-content-end row"
+              >
+                <button
+                  className="d-flex btn btn-outline-danger"
+                  disabled={false}
+                  style={
+                    Object {
+                      "marginRight": 10,
+                      "width": "auto",
+                    }
+                  }
+                  type="button"
+                >
+                  Reset
+                </button>
+                <button
+                  className="zippy-btn d-flex btn btn-primary"
+                  disabled={false}
+                  style={
+                    Object {
+                      "marginRight": 10,
+                      "width": "auto",
+                    }
+                  }
+                  type="button"
+                >
+                  Save
+                </button>
+              </div>
+            </div>
+            <div
+              className="mt-2"
+            >
+              <div
+                className="d-flex"
+              >
+                <div
+                  style={
+                    Object {
+                      "border": "1px dotted grey",
+                      "height": 25,
+                      "marginRight": 10,
+                      "textAlign": "center",
+                      "width": 20,
+                    }
+                  }
+                >
+                  P
+                </div>
+                <span
+                  style={
+                    Object {
+                      "fontWeight": "bold",
+                    }
+                  }
+                >
+                  Note:
+                </span>
+              </div>
+              <div
+                className="d-flex flex-column"
+              >
+                <ul>
+                  <li>
+                    An inactive alert status applies to bank accoiunts that were automatically transferred from Paperless to eStatements. If your alert status is displayed as 'Inactive', it means you have not agreed to the terms and conditions for eStatements. Once you have accepted the terms and conditions, you alerts will be activated and you will not see an 'Inactive' alert status.
+                  </li>
+                  <li>
+                    In the case of credit cards, your alerts status will always be active.
+                  </li>
+                  <li>
+                    ZippyX Alerts Terms and Conditions are now a part of the
+                    <a
+                      className="text-black"
+                      href="/"
+                    >
+                      Electronic Access Agreement
+                    </a>
+                  </li>
+                </ul>
+                <div
+                  className="row"
+                >
+                  <div
+                    className="d-flex align-items-center mt-2 col-md-12"
+                  >
+                    <div
+                      style={
+                        Object {
+                          "border": "1px dotted grey",
+                          "height": 25,
+                          "marginRight": 10,
+                          "textAlign": "center",
+                          "width": 20,
+                        }
+                      }
+                    >
+                      P
+                    </div>
+                    <span>
+                      eStatement Terms and Conditions (last updated: November 2011) (PDF, 145KB).
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-labelledby="status-tab-tab-transactions"
+            className="tab-pane"
+            id="status-tab-tabpane-transactions"
+            role="tabpanel"
+          >
+            <div
+              className="row"
+              style={
+                Object {
+                  "backgroundColor": "#EFEFEF",
+                  "borderBottom": "1px solid grey",
+                }
+              }
+            >
+              <div
+                className="col-md-8"
+              >
+                <p
+                  style={
+                    Object {
+                      "marginTop": 12,
+                    }
+                  }
+                >
+                  GET ALERTED WHEN...
+                </p>
+              </div>
+              <div
+                className="col-md-4"
+              >
+                <p
+                  style={
+                    Object {
+                      "marginTop": 12,
+                    }
+                  }
+                >
+                  SEND ALERT TO...
+                </p>
+              </div>
+            </div>
+            <div
+              style={
+                Object {
+                  "margin": "20px 5px",
+                }
+              }
+            >
+              <div
+                className="d-flex"
+              >
+                <div
+                  className="form-check"
+                >
+                  <input
+                    className="form-check-input"
+                    disabled={false}
+                    type="checkbox"
+                  />
+                  <label
+                    className="form-check-label"
+                    title=""
+                  >
+                    A scheduled bill payment has failed
+                  </label>
+                </div>
+                <i />
+              </div>
+              <hr
+                style={
+                  Object {
+                    "color": "C4C4C4",
+                    "height": "2px",
+                  }
+                }
+              />
+            </div>
+            <div
+              style={
+                Object {
+                  "margin": "20px 5px",
+                }
+              }
+            >
+              <div
+                className="d-flex"
+              >
+                <div
+                  className="form-check"
+                >
+                  <input
+                    className="form-check-input"
+                    disabled={false}
+                    type="checkbox"
+                  />
+                  <label
+                    className="form-check-label"
+                    title=""
+                  >
+                    A scheduled bill payment was successful
+                  </label>
+                </div>
+                <i />
+              </div>
+              <hr
+                style={
+                  Object {
+                    "color": "C4C4C4",
+                    "height": "2px",
+                  }
+                }
+              />
+            </div>
+            <div
+              style={
+                Object {
+                  "margin": "20px 5px",
+                }
+              }
+            >
+              <div
+                className="d-flex"
+              >
+                <div
+                  className="form-check"
+                >
+                  <input
+                    className="form-check-input"
+                    disabled={false}
+                    type="checkbox"
+                  />
+                  <label
+                    className="form-check-label"
+                    title=""
+                  >
+                    A scheduled transfer has failed
+                  </label>
+                </div>
+                <i />
+              </div>
+              <hr
+                style={
+                  Object {
+                    "color": "C4C4C4",
+                    "height": "2px",
+                  }
+                }
+              />
+            </div>
+            <div
+              style={
+                Object {
+                  "margin": "20px 5px",
+                }
+              }
+            >
+              <div
+                className="d-flex"
+              >
+                <div
+                  className="form-check"
+                >
+                  <input
+                    className="form-check-input"
+                    disabled={false}
+                    type="checkbox"
+                  />
+                  <label
+                    className="form-check-label"
+                    title=""
+                  >
+                    A scheduled transfer was successful
+                  </label>
+                </div>
+                <i />
+              </div>
+              <hr
+                style={
+                  Object {
+                    "color": "C4C4C4",
+                    "height": "2px",
+                  }
+                }
+              />
+            </div>
+            <div
+              style={
+                Object {
+                  "margin": "20px 5px",
+                }
+              }
+            >
+              <div
+                className="d-flex"
+              >
+                <div
+                  className="form-check"
+                >
+                  <input
+                    className="form-check-input"
+                    disabled={false}
+                    type="checkbox"
+                  />
+                  <label
+                    className="form-check-label"
+                    title=""
+                  >
+                    An interac e-Transfer was sent
+                  </label>
+                </div>
+                <i />
+              </div>
+              <hr
+                style={
+                  Object {
+                    "color": "C4C4C4",
+                    "height": "2px",
+                  }
+                }
+              />
+            </div>
+            <div
+              style={
+                Object {
+                  "margin": "20px 5px",
+                }
+              }
+            >
+              <div
+                className="d-flex"
+              >
+                <div
+                  className="form-check"
+                >
+                  <input
+                    className="form-check-input"
+                    disabled={false}
+                    type="checkbox"
+                  />
+                  <label
+                    className="form-check-label"
+                    title=""
+                  >
+                    A return has been made
+                  </label>
+                </div>
+                <i />
+              </div>
+              <hr
+                style={
+                  Object {
+                    "color": "C4C4C4",
+                    "height": "2px",
+                  }
+                }
+              />
+            </div>
+            <div
+              style={
+                Object {
+                  "margin": "20px 5px",
+                }
+              }
+            >
+              <div
+                className="d-flex"
+              >
+                <div
+                  className="form-check"
+                >
+                  <input
+                    className="form-check-input"
+                    disabled={false}
+                    type="checkbox"
+                  />
+                  <label
+                    className="form-check-label"
+                    title=""
+                  >
+                    Held funds are now available
+                  </label>
+                </div>
+                <i />
+              </div>
+              <hr
+                style={
+                  Object {
+                    "color": "C4C4C4",
+                    "height": "2px",
+                  }
+                }
+              />
+            </div>
+            <div
+              className="d-flex justify-content-end row"
+            >
+              <button
+                className="btn btn-outline-danger"
+                disabled={false}
+                style={
+                  Object {
+                    "marginRight": 10,
+                    "width": "auto",
+                  }
+                }
+                type="button"
+              >
+                Reset
+              </button>
+              <button
+                className="zippy-btn btn btn-primary"
+                disabled={false}
+                style={
+                  Object {
+                    "marginRight": 10,
+                    "width": "auto",
+                  }
+                }
+                type="button"
+              >
+                Save
+              </button>
+            </div>
+            <div
+              className="mt-2"
+            >
+              <hr
+                style={
+                  Object {
+                    "color": "C4C4C4",
+                    "height": "2px",
+                    "marginTop": "3rem",
+                  }
+                }
+              />
+              <div
+                className="d-flex"
+              >
+                <div
+                  style={
+                    Object {
+                      "border": "1px dotted grey",
+                      "height": 25,
+                      "marginRight": 10,
+                      "textAlign": "center",
+                      "width": 20,
+                    }
+                  }
+                >
+                  P
+                </div>
+                <span
+                  style={
+                    Object {
+                      "fontWeight": "bold",
+                    }
+                  }
+                >
+                  Note:
+                </span>
+              </div>
+              <div
+                className="d-flex flex-column"
+              >
+                <ul>
+                  <li>
+                    An inactive alert status applies to bank accounts that were automatically transferred from Paperless to eStatements. If your alert status is displayed as 'Inactive', it means you have not agreed to the terms and conditions for eStatements. Once you have accepted the terms and conditions, your alerts will be activated and you will not see an 'Inactive' alert status.
+                  </li>
+                  <li>
+                    In the case of credit cards, your alerts status will always be active.
+                  </li>
+                  <li>
+                    ZippyX Alerts Terms and Conditions are now a part of the
+                    <a
+                      className="text-black"
+                      href="/"
+                    >
+                      Electronic Access Agreement
+                    </a>
+                  </li>
+                </ul>
+                <div
+                  className="row"
+                >
+                  <div
+                    className="d-flex align-items-center mt-2 col-md-12"
+                  >
+                    <div
+                      style={
+                        Object {
+                          "border": "1px dotted grey",
+                          "height": 25,
+                          "marginRight": 10,
+                          "textAlign": "center",
+                          "width": 20,
+                        }
+                      }
+                    >
+                      P
+                    </div>
+                    <span>
+                      eStatement Terms and Conditions (last updated: November 2011) (PDF, 145KB).
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-labelledby="status-tab-tab-reminders"
+            className="tab-pane"
+            id="status-tab-tabpane-reminders"
+            role="tabpanel"
+          >
+            <div
+              className="row"
+              style={
+                Object {
+                  "backgroundColor": "#EFEFEF",
+                  "borderBottom": "1px solid grey",
+                }
+              }
+            >
+              <div
+                className="col-md-8"
+              >
+                <p
+                  style={
+                    Object {
+                      "marginTop": 12,
+                    }
+                  }
+                >
+                  GET ALERTED WHEN...
+                </p>
+              </div>
+              <div
+                className="col-md-4"
+              >
+                <p
+                  style={
+                    Object {
+                      "marginTop": 12,
+                    }
+                  }
+                >
+                  SEND ALERT TO...
+                </p>
+              </div>
+            </div>
+            <div
+              style={
+                Object {
+                  "margin": "20px 5px",
+                }
+              }
+            >
+              <div
+                className="d-flex"
+              >
+                <div
+                  className="form-check"
+                >
+                  <input
+                    className="form-check-input"
+                    disabled={false}
+                    type="checkbox"
+                  />
+                  <label
+                    className="form-check-label"
+                    title=""
+                  >
+                    A postdated bill advance notification was sent
+                  </label>
+                </div>
+                <i />
+              </div>
+              <hr
+                style={
+                  Object {
+                    "color": "C4C4C4",
+                    "height": "2px",
+                  }
+                }
+              />
+            </div>
+            <div
+              style={
+                Object {
+                  "margin": "20px 5px",
+                }
+              }
+            >
+              <div
+                className="d-flex"
+              >
+                <div
+                  className="form-check"
+                >
+                  <input
+                    className="form-check-input"
+                    disabled={false}
+                    type="checkbox"
+                  />
+                  <label
+                    className="form-check-label"
+                    title=""
+                  >
+                    A reminder that an upcoming scheduled transfer is due
+                  </label>
+                </div>
+                <i />
+              </div>
+              <hr
+                style={
+                  Object {
+                    "color": "C4C4C4",
+                    "height": "2px",
+                  }
+                }
+              />
+            </div>
+            <div
+              style={
+                Object {
+                  "margin": "20px 5px",
+                }
+              }
+            >
+              <div
+                className="d-flex"
+              >
+                <div
+                  className="form-check"
+                >
+                  <input
+                    className="form-check-input"
+                    disabled={false}
+                    type="checkbox"
+                  />
+                  <label
+                    className="form-check-label"
+                    title=""
+                  >
+                    A new message is available in My Messages
+                  </label>
+                </div>
+                <i />
+              </div>
+              <hr
+                style={
+                  Object {
+                    "color": "C4C4C4",
+                    "height": "2px",
+                  }
+                }
+              />
+            </div>
+            <div
+              style={
+                Object {
+                  "margin": "20px 5px",
+                }
+              }
+            >
+              <div
+                className="d-flex"
+              >
+                <div
+                  className="form-check"
+                >
+                  <input
+                    className="form-check-input"
+                    disabled={false}
+                    type="checkbox"
+                  />
+                  <label
+                    className="form-check-label"
+                    title=""
+                  >
+                    A scheduled transfer was successful
+                  </label>
+                </div>
+                <i />
+              </div>
+              <hr
+                style={
+                  Object {
+                    "color": "C4C4C4",
+                    "height": "2px",
+                  }
+                }
+              />
+            </div>
+            <div
+              style={
+                Object {
+                  "margin": "20px 5px",
+                }
+              }
+            >
+              <div
+                className="d-flex"
+              >
+                <div
+                  className="form-check"
+                >
+                  <input
+                    className="form-check-input"
+                    disabled={false}
+                    type="checkbox"
+                  />
+                  <label
+                    className="form-check-label"
+                    title=""
+                  >
+                    There are new documents available in your ZippyX Dgital Vault
+                  </label>
+                </div>
+                <i />
+              </div>
+              <hr
+                style={
+                  Object {
+                    "color": "C4C4C4",
+                    "height": "2px",
+                  }
+                }
+              />
+            </div>
+            <span
+              style={
+                Object {
+                  "fontSize": "20px",
+                }
+              }
+            >
+              <span
+                style={
+                  Object {
+                    "color": "#EF3545",
+                    "marginRight": 5,
+                  }
+                }
+              >
+                +
+              </span>
+              Notice of change
+            </span>
+            <hr
+              style={
+                Object {
+                  "color": "C4C4C4",
+                  "height": "2px",
+                }
+              }
+            />
+            <div
+              className="d-flex justify-content-end row"
+            >
+              <button
+                className="btn btn-outline-danger"
+                disabled={false}
+                style={
+                  Object {
+                    "marginRight": 10,
+                    "width": "auto",
+                  }
+                }
+                type="button"
+              >
+                Reset
+              </button>
+              <button
+                className="zippy-btn btn btn-primary"
+                disabled={false}
+                style={
+                  Object {
+                    "marginRight": 10,
+                    "width": "auto",
+                  }
+                }
+                type="button"
+              >
+                Save
+              </button>
+            </div>
+            <div
+              className="mt-2"
+            >
+              <hr
+                style={
+                  Object {
+                    "color": "C4C4C4",
+                    "height": "2px",
+                    "marginTop": "3rem",
+                  }
+                }
+              />
+              <div
+                className="d-flex"
+              >
+                <div
+                  style={
+                    Object {
+                      "border": "1px dotted grey",
+                      "height": 25,
+                      "marginRight": 10,
+                      "textAlign": "center",
+                      "width": 20,
+                    }
+                  }
+                >
+                  P
+                </div>
+                <span
+                  style={
+                    Object {
+                      "fontWeight": "bold",
+                    }
+                  }
+                >
+                  Note:
+                </span>
+              </div>
+              <div
+                className="d-flex flex-column"
+              >
+                <ul>
+                  <li>
+                    An inactive alert status applies to bank accounts that were automatically transferred from Paperless to eStatements. If your alert status is displayed as 'Inactive', it means you have not agreed to the terms and conditions for eStatements. Once you have accepted the terms and conditions, your alerts will be activated and you will not see an 'Inactive' alert status.
+                  </li>
+                  <li>
+                    In the case of credit cards, your alerts status will always be active.
+                  </li>
+                  <li>
+                    ZippyX Alerts Terms and Conditions are now a part of the
+                    <a
+                      className="text-black"
+                      href="/"
+                    >
+                      Electronic Access Agreement
+                    </a>
+                  </li>
+                </ul>
+                <div
+                  className="row"
+                >
+                  <div
+                    className="d-flex align-items-center mt-2 col-md-12"
+                  >
+                    <div
+                      style={
+                        Object {
+                          "border": "1px dotted grey",
+                          "height": 25,
+                          "marginRight": 10,
+                          "textAlign": "center",
+                          "width": 20,
+                        }
+                      }
+                    >
+                      P
+                    </div>
+                    <span>
+                      eStatement Terms and Conditions (last updated: November 2011) (PDF, 145KB).
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-md-4"
+      >
+        <div
+          className="bg-white card"
+        >
+          <div
+            className="card-body"
+          >
+            <h5
+              className="mt-4 mb-3"
+            >
+              Contact Information
+            </h5>
+            <div
+              className="d-flex justify-content-between"
+              style={
+                Object {
+                  "borderBottom": "1px solid grey",
+                  "paddingBottom": 5,
+                  "paddingTop": 5,
+                }
+              }
+            >
+              <div>
+                <div
+                  style={
+                    Object {
+                      "fontWeight": "bold",
+                    }
+                  }
+                >
+                  Email
+                </div>
+                <div
+                  style={
+                    Object {
+                      "color": "grey",
+                    }
+                  }
+                >
+                  dtough@hotmail.com
+                </div>
+              </div>
+              <button
+                className="text-black btn btn-link"
+                disabled={false}
+                onClick={[Function]}
+                type="button"
+              >
+                Edit
+              </button>
+            </div>
+            <div
+              className="d-flex justify-content-between"
+              style={
+                Object {
+                  "borderBottom": "1px solid grey",
+                  "paddingBottom": 5,
+                  "paddingTop": 5,
+                }
+              }
+            >
+              <div>
+                <div
+                  style={
+                    Object {
+                      "fontWeight": "bold",
+                    }
+                  }
+                >
+                  SMS mobile phone
+                </div>
+                <div
+                  style={
+                    Object {
+                      "color": "grey",
+                    }
+                  }
+                >
+                  410-553-1372
+                </div>
+              </div>
+              <button
+                className="text-black btn btn-link"
+                disabled={false}
+                onClick={[Function]}
+                type="button"
+              >
+                Edit
+              </button>
+            </div>
+            <div
+              className="d-flex justify-content-between"
+              style={
+                Object {
+                  "borderBottom": "1px solid grey",
+                  "paddingBottom": 5,
+                  "paddingTop": 5,
+                }
+              }
+            >
+              <div>
+                <div
+                  style={
+                    Object {
+                      "fontWeight": "bold",
+                    }
+                  }
+                >
+                  Home Phone
+                </div>
+                <div
+                  style={
+                    Object {
+                      "color": "grey",
+                    }
+                  }
+                >
+                  410-553-1372
+                </div>
+              </div>
+              <button
+                className="text-black btn btn-link"
+                disabled={false}
+                onClick={[Function]}
+                type="button"
+              >
+                Edit
+              </button>
+            </div>
+            <div
+              className="d-flex justify-content-between"
+              style={
+                Object {
+                  "paddingBottom": 5,
+                  "paddingTop": 5,
+                }
+              }
+            >
+              <div>
+                <div
+                  style={
+                    Object {
+                      "fontWeight": "bold",
+                    }
+                  }
+                >
+                  Business Phone
+                </div>
+              </div>
+              <button
+                className="text-black btn btn-link"
+                disabled={false}
+                onClick={[Function]}
+                type="button"
+              >
+                Edit
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          className="bg-white mt-4 card"
+        >
+          <div
+            className="card-body"
+          >
+            <h5>
+              Did you know?
+            </h5>
+            <p>
+              You can avoid late credit card payments when you receive your credit card minimum payment amount and due date via email or SMS
+            </p>
+            <a
+              className="text-decoration-none text-black"
+              href="/"
+              style={
+                Object {
+                  "display": "block",
+                  "fontSize": 15,
+                  "marginBottom": 5,
+                  "marginTop": 10,
+                }
+              }
+            >
+              Turns on Minimum Payment Due alert now
+              <span
+                style={
+                  Object {
+                    "color": "rgb(220, 53, 69)",
+                    "marginLeft": 5,
+                  }
+                }
+              >
+                &gt;
+              </span>
+            </a>
+            <a
+              className="text-decoration-none text-black"
+              href="/"
+              style={
+                Object {
+                  "display": "block",
+                  "fontSize": 15,
+                  "marginBottom": 5,
+                  "marginTop": 10,
+                }
+              }
+            >
+              Apply for a ZippyX Credit Card today
+              <span
+                style={
+                  Object {
+                    "color": "rgb(220, 53, 69)",
+                    "marginLeft": 5,
+                  }
+                }
+              >
+                &gt;
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="footer-content-wrapper"
+  >
+    <div
+      className="quick-links container"
+    >
+      <div
+        className="row"
+      >
+        <h3
+          className="col-sm-12"
+        >
+          Quick Links
+        </h3>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="col-sm-2"
+        >
+          <ul>
+            <li>
+              <a
+                className="text-decoration-none"
+                href="/"
+                onClick={[Function]}
+              >
+                Home
+              </a>
+            </li>
+            <li>
+              Please Review Our Legal Stuff by visiting our
+               
+              <a
+                className="text-decoration-none"
+                href="/legal"
+                onClick={[Function]}
+              >
+                Privacy Policy | TOU | EULA | CardHolder T&C Pages
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          className="col-sm-2"
+        >
+          8465 W Sahara Ave. Las Vegas, NEVADA
+          <ul>
+            <li>
+              <a
+                href="tel:+17026231876"
+              >
+                1.702.623.1876
+              </a>
+            </li>
+            <li>
+              <a
+                href="mailto:contact@zippy.cash"
+              >
+                contact@zippy.cash
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div
+      className="container"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-12 col-sm-12 col-xs-12 text-left"
+        >
+          © 2021 Zippy Cash LLC  All rights reserved.
+          <br />
+          <br />
+          The Program Manager for the Zippy Cash® Prepaid Visa Debit Card is PayQuicker, LLC
+          <br />
+          Zippy Cash® is a registered trademark of Zippy Cash, LLC
+          <br />
+          The Zippy Cash Prepaid Visa Debit Card is issued by Metropolitan Commercial Bank (Member FDIC) pursuant to a license from Visa U.S.A. Inc. “Metropolitan Commercial Bank” and “Metropolitan” are registered trademarks of Metropolitan Commercial Bank ©2014. BY USING THIS CARD YOU AGREE TO THE TERMS AND CONDITIONS OF THE CARDHOLDER AGREEMENT AND FEE SCHEDULE, IF ANY. All trademarks and service marks are the property of their respective owners.
+          <br />
+          In compliance with the USA PATRIOT Act* and other laws, anyone who is a US resident over 18 with a valid Social Security number and a verifiable physical US address (no PO boxes or APO addresses) can apply for an Zippy Cash Card. This information must be provided, along with other information pertinent to receiving approval, when applying for a Zippy Cash Card. Currently, we do not issue the Zippy Cash Card to residents of Puerto Rico, Guam, the Virgin Islands, American Samoa, or other US territories.
+          <br />
+          *Important information for opening a card account: To help the federal government fight the funding of terrorism and money laundering activities, the USA PATRIOT Act requires all financial institutions and their third parties to obtain, verify and record information that identifies each person who opens a card account. What this means for you: When you open a card account, we will ask for your name, address, date of birth, social security number or country identification number, and other information that will allows us to identify you. We may also request a copy of your driver’s license or other documentation bearing your photo as verification of your identity.
+          <br />
+          Apple and the Apple logo are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc. Google Play is a trademark of Google Inc. Data rates may apply. Samsung Pay is a trademark of Samsung Inc.
+        </div>
+      </div>
+    </div>
+    <footer
+      className="container mb-3"
+    >
+      <div
+        className="d-none d-md-block"
+      >
+        <div
+          className="d-flex justify-content-between border-bottom"
+        />
+        <div
+          className="d-flex justify-content-between border-top"
+        >
+          <div
+            className=""
+          >
+            <div
+              className="footer-link mt-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/personal-profile"
+              >
+                dev docs
+              </a>
+            </div>
+            <div
+              className="footer-link mt-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/"
+                onClick={[Function]}
+              >
+                Lore
+              </a>
+            </div>
+            <div
+              className="footer-link mt-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/"
+                onClick={[Function]}
+              >
+                Ipsum
+              </a>
+            </div>
+            <div
+              className="footer-link mt-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/"
+                onClick={[Function]}
+              >
+                Nullam Atoidio
+              </a>
+            </div>
+          </div>
+          <div
+            className="copyright mt-1"
+          >
+            <span>
+              © 2021 Lorem ipsum dolor sit amet, consectetuer
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="d-block d-md-none"
+      >
+        <div
+          className="d-flex border-bottom"
+        >
+          <div
+            className="d-flex flex-column me-2"
+          >
+            <div
+              className="footer-link mt-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/personal-profile"
+              >
+                dev docs
+              </a>
+            </div>
+            <div
+              className="footer-link mb-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/"
+                onClick={[Function]}
+              >
+                Lore
+              </a>
+            </div>
+            <div
+              className="footer-link mb-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/"
+                onClick={[Function]}
+              >
+                Ipsum
+              </a>
+            </div>
+            <div
+              className="footer-link mb-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/"
+                onClick={[Function]}
+              >
+                Nullam Atoidio
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          className="d-flex justify-content-end border-top"
+        >
+          <div
+            className="copyright mt-2 text-end small"
+          >
+            <span>
+              © 2021 Lorem ipsum dolor sit amet, consectetuer
+            </span>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</div>
+`;

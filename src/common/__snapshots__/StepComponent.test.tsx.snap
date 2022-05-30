@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Step Component matches the snapshot 1`] = `
+<div
+  className="d-flex align-items-center mt-3 mb-3"
+>
+  <span
+    style={
+      Object {
+        "fontWeight": "bold",
+        "marginRight": 10,
+      }
+    }
+  >
+    Steps: 
+  </span>
+  <div
+    onClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#C41F3E",
+        "border": "2px solid #C41F3E",
+        "borderRadius": 50,
+        "color": "white",
+        "display": "flex",
+        "height": 25,
+        "justifyContent": "center",
+        "width": 25,
+      }
+    }
+  >
+    1
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "grey",
+        "height": 2,
+        "width": 15,
+      }
+    }
+  />
+  <div
+    onClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    style={
+      Object {
+        "alignItems": "center",
+        "border": "2px solid grey",
+        "borderRadius": 50,
+        "display": "flex",
+        "height": 25,
+        "justifyContent": "center",
+        "width": 25,
+      }
+    }
+  >
+    2
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "grey",
+        "height": 2,
+        "width": 15,
+      }
+    }
+  />
+  <div
+    onClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    style={
+      Object {
+        "alignItems": "center",
+        "border": "2px solid grey",
+        "borderRadius": 50,
+        "display": "flex",
+        "height": 25,
+        "justifyContent": "center",
+        "width": 25,
+      }
+    }
+  >
+    3
+  </div>
+</div>
+`;

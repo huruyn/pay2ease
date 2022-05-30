@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Copyright Component matches the snapshot 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-12 col-sm-12 col-xs-12 text-left"
+    >
+      © 2021 Zippy Cash LLC  All rights reserved.
+      <br />
+      <br />
+      The Program Manager for the Zippy Cash® Prepaid Visa Debit Card is PayQuicker, LLC
+      <br />
+      Zippy Cash® is a registered trademark of Zippy Cash, LLC
+      <br />
+      The Zippy Cash Prepaid Visa Debit Card is issued by Metropolitan Commercial Bank (Member FDIC) pursuant to a license from Visa U.S.A. Inc. “Metropolitan Commercial Bank” and “Metropolitan” are registered trademarks of Metropolitan Commercial Bank ©2014. BY USING THIS CARD YOU AGREE TO THE TERMS AND CONDITIONS OF THE CARDHOLDER AGREEMENT AND FEE SCHEDULE, IF ANY. All trademarks and service marks are the property of their respective owners.
+      <br />
+      In compliance with the USA PATRIOT Act* and other laws, anyone who is a US resident over 18 with a valid Social Security number and a verifiable physical US address (no PO boxes or APO addresses) can apply for an Zippy Cash Card. This information must be provided, along with other information pertinent to receiving approval, when applying for a Zippy Cash Card. Currently, we do not issue the Zippy Cash Card to residents of Puerto Rico, Guam, the Virgin Islands, American Samoa, or other US territories.
+      <br />
+      *Important information for opening a card account: To help the federal government fight the funding of terrorism and money laundering activities, the USA PATRIOT Act requires all financial institutions and their third parties to obtain, verify and record information that identifies each person who opens a card account. What this means for you: When you open a card account, we will ask for your name, address, date of birth, social security number or country identification number, and other information that will allows us to identify you. We may also request a copy of your driver’s license or other documentation bearing your photo as verification of your identity.
+      <br />
+      Apple and the Apple logo are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc. Google Play is a trademark of Google Inc. Data rates may apply. Samsung Pay is a trademark of Samsung Inc.
+    </div>
+  </div>
+</div>
+`;

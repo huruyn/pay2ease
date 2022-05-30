@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AmountInput Component matches the snapshot 1`] = `
+<input
+  className="amount form-control"
+  onChange={[Function]}
+  onKeyDown={[Function]}
+  placeholder="$0.00"
+  type="string"
+  value=""
+/>
+`;

@@ -1,0 +1,201 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ApplyForOrChangeOverdraftProtectionService Component matches the snapshot 1`] = `
+<div
+  className="page-content"
+>
+  <div
+    style={
+      Object {
+        "backgroundColor": "#F2F3F2",
+        "padding": 10,
+      }
+    }
+  >
+    <p
+      style={
+        Object {
+          "marginBottom": 0,
+          "textAlign": "center",
+        }
+      }
+    >
+      Spte 1 of 2
+      <br />
+      Overdraft protection service
+    </p>
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "#DEE9F7",
+        "padding": 10,
+      }
+    }
+  >
+    <p
+      className="d-flex"
+      style={
+        Object {
+          "fontSize": 14,
+          "marginBottom": 0,
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "border": "1px dotted grey",
+            "height": 25,
+            "marginRight": 10,
+            "textAlign": "center",
+            "width": 20,
+          }
+        }
+      >
+        P
+      </div>
+      <ul>
+        <li>
+          Processing your request may take up to 2 business days
+        </li>
+        <li>
+          All fields are required unless stated as optional
+        </li>
+      </ul>
+    </p>
+  </div>
+  <div
+    className="mt-4 pb-4 row"
+  >
+    <div
+      className="bg-light p-3 col-md-12"
+      style={
+        Object {
+          "borderBottom": "1px solid grey",
+          "fontWeight": 500,
+        }
+      }
+    >
+      <span
+        style={
+          Object {
+            "color": "rgb(220, 53, 69)",
+            "marginRight": 5,
+          }
+        }
+      >
+        +
+      </span>
+      <span>
+        Before you begin
+      </span>
+    </div>
+  </div>
+  <div
+    className="mt-3 row"
+  >
+    <div
+      className="col-md-6"
+    >
+      <label
+        className="form-label"
+        htmlFor="from_acount"
+      >
+        From
+      </label>
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-12"
+        >
+          <select
+            className="form-select"
+            id="from_acount"
+          >
+            <option>
+              - Choose an account -
+            </option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-md-6"
+    >
+      <label
+        className="form-label"
+        htmlFor="choose_option"
+      >
+        Choose an option
+      </label>
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-12"
+        >
+          <select
+            className="form-select"
+            id="choose_option"
+          >
+            <option>
+              Select...
+            </option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="mt-4"
+  >
+    <div
+      className="mt-4 pt-3 row"
+      style={
+        Object {
+          "borderTop": "1px solid grey",
+          "fontWeight": 500,
+        }
+      }
+    >
+      <div
+        className="col"
+      >
+        <button
+          className="d-flex btn btn-light"
+          disabled={false}
+          type="button"
+        >
+          <div
+            style={
+              Object {
+                "border": "1px dotted grey",
+                "height": 25,
+                "marginRight": 10,
+                "textAlign": "center",
+                "width": 20,
+              }
+            }
+          >
+            P
+          </div>
+          Cancel
+        </button>
+      </div>
+      <div
+        className="d-flex justify-content-end col"
+      >
+        <button
+          className="zippy-btn d-flex btn btn-primary"
+          disabled={false}
+          type="button"
+        >
+          Next
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

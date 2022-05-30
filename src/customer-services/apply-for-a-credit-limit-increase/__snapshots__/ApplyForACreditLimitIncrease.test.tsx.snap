@@ -1,0 +1,314 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ApplyForACreditLimitIncrease Component matches the snapshot 1`] = `
+<div
+  className="page-content"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-12"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col"
+        >
+          <div
+            className="border-top border-2 border-danger"
+          />
+          <h1>
+            ZippyX
+            <i />
+          </h1>
+        </div>
+      </div>
+      <div>
+        <div
+          className="row"
+        >
+          <div
+            className="col"
+          >
+            <div
+              className="fade mb-0 rounded-0 text-dark text-center py-3 alert alert-secondary show"
+              role="alert"
+              style={
+                Object {
+                  "fontSize": 15,
+                }
+              }
+            >
+              Credit limit increase
+            </div>
+          </div>
+        </div>
+        <div
+          className="row"
+        >
+          <div
+            className="col"
+          >
+            <div
+              className="fade zippy-btn mb-0 rounded-0 text-dark py-2 px-5 alert alert-danger show"
+              role="alert"
+            >
+              <i />
+              We are sorry. You do not have a credit card that allows you to complete this request
+            </div>
+          </div>
+        </div>
+        <div
+          className="row"
+        >
+          <div
+            className="col"
+          >
+            <div
+              className="fade mb-0 rounded-0 text-dark py-0 px-5 alert alert-danger show"
+              role="alert"
+            >
+              <div
+                className="hstack gap-2"
+              >
+                <div>
+                  <i />
+                  <br />
+                  <br />
+                </div>
+                <div>
+                  <i />
+                  <ul>
+                    <li>
+                      Processing may take up to 5 business days.
+                    </li>
+                    <li>
+                      All fields are required unless stated as optional 
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="px-5 col-12"
+    >
+      <div
+        className="pt-5 row"
+      >
+        <div
+          className="col-12"
+        >
+          <div
+            className="border-bottom border-2 border-secondary px-4 py-2"
+            style={
+              Object {
+                "backgroundColor": "#D0D0D0",
+                "color": "#000",
+              }
+            }
+          >
+            <i />
+            Before you begin
+          </div>
+        </div>
+        <div
+          className="col"
+        >
+          <div
+            className="align-items-center pt-3 row"
+          >
+            <div
+              className="pt-3 col-6"
+            >
+              <br />
+              Choose a credit card
+              <select
+                aria-label="Default select example"
+                className="form-select"
+              >
+                <option>
+                   
+                </option>
+              </select>
+            </div>
+            <div
+              className="pt-3 col-6"
+            >
+              Amount to add to your credit limit
+              <i />
+              <br />
+              <div
+                style={
+                  Object {
+                    "overflow": "hidden",
+                    "textOverflow": "ellipsis",
+                    "whiteSpace": "nowrap",
+                  }
+                }
+              >
+                Between $100 and $99,900 in $100 increments
+              </div>
+              <input
+                className="form-control"
+                placeholder="$"
+                type="number"
+              />
+            </div>
+            <div
+              className="pt-3 col-6"
+            >
+              Gross annual personal income
+              <i />
+              <input
+                className="form-control"
+                placeholder="$"
+                type="number"
+              />
+            </div>
+            <div
+              className="pt-3 col-6"
+            >
+              Gross annual household income
+              <i />
+              <input
+                className="form-control"
+                placeholder="$"
+                type="number"
+              />
+            </div>
+            <div
+              className="pt-3 col-6"
+            >
+              Email
+              <input
+                className="form-control"
+                placeholder="dtough@hotmail.com "
+                type="number"
+              />
+              <div
+                className="form-check"
+              >
+                <input
+                  className="form-check-input"
+                  disabled={false}
+                  id="confirm"
+                  type="checkbox"
+                />
+                <label
+                  className="form-check-label"
+                  htmlFor="confirm"
+                  title=""
+                >
+                  Send status updates to this email address 
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="pt-5 row"
+      >
+        <div
+          className="col-12"
+        >
+          <div
+            className="border-bottom border-2 border-secondary px-4 py-2"
+            style={
+              Object {
+                "backgroundColor": "#D0D0D0",
+                "color": "#000",
+              }
+            }
+          >
+            <i />
+            Terms and Conditions
+          </div>
+        </div>
+        <div
+          className="px-5 pt-1 col-12"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="col"
+            >
+              <div
+                className="form-check"
+              >
+                <input
+                  className="form-check-input"
+                  disabled={false}
+                  id="confirm"
+                  type="checkbox"
+                />
+                <label
+                  className="form-check-label"
+                  htmlFor="confirm"
+                  title=""
+                >
+                  I have read, understand and agree to the Terms and Conditions.
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="pt-5 row"
+      >
+        <div
+          className="col-12"
+        >
+          <div
+            className="border-bottom border-2 border-secondary px-4 py-2"
+            style={
+              Object {
+                "backgroundColor": "#D0D0D0",
+                "color": "#000",
+              }
+            }
+          >
+            <i />
+            Note
+          </div>
+        </div>
+      </div>
+      <div
+        className="pt-5 row"
+      >
+        <div
+          className="text-start col"
+        >
+          <button
+            className="btn btn-light"
+            disabled={false}
+            type="button"
+          >
+            <i />
+            Cancel
+          </button>
+        </div>
+        <div
+          className="text-end col"
+        >
+          <button
+            className="btn btn-light"
+            disabled={false}
+            type="button"
+          >
+            Next
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

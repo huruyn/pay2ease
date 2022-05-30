@@ -1,0 +1,166 @@
+@import './colors';
+
+.contact-selector {
+
+  .contact-list-wrap {
+    position: absolute;
+    top: 0;
+    right: -20px;
+    width: 0;
+    height: 0;
+
+    @keyframes slideIn {
+      from {
+        display: none;
+        top: 100vh;
+      }
+      to {
+        display: flex;
+        top: 0;
+      }
+    }
+
+    @keyframes slideOut {
+      from {
+        display: flex;
+        top: 0;
+      }
+      to {
+        display: none;
+        top: 100vh;
+      }
+    }
+
+    .contact-container {
+      position: relative;
+      width: 235px;
+      background: #FFFFFF;
+      border-radius: 15px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      box-shadow: 0 0 2px 2px $color-white;
+      animation: slideIn 0.2s;
+      transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+
+      &.hidden {
+        display: none;
+        box-shadow: 0 0 2px 2px $color-white;
+        animation: slideOut 0.2s;
+        transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+      }
+
+      .contact-search {
+        display: flex;
+        position: relative;
+
+        .zippy-cash-icon {
+          position: absolute;
+          top: 50%;
+          -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+          left: 15px;
+
+          &:after {
+            background-color: $color-dark-gray;
+            width: 16px;
+            height: 16px;
+          }
+        }
+
+        input {
+          background: $color-background;
+          border-radius: 30px;
+          border: none;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 12px;
+          color: $color-dark-gray;
+          order: 0;
+          flex-grow: 0;
+          margin: 0;
+          padding: 8px 18px 8px 40px;
+
+          &::placeholder{
+            color: $color-gray-30;
+          }
+
+          &:focus {
+            box-shadow: none;
+          }
+        }
+      }
+
+      .contact-list-container {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+
+        h4 {
+          font-style: normal;
+          font-weight: 600;
+          font-size: 12px;
+          margin: 0;
+          padding: 0;
+        }
+
+        .personal-contacts {
+          display: flex;
+          flex-direction: column;
+          gap: 15px;
+        }
+
+        .contact-item {
+          display: flex;
+          flex-direction: row;
+
+          .contact-name {
+            width: 100%;
+          }
+
+          .btn-select-contact {
+            .zippy-cash-icon {
+              &:after {
+                width: 15px;
+                height: 15px;
+              }
+            }
+          }
+        }
+      }
+
+      .container-header {
+        .title {
+          margin: 0;
+          padding: 0;
+          border: 0;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 21px;
+          color: $color-orange;
+        }
+      }
+
+      .container-body {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        input[type=text] {
+          text-align: center;
+        }
+      }
+    }
+  }
+}

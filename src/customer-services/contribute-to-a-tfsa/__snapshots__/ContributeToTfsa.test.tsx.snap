@@ -1,0 +1,1010 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContributeToTfsa Component matches the snapshot 1`] = `
+<div
+  className="page-content"
+>
+  <div
+    className="d-flex justify-content-between align-items-center"
+  >
+    <h3>
+      Tax-Free Savings Accounts (TFSA)
+    </h3>
+  </div>
+  <div
+    className="content-wrapper"
+  >
+    <div
+      className="row"
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "justifyContent": "flex-end",
+          "marginTop": 20,
+        }
+      }
+    >
+      <div
+        className="col"
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "justifyContent": "flex-end",
+          }
+        }
+      >
+        <div
+          className="row"
+          style={
+            Object {
+              "alignItems": "center",
+              "border": "2px dashed black",
+              "display": "flex",
+              "fontSize": "12px",
+              "justifyContent": "center",
+              "marginRight": "15px",
+              "maxWidth": "200px",
+              "padding": "5px",
+            }
+          }
+        >
+          L
+        </div>
+        <span
+          style={
+            Object {
+              "display": "flex",
+              "fontSize": 13,
+              "justifyContent": "flex-end",
+              "marginBottom": 0,
+              "marginRight": 10,
+              "padding": 0,
+            }
+          }
+        >
+          Find a banking centre or ATM
+        </span>
+        <span
+          style={
+            Object {
+              "display": "flex",
+              "fontSize": 13,
+              "fontWeight": 600,
+              "justifyContent": "flex-end",
+              "marginBottom": 0,
+              "marginRight": -10,
+              "padding": 0,
+            }
+          }
+        >
+          Call us at 1-866-525-8622
+        </span>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-8"
+        style={
+          Object {
+            "padding": 0,
+          }
+        }
+      >
+        <div
+          className="col"
+          style={
+            Object {
+              "background": "rgba(242,243,242,0.9)",
+              "display": "flex",
+              "flexDirection": "column",
+              "justifyContent": "space-between",
+              "marginTop": "14px",
+              "minHeight": "220px",
+            }
+          }
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="col"
+              style={
+                Object {
+                  "marginLeft": "25px",
+                  "marginTop": "18px",
+                }
+              }
+            >
+              <h3
+                style={
+                  Object {
+                    "fontWeight": 400,
+                    "paddingBottom": "15px",
+                  }
+                }
+              >
+                Grow your money with a special interest rate
+              </h3>
+              Reach your savings goals sooner with a TFSA Tax Advantage Savings Account&reg. Offer ends on March 31, 2022
+              
+              <div
+                className="row"
+              >
+                <a
+                  href="/#"
+                  style={
+                    Object {
+                      "color": "red",
+                      "marginTop": "15px",
+                    }
+                  }
+                >
+                  Learn More &gt;
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-4"
+        style={
+          Object {
+            "alignItems": "center",
+            "border": "2px dashed black",
+            "display": "flex",
+            "justifyContent": "center",
+            "marginTop": "14px",
+          }
+        }
+      >
+        <span>
+          Image
+        </span>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <h5
+        style={
+          Object {
+            "borderBottom": "2px solid black",
+            "lineHeight": "40px",
+            "marginTop": "50px",
+            "padding": 0,
+          }
+        }
+      >
+        Tax-Free Savings Account
+      </h5>
+    </div>
+    <div
+      className="row"
+      style={
+        Object {
+          "marginLeft": "-25px",
+        }
+      }
+    >
+      <span
+        style={
+          Object {
+            "marginTop": "15px",
+          }
+        }
+      >
+        With a Tax-Free Savings Account(TFSA), you can set money aside in eligible investment accounts without paying tax on income and gains earned within the TFSA.
+      </span>
+      <span
+        style={
+          Object {
+            "marginTop": "15px",
+          }
+        }
+      >
+        You are able to withdraw funds from your TFSA any time and for any purpose without incurring tax, though restrictions may apply depending on the investments that are held in your TFSA.
+      </span>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col"
+        style={
+          Object {
+            "background": "rgba(242,243,242,0.9)",
+            "display": "flex",
+            "flexDirection": "column",
+            "justifyContent": "space-between",
+            "marginRight": "10px",
+            "marginTop": "50px",
+            "minHeight": "220px",
+          }
+        }
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col"
+            style={
+              Object {
+                "marginLeft": "25px",
+                "marginTop": "18px",
+              }
+            }
+          >
+            <a
+              href="/#"
+              style={
+                Object {
+                  "color": "black",
+                  "fontWeight": 400,
+                  "paddingBottom": "15px",
+                }
+              }
+            >
+              <h4>
+                CIBS TFSA Tax Advantage Savings Account
+              </h4>
+            </a>
+            <p
+              style={
+                Object {
+                  "marginBottom": "0px",
+                  "marginTop": "30px",
+                }
+              }
+            >
+              Save your money tax-free and access it at any time.
+            </p>
+            <a
+              className="text-decoration-none text-black"
+              href="/"
+              style={
+                Object {
+                  "fontSize": 12,
+                  "marginTop": "-16",
+                }
+              }
+            >
+              Learn more
+              <span
+                style={
+                  Object {
+                    "color": "rgb(220, 53, 69)",
+                    "marginLeft": 5,
+                  }
+                }
+              >
+                &gt;
+              </span>
+            </a>
+            <button
+              className="zippy-btn btn btn-primary"
+              disabled={false}
+              style={
+                Object {
+                  "display": "flex",
+                  "fontSize": 14,
+                  "marginTop": 25,
+                }
+              }
+              type="button"
+            >
+              Apply or contribute
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <h5
+        style={
+          Object {
+            "borderBottom": "2px solid black",
+            "lineHeight": "40px",
+            "marginTop": "50px",
+            "padding": 0,
+          }
+        }
+      >
+        Featured TFSA GICs
+      </h5>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col"
+        style={
+          Object {
+            "background": "rgba(242,243,242,0.9)",
+            "display": "flex",
+            "flexDirection": "column",
+            "justifyContent": "space-between",
+            "marginRight": "20px",
+            "marginTop": "50px",
+            "minHeight": "220px",
+          }
+        }
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col"
+            style={
+              Object {
+                "marginLeft": "25px",
+                "marginTop": "18px",
+              }
+            }
+          >
+            <a
+              href="/#"
+              style={
+                Object {
+                  "color": "black",
+                  "fontWeight": 400,
+                  "paddingBottom": "15px",
+                }
+              }
+            >
+              <h4>
+                CIBS Bonus Rate TFSA GIC
+              </h4>
+            </a>
+            <p
+              style={
+                Object {
+                  "marginBottom": "0px",
+                  "marginTop": "30px",
+                }
+              }
+            >
+              Earn guaranteed interest at a great rate won't change over your term.
+            </p>
+            
+            <button
+              className="zippy-btn btn btn-primary"
+              disabled={false}
+              style={
+                Object {
+                  "display": "flex",
+                  "fontSize": 14,
+                  "marginTop": 25,
+                }
+              }
+              type="button"
+            >
+              Purchase or contribute
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col"
+        style={
+          Object {
+            "background": "rgba(242,243,242,0.9)",
+            "display": "flex",
+            "flexDirection": "column",
+            "justifyContent": "space-between",
+            "marginTop": "50px",
+            "minHeight": "220px",
+          }
+        }
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col"
+            style={
+              Object {
+                "marginLeft": "25px",
+                "marginTop": "18px",
+              }
+            }
+          >
+            <a
+              href="/#"
+              style={
+                Object {
+                  "color": "black",
+                  "fontWeight": 400,
+                  "paddingBottom": "15px",
+                }
+              }
+            >
+              <h4>
+                CIBS Flexible TFSA GIC
+              </h4>
+            </a>
+            <p
+              style={
+                Object {
+                  "marginBottom": "0px",
+                  "marginTop": "30px",
+                }
+              }
+            >
+              Enjoy quaranteed returns with the freedom to access your money when you need it.
+            </p>
+            
+            <button
+              className="zippy-btn btn btn-primary"
+              disabled={false}
+              style={
+                Object {
+                  "display": "flex",
+                  "fontSize": 14,
+                  "marginTop": 25,
+                }
+              }
+              type="button"
+            >
+              Purchase or contribute
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <h5
+        style={
+          Object {
+            "borderBottom": "2px solid black",
+            "lineHeight": "40px",
+            "marginTop": "50px",
+            "padding": 0,
+          }
+        }
+      >
+        Market Linked GICs(TFSA eligible)
+      </h5>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col"
+        style={
+          Object {
+            "background": "rgba(242,243,242,0.9)",
+            "display": "flex",
+            "flexDirection": "column",
+            "justifyContent": "space-between",
+            "marginTop": "50px",
+            "minHeight": "220px",
+          }
+        }
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col"
+            style={
+              Object {
+                "marginLeft": "25px",
+                "marginTop": "18px",
+              }
+            }
+          >
+            <a
+              href="/#"
+              style={
+                Object {
+                  "color": "black",
+                  "fontWeight": 400,
+                  "paddingBottom": "15px",
+                }
+              }
+            >
+              <h4>
+                ZippyX Market Linked GICs
+              </h4>
+            </a>
+            <p
+              style={
+                Object {
+                  "marginBottom": "0px",
+                  "marginTop": "30px",
+                }
+              }
+            >
+              The interest rate is linked to market performance, so the potential for growth is higher than a fixed-rate GIC
+            </p>
+            <p>
+              To purchase,
+              <a
+                href="/#"
+                style={
+                  Object {
+                    "color": "black",
+                    "marginLeft": "5px",
+                  }
+                }
+              >
+                visit a banking centre.
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row"
+      style={
+        Object {
+          "marginTop": "50px",
+        }
+      }
+    >
+      <span
+        style={
+          Object {
+            "fontWeight": 500,
+          }
+        }
+      >
+        Tools and advice
+      </span>
+      <a
+        href="/home"
+        style={
+          Object {
+            "color": "black",
+            "fontSize": 13,
+            "marginTop": "10px",
+          }
+        }
+      >
+        Find the GIC that&aposs right for you
+      </a>
+      <a
+        href="/home"
+        style={
+          Object {
+            "color": "black",
+            "fontSize": 13,
+            "marginTop": "10px",
+          }
+        }
+      >
+        Check out all GIC rates
+      </a>
+      <a
+        href="/home"
+        style={
+          Object {
+            "color": "black",
+            "fontSize": 13,
+            "marginTop": "10px",
+          }
+        }
+      >
+        TFSA calculator
+      </a>
+      <a
+        href="/home"
+        style={
+          Object {
+            "color": "black",
+            "fontSize": 13,
+            "marginTop": "10px",
+          }
+        }
+      >
+        Investor profile tool
+      </a>
+    </div>
+    <div
+      className="row"
+      style={
+        Object {
+          "backgroundColor": "rgba(242,243,242,0.9)",
+          "marginTop": 50,
+          "padding": 15,
+        }
+      }
+    >
+      <div
+        className="col"
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <div
+          className="row"
+          style={
+            Object {
+              "alignItems": "center",
+              "border": "2px dashed black",
+              "display": "flex",
+              "fontSize": "12px",
+              "justifyContent": "center",
+              "marginRight": "15px",
+              "maxWidth": "200px",
+              "padding": "5px",
+            }
+          }
+        >
+          <h1
+            style={
+              Object {
+                "marginBottom": 0,
+              }
+            }
+          >
+            ?
+          </h1>
+        </div>
+        <h1
+          style={
+            Object {
+              "fontSize": 22,
+              "fontWeight": 100,
+              "marginBottom": 0,
+              "textAlign": "center",
+            }
+          }
+        >
+          Have a question?
+        </h1>
+        <div
+          style={
+            Object {
+              "border": "1px solid black",
+              "height": "100%",
+              "marginLeft": 15,
+              "marginRight": 15,
+              "width": 2,
+            }
+          }
+        />
+        <p
+          style={
+            Object {
+              "fontSize": 14,
+              "fontWeight": 100,
+              "marginBottom": 0,
+            }
+          }
+        >
+          Use our automated help for immediate answers to your questions
+        </p>
+      </div>
+      <div
+        className="col-2"
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "justifyContent": "flex-end",
+          }
+        }
+      >
+        <button
+          className="zippy-btn btn btn-primary"
+          disabled={false}
+          style={
+            Object {
+              "fontSize": 14,
+              "paddingLeft": 20,
+              "paddingRight": 20,
+            }
+          }
+          type="button"
+        >
+          Ask
+        </button>
+      </div>
+    </div>
+    <div
+      className="row"
+      style={
+        Object {
+          "backgroundColor": "rgba(242,243,242,0.9)",
+          "borderBottom": "2px solid rgba(0,0,0,0.5)",
+          "marginTop": 30,
+          "padding": 8,
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "alignItems": "center",
+            "border": "2px dashed black",
+            "display": "flex",
+            "justifyContent": "center",
+            "marginRight": "4px",
+            "padding": "5px",
+            "width": 30,
+          }
+        }
+      >
+        <h1
+          style={
+            Object {
+              "color": "red",
+              "fontSize": 28,
+              "marginBottom": 0,
+              "marginLeft": 5,
+              "marginRight": 5,
+            }
+          }
+        >
+          +
+        </h1>
+      </div>
+      <div
+        className="col"
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+          }
+        }
+      >
+        <h1
+          style={
+            Object {
+              "fontSize": 18,
+              "fontWeight": 100,
+              "marginBottom": 0,
+            }
+          }
+        >
+          Terms and conditions
+        </h1>
+      </div>
+    </div>
+  </div>
+  <div
+    className="footer-content-wrapper"
+  >
+    <div
+      className="quick-links container"
+    >
+      <div
+        className="row"
+      >
+        <h3
+          className="col-sm-12"
+        >
+          Quick Links
+        </h3>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="col-sm-2"
+        >
+          <ul>
+            <li>
+              <a
+                className="text-decoration-none"
+                href="/"
+                onClick={[Function]}
+              >
+                Home
+              </a>
+            </li>
+            <li>
+              Please Review Our Legal Stuff by visiting our
+               
+              <a
+                className="text-decoration-none"
+                href="/legal"
+                onClick={[Function]}
+              >
+                Privacy Policy | TOU | EULA | CardHolder T&C Pages
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          className="col-sm-2"
+        >
+          8465 W Sahara Ave. Las Vegas, NEVADA
+          <ul>
+            <li>
+              <a
+                href="tel:+17026231876"
+              >
+                1.702.623.1876
+              </a>
+            </li>
+            <li>
+              <a
+                href="mailto:contact@zippy.cash"
+              >
+                contact@zippy.cash
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div
+      className="container"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-12 col-sm-12 col-xs-12 text-left"
+        >
+          © 2021 Zippy Cash LLC  All rights reserved.
+          <br />
+          <br />
+          The Program Manager for the Zippy Cash® Prepaid Visa Debit Card is PayQuicker, LLC
+          <br />
+          Zippy Cash® is a registered trademark of Zippy Cash, LLC
+          <br />
+          The Zippy Cash Prepaid Visa Debit Card is issued by Metropolitan Commercial Bank (Member FDIC) pursuant to a license from Visa U.S.A. Inc. “Metropolitan Commercial Bank” and “Metropolitan” are registered trademarks of Metropolitan Commercial Bank ©2014. BY USING THIS CARD YOU AGREE TO THE TERMS AND CONDITIONS OF THE CARDHOLDER AGREEMENT AND FEE SCHEDULE, IF ANY. All trademarks and service marks are the property of their respective owners.
+          <br />
+          In compliance with the USA PATRIOT Act* and other laws, anyone who is a US resident over 18 with a valid Social Security number and a verifiable physical US address (no PO boxes or APO addresses) can apply for an Zippy Cash Card. This information must be provided, along with other information pertinent to receiving approval, when applying for a Zippy Cash Card. Currently, we do not issue the Zippy Cash Card to residents of Puerto Rico, Guam, the Virgin Islands, American Samoa, or other US territories.
+          <br />
+          *Important information for opening a card account: To help the federal government fight the funding of terrorism and money laundering activities, the USA PATRIOT Act requires all financial institutions and their third parties to obtain, verify and record information that identifies each person who opens a card account. What this means for you: When you open a card account, we will ask for your name, address, date of birth, social security number or country identification number, and other information that will allows us to identify you. We may also request a copy of your driver’s license or other documentation bearing your photo as verification of your identity.
+          <br />
+          Apple and the Apple logo are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc. Google Play is a trademark of Google Inc. Data rates may apply. Samsung Pay is a trademark of Samsung Inc.
+        </div>
+      </div>
+    </div>
+    <footer
+      className="container mb-3"
+    >
+      <div
+        className="d-none d-md-block"
+      >
+        <div
+          className="d-flex justify-content-between border-bottom"
+        />
+        <div
+          className="d-flex justify-content-between border-top"
+        >
+          <div
+            className=""
+          >
+            <div
+              className="footer-link mt-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/personal-profile"
+              >
+                dev docs
+              </a>
+            </div>
+            <div
+              className="footer-link mt-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/"
+                onClick={[Function]}
+              >
+                Lore
+              </a>
+            </div>
+            <div
+              className="footer-link mt-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/"
+                onClick={[Function]}
+              >
+                Ipsum
+              </a>
+            </div>
+            <div
+              className="footer-link mt-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/"
+                onClick={[Function]}
+              >
+                Nullam Atoidio
+              </a>
+            </div>
+          </div>
+          <div
+            className="copyright mt-1"
+          >
+            <span>
+              © 2021 Lorem ipsum dolor sit amet, consectetuer
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="d-block d-md-none"
+      >
+        <div
+          className="d-flex border-bottom"
+        >
+          <div
+            className="d-flex flex-column me-2"
+          >
+            <div
+              className="footer-link mt-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/personal-profile"
+              >
+                dev docs
+              </a>
+            </div>
+            <div
+              className="footer-link mb-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/"
+                onClick={[Function]}
+              >
+                Lore
+              </a>
+            </div>
+            <div
+              className="footer-link mb-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/"
+                onClick={[Function]}
+              >
+                Ipsum
+              </a>
+            </div>
+            <div
+              className="footer-link mb-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/"
+                onClick={[Function]}
+              >
+                Nullam Atoidio
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          className="d-flex justify-content-end border-top"
+        >
+          <div
+            className="copyright mt-2 text-end small"
+          >
+            <span>
+              © 2021 Lorem ipsum dolor sit amet, consectetuer
+            </span>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</div>
+`;

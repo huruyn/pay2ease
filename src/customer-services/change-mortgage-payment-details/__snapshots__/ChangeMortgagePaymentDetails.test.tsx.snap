@@ -1,0 +1,261 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChangeMortgagePaymentDetails Component matches the snapshot 1`] = `
+<div
+  className="page-content"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-12"
+    >
+      <div>
+        <div
+          className="row"
+        >
+          <div
+            className="col"
+          >
+            <div
+              className="fade mb-0 rounded-0 text-dark text-center py-3 alert alert-secondary show"
+              role="alert"
+              style={
+                Object {
+                  "fontSize": 15,
+                }
+              }
+            >
+              Change mortgage payment amount
+            </div>
+          </div>
+        </div>
+        <div
+          className="row"
+        >
+          <div
+            className="col"
+          >
+            <div
+              className="fade mb-0 rounded-0 text-dark py-2 px-5 alert alert-danger show"
+              role="alert"
+            >
+              <i />
+              You don't have an account that allows you to complete this request.
+            </div>
+          </div>
+        </div>
+        <div
+          className="row"
+        >
+          <div
+            className="col"
+          >
+            <div
+              className="fade mb-0 rounded-0 text-dark py-0 px-5 alert alert-danger show"
+              role="alert"
+            >
+              <div
+                className="hstack gap-2"
+              >
+                <div>
+                  <i />
+                  <br />
+                  <br />
+                </div>
+                <div>
+                  <i />
+                  <ul>
+                    <li>
+                      The amount you can increase without a prepayment charge depends on the type of mortgage you have. The payment increase is only applied to the principal and interest amounts. Taxes and mortgage creditor insurance will remain unchanged.
+                    </li>
+                    <li>
+                      For limits specific to your mortgage, refer to the instructions in “Before you begin.“
+                    </li>
+                    <li>
+                      We"ll review the payment amount change request before processing. This may take up to 3 business days.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="px-5 col-12"
+    >
+      <div
+        className="pt-5 row"
+      >
+        <div
+          className="col-12"
+        >
+          <div
+            className="border-bottom border-2 border-secondary px-4 py-2"
+            style={
+              Object {
+                "backgroundColor": "#D0D0D0",
+                "color": "#000",
+              }
+            }
+          >
+            <i />
+            Before you begin
+          </div>
+        </div>
+        <div
+          className="col"
+        >
+          <div
+            className="align-items-top pt-3 row"
+          >
+            <div
+              className="pt-3 col-6"
+            >
+              Mortgage account
+              <select
+                aria-label="Default select example"
+                className="form-select"
+              >
+                <option>
+                   
+                </option>
+              </select>
+            </div>
+            <div
+              className="pt-3 col-6"
+            >
+              Increase payment amount to
+              <input
+                className="form-control"
+                placeholder="$"
+                type="number"
+              />
+            </div>
+            <div
+              className="pt-3 col-6"
+            >
+              From
+              <select
+                aria-label="Default select example"
+                className="form-select"
+              >
+                <option>
+                  - Choose an account -
+                </option>
+              </select>
+            </div>
+            <div
+              className="pt-3 col-6"
+            >
+              <div>
+                <div
+                  className="row"
+                >
+                  <div
+                    className="col-8"
+                  >
+                    Daytime phone
+                    <input
+                      className="form-control"
+                      placeholder=""
+                      type="tel"
+                    />
+                  </div>
+                  <div
+                    className="col-4"
+                  >
+                    Extension
+                    <input
+                      className="form-control"
+                      placeholder="Optional"
+                      type="text"
+                    />
+                  </div>
+                </div>
+                If we need more information, a ZippyX Mortgage Representative will contact you within 2 business days at the above number.
+              </div>
+            </div>
+            <div
+              className="pt-3 col-6"
+            >
+              Email
+              <input
+                className="form-control"
+                placeholder="dtough@hotmail.com "
+                type="number"
+              />
+              <div
+                className="form-check"
+              >
+                <input
+                  className="form-check-input"
+                  disabled={false}
+                  id="confirm"
+                  type="checkbox"
+                />
+                <label
+                  className="form-check-label"
+                  htmlFor="confirm"
+                  title=""
+                >
+                  Send status updates to this email address 
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="pt-4 row"
+      >
+        <div
+          className="col-12"
+        >
+          <div
+            className="border-bottom border-2 border-secondary px-4 py-2"
+            style={
+              Object {
+                "backgroundColor": "#D0D0D0",
+                "color": "#000",
+              }
+            }
+          >
+            <i />
+             Note
+          </div>
+        </div>
+      </div>
+      <div
+        className="pt-4 row"
+      >
+        <div
+          className="text-start col"
+        >
+          <button
+            className="btn btn-light"
+            disabled={false}
+            type="button"
+          >
+            <i />
+            Cancel
+          </button>
+        </div>
+        <div
+          className="text-end col"
+        >
+          <button
+            className="btn btn-light"
+            disabled={false}
+            type="button"
+          >
+            Next
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

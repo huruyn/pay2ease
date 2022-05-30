@@ -1,0 +1,1 @@
+window.API_URL = "https://zippy-retail-api-dev.azurewebsites.net";

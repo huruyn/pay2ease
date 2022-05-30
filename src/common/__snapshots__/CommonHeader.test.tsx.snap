@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CommonHeader Component matches the snapshot 1`] = `
+<div
+  className="d-flex justify-content-between align-items-center"
+>
+  <h3>
+    sample
+  </h3>
+</div>
+`;

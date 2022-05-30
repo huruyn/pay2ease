@@ -1,0 +1,409 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MakeALoanPayment Page Component matches the snapshot 1`] = `
+<div
+  className="page-content"
+>
+  <div
+    style={
+      Object {
+        "backgroundColor": "#F2F3F2",
+        "padding": 10,
+      }
+    }
+  >
+    <p
+      style={
+        Object {
+          "marginBottom": 0,
+          "textAlign": "center",
+        }
+      }
+    >
+      Make a Loan Payment
+    </p>
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "#FAF0F3",
+        "padding": 10,
+      }
+    }
+  >
+    <div
+      className="d-flex justify-content-between"
+    >
+      <div
+        className="d-flex"
+        style={
+          Object {
+            "fontSize": 14,
+            "marginBottom": 0,
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "border": "1px dotted grey",
+              "height": 25,
+              "marginRight": 10,
+              "textAlign": "center",
+              "width": 20,
+            }
+          }
+        >
+          P
+        </div>
+        You don't have an account that allows to complete this request
+      </div>
+      <p>
+        {
+        Result #0328
+        }
+      </p>
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "#DEE9F7",
+        "padding": 10,
+      }
+    }
+  >
+    <div
+      className="d-flex"
+      style={
+        Object {
+          "fontSize": 14,
+          "marginBottom": 0,
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "border": "1px dotted grey",
+            "height": 25,
+            "marginRight": 10,
+            "textAlign": "center",
+            "width": 20,
+          }
+        }
+      >
+        P
+      </div>
+      <ul>
+        <li>
+          It may take up to 2 business days to process your request.
+        </li>
+        <li>
+          All fields are required unless stated as optional.
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div
+    className="mt-4 row"
+  >
+    <div
+      className="bg-light p-3 col-md-12"
+      style={
+        Object {
+          "fontWeight": 500,
+        }
+      }
+    >
+      <span
+        style={
+          Object {
+            "color": "rgb(220, 53, 69)",
+            "marginRight": 5,
+          }
+        }
+      >
+        +
+      </span>
+      <span>
+        Make a loan payment with your Aventura or Gold Bonus Points.
+         
+        <span
+          style={
+            Object {
+              "textDecoration": "underline",
+            }
+          }
+        >
+          Make a Payment with Points
+        </span>
+      </span>
+      <span>
+         today
+      </span>
+    </div>
+  </div>
+  <div
+    className="mt-3"
+  >
+    <div
+      className="mt-3 row"
+    >
+      <div
+        className="col-md-6"
+      >
+        <label
+          className="form-label"
+          htmlFor="leading_account"
+        >
+          Leading Account
+        </label>
+        <div
+          className="row"
+        >
+          <div
+            className="col-md-12"
+          >
+            <select
+              className="form-select"
+              id="leading_account"
+            >
+              <option>
+                 
+              </option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="mt-3 row"
+    >
+      <div
+        className="col-md-12"
+      >
+        <label
+          className="form-label"
+        >
+          Choose an option
+        </label>
+        <div
+          className="row"
+        >
+          <div
+            className="col-md-6"
+          >
+            <div
+              aria-hidden="true"
+              className="p-5 option-btn"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              style={
+                Object {
+                  "background": "#f2f3f2",
+                  "color": "grey",
+                  "cursor": "pointer",
+                }
+              }
+            >
+              <h3>
+                Pay Partial amount
+              </h3>
+              <div>
+                Make sure you have enough money in your account during the next 2 days so we can process your payment
+              </div>
+            </div>
+          </div>
+          <div
+            className="col-md-6"
+          >
+            <div
+              aria-hidden="true"
+              className="p-5 option-btn"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              style={
+                Object {
+                  "background": "#f2f3f2",
+                  "color": "grey",
+                  "cursor": "pointer",
+                }
+              }
+            >
+              <h3>
+                Pay Partial amount
+              </h3>
+              <div>
+                Make sure you have enough money in your account during the next 2 days so we can process your payment
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="mt-3 row"
+    >
+      <div
+        className="col-md-6"
+      >
+        <label
+          className="form-label"
+          htmlFor="payment_amount"
+        >
+          Payment Amount
+        </label>
+        <div
+          className="mb-3 input-group"
+        >
+          <span
+            className="input-group-text"
+          >
+            $
+          </span>
+          <input
+            aria-label="Amount (to the nearest dollar)"
+            className="form-control"
+          />
+        </div>
+      </div>
+      <div
+        className="col-md-6"
+      >
+        <label
+          className="form-label"
+          htmlFor="leading_account"
+        >
+          From
+        </label>
+        <div
+          className="row"
+        >
+          <div
+            className="col-md-12"
+          >
+            <select
+              className="form-select"
+              id="leading_account"
+            >
+              <option>
+                - Choose an account -
+              </option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="mt-3 row"
+    >
+      <div
+        className="col-md-6"
+      >
+        <label
+          className="form-label"
+          htmlFor="email"
+        >
+          Email
+        </label>
+        <input
+          aria-describedby="email"
+          className="form-control"
+          id="email"
+        />
+        <div
+          className="form-check"
+        >
+          <input
+            className="form-check-input"
+            disabled={false}
+            type="checkbox"
+          />
+          <label
+            className="form-check-label"
+            title=""
+          >
+            Send status updates to this email address
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="mt-4 pb-4 row"
+    style={
+      Object {
+        "borderBottom": "1px solid grey",
+      }
+    }
+  >
+    <div
+      className="bg-light p-3 col-md-12"
+      style={
+        Object {
+          "borderBottom": "1px solid grey",
+          "fontWeight": 500,
+        }
+      }
+    >
+      <span
+        style={
+          Object {
+            "color": "rgb(220, 53, 69)",
+            "marginRight": 5,
+          }
+        }
+      >
+        +
+      </span>
+      <span>
+        Note
+      </span>
+    </div>
+  </div>
+  <div
+    className="mt-4"
+  >
+    <div
+      className="mt-4 row"
+    >
+      <div
+        className="col"
+      >
+        <button
+          className="d-flex btn btn-light"
+          disabled={false}
+          type="button"
+        >
+          <div
+            style={
+              Object {
+                "border": "1px dotted grey",
+                "height": 25,
+                "marginRight": 10,
+                "textAlign": "center",
+                "width": 20,
+              }
+            }
+          >
+            P
+          </div>
+          Cancel
+        </button>
+      </div>
+      <div
+        className="d-flex justify-content-end col"
+      >
+        <button
+          className="zippy-btn d-flex btn btn-primary"
+          disabled={false}
+          type="button"
+        >
+          Next
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

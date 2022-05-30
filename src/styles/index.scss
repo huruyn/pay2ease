@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+@import '../../node_modules/aos/dist/aos.css';
+@import '../../node_modules/bootstrap/dist/css/bootstrap.css';
+@import '../../node_modules/slick-carousel/slick/slick.css';
+@import '../../node_modules/slick-carousel/slick/slick-theme.css';
+
+@import 'homepage';
+@import 'iconography';
+@import 'header';
+@import 'layouts';
+@import 'vertical-nav-links';
+@import 'main';
+@import 'breadcrumbs';
+@import 'tabs';
+@import 'transaction-details';
+@import 'quick-tips';
+@import 'quick-links';
+@import 'input';
+@import 'button';
+@import 'modal';
+@import 'page-container';
+@import 'transfer-status.scss';
+@import 'contact-selector';
+@import 'zippy-balance';

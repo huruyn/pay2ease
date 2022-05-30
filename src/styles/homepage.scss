@@ -1,0 +1,63 @@
+@import './colors';
+
+.homepage-container {
+
+  .hero-heading {
+    font-size: 4.5em;
+    line-height: 1em;
+
+    &.fw-bold {
+      color: $color-white;
+    }
+  }
+
+  .hero {
+    .slider-slide {
+      background-position: center;
+      background-size: cover;
+
+      .container {
+        .row {
+          min-height: 60vh;
+          align-items: center;
+        }
+      }
+    }
+  }
+
+  .hero-button,
+  .my-button {
+    width: 230px;
+    font-weight: bold;
+    font-size: 1.6em;
+    padding: 0px 8px;
+    box-shadow: 5px 5px #88888840;
+    border-radius: 10px !important;
+    color: $color-red;
+  }
+
+  .hero-button {
+    margin-top: 30px;
+  }
+
+  .sliderh2 {
+    color: $color-white;
+    font-weight: 500;
+    font-size: 1.6em;
+    padding-top: 6em;
+  }
+
+  @media (min-width: 576px) {
+    .hero-heading {
+      font-size: 6.5em;
+      line-height: 1em;
+    }
+
+    .sliderh2 {
+      color: $color-white;
+      font-weight: 500;
+      font-size: 2em;
+      padding-top: 0em;
+    }
+  }
+}

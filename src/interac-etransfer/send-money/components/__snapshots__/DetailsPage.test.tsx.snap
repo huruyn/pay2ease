@@ -1,0 +1,371 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DetailsPage Component getEmail with contacts should render an email 1`] = `
+<DetailsPage
+  accounts={
+    Array [
+      Object {
+        "balance": 0,
+        "id": 0,
+        "name": "test",
+      },
+    ]
+  }
+  contacts={
+    Array [
+      Object {
+        "email": "email@zippy.cash",
+        "firstName": "Test",
+        "id": 1,
+        "lastName": "Test",
+        "phone": "phone",
+      },
+    ]
+  }
+  handleSecurity={[MockFunction]}
+  isProcessing={false}
+  mainInfo={
+    Object {
+      "amount": 1000,
+      "confirmSecurityAnswer": "security Answer",
+      "destination": Object {
+        "email": "destination@email.com",
+        "name": "destination name",
+      },
+      "fromAccount": "fromAccount (8000 0000 00000000)",
+      "message": "message",
+      "securityAnswer": "security Answer",
+      "securityQuestion": "security Question",
+      "showAnswer": true,
+      "source": Object {
+        "email": "source@email.com",
+        "name": "source name",
+      },
+      "transferMethod": "Email",
+    }
+  }
+  selectedAccount={1}
+  selectedContact={1}
+  setContactToSend={[MockFunction]}
+  setMainInfo={[MockFunction]}
+  setSelectedAccount={[MockFunction]}
+/>
+`;
+
+exports[`DetailsPage Component getEmail without contacts should render no email 1`] = `
+<DetailsPage
+  accounts={
+    Array [
+      Object {
+        "balance": 0,
+        "id": 0,
+        "name": "test",
+      },
+    ]
+  }
+  contacts={Array []}
+  handleSecurity={[MockFunction]}
+  isProcessing={false}
+  mainInfo={
+    Object {
+      "amount": 1000,
+      "confirmSecurityAnswer": "security Answer",
+      "destination": Object {
+        "email": "destination@email.com",
+        "name": "destination name",
+      },
+      "fromAccount": "fromAccount (8000 0000 00000000)",
+      "message": "message",
+      "securityAnswer": "security Answer",
+      "securityQuestion": "security Question",
+      "showAnswer": true,
+      "source": Object {
+        "email": "source@email.com",
+        "name": "source name",
+      },
+      "transferMethod": "Email",
+    }
+  }
+  selectedAccount={0}
+  selectedContact={1}
+  setContactToSend={[MockFunction]}
+  setMainInfo={[MockFunction]}
+  setSelectedAccount={[MockFunction]}
+/>
+`;
+
+exports[`DetailsPage Component should render SecurityQuestionPage 1`] = `
+<div>
+  <h4>
+    Your Interac e-Transfer Details
+  </h4>
+  <ul>
+    <li>
+      Fees apply to Interac e-Transfer transactions.
+       
+      <a
+        class="text-black"
+        href="/"
+      >
+        Learn more about Interac e-Transfer fees
+      </a>
+    </li>
+    <li>
+      There are limits on how much money you can send in a day, a week and a month.
+       
+      <a
+        class="text-black"
+        href="/"
+      >
+        Learn more about Interac e-Transfer limits
+      </a>
+    </li>
+    <li>
+      Note: Sending money outside of Canada? Use the
+       
+      <a
+        class="text-black"
+        href="/"
+      >
+        ZippyX Global Money Transfer Services
+      </a>
+    </li>
+  </ul>
+  <div
+    class="mt-4 row"
+  >
+    <div
+      class="col-md-4"
+    >
+      <label
+        class="form-label"
+      >
+        Send Money To:
+      </label>
+    </div>
+    <div
+      class="col-md-8"
+    >
+      <select
+        class="send-account-select form-select"
+      >
+        <option>
+          Select
+        </option>
+        <option
+          value="1"
+        >
+          Test Test
+        </option>
+      </select>
+      <div
+        class="contact-details"
+      >
+        <div>
+          Email: email@zippy.cash
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="mt-2 row"
+  >
+    <div
+      class="col-md-4"
+    >
+      <label
+        class="form-label"
+      >
+        Amount:
+      </label>
+    </div>
+    <div
+      class="col-md-8"
+    >
+      <input
+        class="form-control"
+        step=".01"
+        type="number"
+        value="1000"
+      />
+      <label
+        class="form-label"
+      >
+        The maximum amount you can send in each transfer is $3,000.
+      </label>
+    </div>
+  </div>
+  <div
+    class="mt-2 row"
+  >
+    <div
+      class="col-md-4"
+    >
+      <label
+        class="form-label"
+      >
+        From Account:
+      </label>
+    </div>
+    <div
+      class="col-md-8"
+    >
+      <select
+        class="from-account-info form-select"
+      >
+        <option>
+          Select
+        </option>
+        <option
+          value="0"
+        >
+          test
+        </option>
+      </select>
+    </div>
+  </div>
+  <div
+    class="mt-2 row"
+  >
+    <div
+      class="col-md-4"
+    >
+      <label
+        class="form-label"
+      >
+        Transfer Method:
+      </label>
+    </div>
+    <div
+      class="col-md-8"
+    >
+      <select
+        class="transfer-method form-select"
+      >
+        <option>
+          Email
+        </option>
+      </select>
+    </div>
+  </div>
+  <div
+    class="mt-2 row"
+  >
+    <div
+      class="col-md-4"
+    >
+      <label
+        class="form-label"
+      >
+        Message (Optional):
+      </label>
+    </div>
+    <div
+      class="col-md-8"
+    >
+      <textarea
+        class="form-control"
+        rows="3"
+      >
+        message
+      </textarea>
+      <p>
+        Do not provide the security question, any part of the security answer or any confidential information in your message to the contact. This message will be viewable on the Interac e-Transfer Status page.
+      </p>
+    </div>
+  </div>
+  <hr
+    style="height: 1px; width: 100%;"
+  />
+  <div
+    class="mt-2 row"
+  >
+    <div
+      class="col-md-12"
+    >
+      <p>
+        This is how you will appear in all emails to your Interac e-Transfer contacts. If incorrect,
+         
+        <a
+          class="text-black"
+          href="/"
+        >
+          edit your profile.
+        </a>
+      </p>
+    </div>
+  </div>
+  <div
+    class="mt-2 row"
+  >
+    <div
+      class="col-md-4"
+    >
+      <label
+        class="form-label"
+      >
+        Your Email Nickname:
+      </label>
+    </div>
+    <div
+      class="col-md-8"
+    >
+      <label
+        class="form-label"
+      />
+    </div>
+  </div>
+  <div
+    class="mt-2 row"
+  >
+    <div
+      class="col-md-4"
+    >
+      <label
+        class="form-label"
+      >
+        Your Email Address:
+      </label>
+    </div>
+    <div
+      class="col-md-8"
+    >
+      <label
+        class="form-label"
+      />
+    </div>
+  </div>
+  <hr
+    style="height: 1px; width: 100%;"
+  />
+  <div
+    class="mt-4 mb-4 row"
+  >
+    <div
+      class="col"
+    >
+      <button
+        class="d-flex btn btn-light"
+        type="button"
+      >
+        <div
+          style="width: 20px; height: 25px; border: 1px dotted grey; text-align: center; margin-right: 10px;"
+        >
+          P
+        </div>
+        Cancel
+      </button>
+    </div>
+    <div
+      class="d-flex justify-content-end col"
+    >
+      <button
+        class="zippy-btn d-flex btn btn-primary"
+        type="button"
+      >
+        Next
+      </button>
+    </div>
+  </div>
+</div>
+`;

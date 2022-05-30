@@ -1,0 +1,265 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OrderCheques Component matches the snapshot 1`] = `
+<div
+  className="page-content"
+>
+  <div
+    className="row"
+    style={
+      Object {
+        "justifyContent": "space-between",
+        "marginBottom": "15px",
+        "marginTop": "15px",
+      }
+    }
+  >
+    <h3>
+      ORDER CHEQUES
+    </h3>
+    <span>
+      <i />
+      <i />
+      <i />
+    </span>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-9"
+    >
+      <div
+        className="row"
+        style={
+          Object {
+            "margin": "0px 2px",
+            "padding": "15px 0px",
+          }
+        }
+      >
+        <div
+          className="row"
+        >
+          <ul>
+            <li>
+              <p>
+                The cost of your order will be charged to the account you select.
+              </p>
+            </li>
+            <li>
+              <p>
+                <p>
+                  Your cheques will arrive in 71 to 10 business days.
+                </p>
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div
+          className="row"
+          style={
+            Object {
+              "display": "flex",
+              "gap": "20px",
+              "marginTop": "10px",
+            }
+          }
+        >
+          <div
+            className="col-md-3"
+          >
+            <h4>
+              Account
+            </h4>
+          </div>
+          <div
+            className="col-md-6"
+          >
+            <select
+              className="form-control"
+              style={
+                Object {
+                  "padding": "10px 10px",
+                }
+              }
+            >
+              <option
+                selected={true}
+              >
+                Choose an account
+              </option>
+              <option
+                value="1"
+              >
+                A
+              </option>
+              <option
+                value="2"
+              >
+                B
+              </option>
+              <option
+                value="3"
+              >
+                C
+              </option>
+            </select>
+            <ul>
+              <li>
+                Before ordering cheques, please make sure
+                <u
+                  style={
+                    Object {
+                      "fontWeight": "bold",
+                    }
+                  }
+                >
+                    
+                  your address is correct
+                </u>
+              </li>
+              <li>
+                If you changed your address during this session it will not be reflected in the cheque order process until you exit and sign back on to ZippyX.
+              </li>
+              <li>
+                If you don't want your home address, phone number and/or email address to appear on your cheques, you can indicate this later in the ordering process.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <hr
+        style={
+          Object {
+            "height": "1px",
+            "width": "100%",
+          }
+        }
+      />
+      <div
+        className="col"
+        style={
+          Object {
+            "borderRadius": "4px",
+            "display": "flex",
+            "justifyContent": "space-between",
+            "marginBottom": "10px",
+            "marginTop": "-18px",
+            "padding": "6px 0px",
+          }
+        }
+      >
+        <button
+          style={
+            Object {
+              "backgroundColor": "white",
+              "border": "2px solid white",
+              "borderRadius": "4px",
+              "color": "black",
+              "marginRight": "15px",
+              "padding": "5px 12px",
+            }
+          }
+          type="button"
+        >
+          <i />
+          Cancel
+        </button>
+        <button
+          style={
+            Object {
+              "borderRadius": "4px",
+              "padding": "5px 12px",
+            }
+          }
+          type="button"
+        >
+          Next
+        </button>
+      </div>
+      <hr
+        style={
+          Object {
+            "height": "1px",
+          }
+        }
+      />
+      <div
+        className="row"
+      >
+        <i />
+        <h6
+          style={
+            Object {
+              "fontWeight": "bold",
+            }
+          }
+        >
+          Note:
+        </h6>
+        <ul>
+          <li>
+            <p>
+              Make sure you're ordering cheques for the correct account verify the transit number and account number.
+            </p>
+          </li>
+          <li>
+            <p>
+              Standard charges apply to online cheque orders You can confirm these charges before you complete your order.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div
+      className="col-md-3"
+    >
+      <div
+        className="row"
+        style={
+          Object {
+            "border": "solid #AAAAAA 1px",
+            "justifyItems": "space-between",
+            "margin": "0px 0px 20px 0px",
+          }
+        }
+      >
+        <h6
+          style={
+            Object {
+              "paddingTop": "10px",
+            }
+          }
+        >
+          You can also:
+        </h6>
+        <a
+          href="./"
+          style={
+            Object {
+              "color": "black",
+              "padding": "8px 8px",
+              "textDecoration": "none",
+            }
+          }
+        >
+          Stop payment of cheques
+        </a>
+        <a
+          href="./"
+          style={
+            Object {
+              "color": "black",
+              "padding": "8px 8px",
+              "textDecoration": "none",
+            }
+          }
+        >
+          send money faster with lnterac e-Transfer®
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

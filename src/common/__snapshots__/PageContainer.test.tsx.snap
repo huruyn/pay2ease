@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageContainer Component matches the snapshot 1`] = `
+<div
+  className=""
+>
+  <div
+    className="zippy-cash-container-wrap"
+  >
+    <div
+      className="backdrop "
+    />
+    <div
+      className="zippy-cash-container"
+    >
+      
+      <div
+        className="zippy-cash-container-body"
+      >
+        <div>
+          test
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Component matches the snapshot 1`] = `
+<main
+  className="default-layout"
+>
+  <div
+    className="left-side-nav"
+  >
+    <div
+      className="vertical-nav-wrapper noselect"
+    >
+      <div
+        className="vertical-nav nav"
+        onKeyDown={[Function]}
+      >
+        <a
+          className="navbar-brand"
+          href="/"
+          onClick={[Function]}
+        >
+          <img
+            alt=""
+            src="ZippyCash_Logo.svg"
+          />
+        </a>
+        <a
+          className="nav-link nav-link"
+          data-rr-ui-event-key={null}
+          disabled={false}
+          href="/my-accounts"
+          id="my-account-link"
+          onClick={[Function]}
+        >
+          <i
+            className="zippy-cash-icon zc-home"
+          />
+          My Accounts
+          <i
+            className="dropdown zippy-cash-icon zc-up"
+          />
+        </a>
+        <a
+          className="nav-link nav-link"
+          data-rr-ui-event-key={null}
+          disabled={false}
+          href="/interac-etransfer"
+          onClick={[Function]}
+        >
+          <i
+            className="zippy-cash-icon zc-interac-etransfer"
+          />
+          Interac e-Transfer
+          <i
+            className="dropdown zippy-cash-icon zc-up"
+          />
+        </a>
+        <a
+          className="nav-link nav-link"
+          data-rr-ui-event-key={null}
+          disabled={false}
+          href="/my-wallet/zippy-money/send/transaction-start"
+          onClick={[Function]}
+        >
+          <i
+            className="zippy-cash-icon zc-interac-etransfer"
+          />
+          My Wallet
+          <i
+            className="dropdown zippy-cash-icon zc-up"
+          />
+        </a>
+        <a
+          className="nav-link nav-link"
+          data-rr-ui-event-key={null}
+          disabled={false}
+          href="/bill-payments"
+          onClick={[Function]}
+        >
+          <i
+            className="zippy-cash-icon zc-bill-payments"
+          />
+          Bill Payments
+          <i
+            className="dropdown zippy-cash-icon zc-up"
+          />
+        </a>
+        <a
+          className="nav-link nav-link"
+          data-rr-ui-event-key={null}
+          disabled={false}
+          href="/transfer-funds"
+          onClick={[Function]}
+        >
+          <i
+            className="zippy-cash-icon zc-transfer-funds"
+          />
+          Transfer Funds
+          <i
+            className="dropdown zippy-cash-icon zc-up"
+          />
+        </a>
+        <a
+          className="nav-link nav-link"
+          data-rr-ui-event-key={null}
+          disabled={false}
+          href="/account-security"
+          onClick={[Function]}
+        >
+          <i
+            className="zippy-cash-icon zc-account-security"
+          />
+          Account Security
+        </a>
+        <hr />
+        <a
+          className="nav-link nav-link"
+          data-rr-ui-event-key={null}
+          disabled={false}
+          href="/customer-services"
+          onClick={[Function]}
+        >
+          <i
+            className="zippy-cash-icon zc-customer-services"
+          />
+          Customer Services
+        </a>
+        <a
+          className="nav-link nav-link"
+          data-rr-ui-event-key={null}
+          disabled={false}
+          href="/manage-my-alerts"
+          onClick={[Function]}
+        >
+          <i
+            className="zippy-cash-icon zc-manage-my-alerts"
+          />
+          Manage My Alerts
+        </a>
+        <a
+          className="nav-link nav-link"
+          data-rr-ui-event-key={null}
+          disabled={false}
+          href="/contact-us"
+          onClick={[Function]}
+        >
+          <i
+            className="zippy-cash-icon zc-contact-us"
+          />
+          Contact Us
+        </a>
+        <div
+          className="copyright"
+        >
+          © 2021 Zippy Cash LLC
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="content"
+  />
+</main>
+`;

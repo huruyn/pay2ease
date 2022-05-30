@@ -1,0 +1,28 @@
+version: '3.8'
+   
+services:
+  web:
+    image: zippydev.azurecr.io/zippy-retail-web
+    depends_on:
+      - api
+    environment:
+      - API_URL=http://localhost:8000
+    ports:
+      - 80:80
+  api:
+    image: zippydev.azurecr.io/zippy-retail-api
+    depends_on:
+      - db
+    environment: 
+      - ASPNETCORE_ENVIRONMENT=Development
+      - AutoMigrate=true
+      - CUSTOMCONNSTR_Zippy=Server=db;Database=Zippy;User=sa;Password=Strong@Passw0rd;
+    ports:
+      - 8000:80
+  db:
+    image: mcr.microsoft.com/mssql/server
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=Strong@Passw0rd
+    ports: 
+      - 1433:1433

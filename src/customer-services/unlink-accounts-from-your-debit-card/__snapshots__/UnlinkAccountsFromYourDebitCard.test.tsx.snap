@@ -1,0 +1,375 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UnlinkAccountsFromYourDebitCard Component matches the snapshot 1`] = `
+<div
+  className="page-content"
+>
+  <div
+    className="row"
+    style={
+      Object {
+        "justifyContent": "space-between",
+        "marginBottom": "15px",
+        "marginTop": "15px",
+      }
+    }
+  >
+    <h3>
+      UNLINK ACCOUNTS
+    </h3>
+    <span>
+      <i />
+      <i />
+    </span>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-9"
+    >
+      <div
+        className="row"
+        style={
+          Object {
+            "margin": "0px 2px",
+            "padding": "15px 0px",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "alignItems": "baseline",
+              "display": "flex",
+              "marginBottom": "15px",
+            }
+          }
+        >
+          <p
+            style={
+              Object {
+                "fontWeight": "bold",
+                "marginRight": "15px",
+              }
+            }
+          >
+            Step :
+          </p>
+          <div
+            style={
+              Object {
+                "backgroundColor": "red",
+                "border": "2px solid red",
+                "borderRadius": "50%",
+                "color": "white",
+                "display": "inline-block",
+                "height": "30px",
+                "textAlign": "center",
+                "width": " 30px",
+              }
+            }
+          >
+            1
+          </div>
+          <hr
+            style={
+              Object {
+                "alignSelf": "center",
+                "backgroundColor": "black",
+                "borderColor": "black",
+                "borderWidth": "2px",
+                "marginBottom": "auto",
+                "width": "25px",
+              }
+            }
+          />
+          <div
+            style={
+              Object {
+                "border": "2px solid #000",
+                "borderRadius": "50%",
+                "display": "inline-block",
+                "height": "30px",
+                "textAlign": "center",
+                "width": " 30px",
+              }
+            }
+          >
+            2
+          </div>
+        </div>
+        <div
+          className="row"
+        >
+          <h4>
+            Unlink an Existing Account from Your Debit Card
+          </h4>
+          <p>
+            Unlink an Existing Account from Your Debit Card will not close the account
+          </p>
+          <p>
+            IMPORTANT: Any future dated transactions including transfers or bill payments involving an account that is unlinked will be deleted Please review your future dated transaction prior to unlinking an account
+          </p>
+          <p>
+            If you unlink a bank account
+          </p>
+          <ul>
+            <li>
+              You may not able to access the unlinked account or perfom certain atlas (e.g., transfer funds) through ZippyX.
+            </li>
+            <li>
+              You will not be able to use the account for interac® point of sale transactions.
+            </li>
+          </ul>
+          <p>
+            if you unlink a credit card account:
+          </p>
+          <ul>
+            <li>
+              You will not be able to transfer funds between your credit card and bank account(s) through ZippyX.
+            </li>
+            <li>
+              You will not be able to access your credit card at bank machines when using your debit card.
+            </li>
+          </ul>
+          <p>
+            If you'd like to link your account to your debit card in the future, select "Link Account" beside the account on the "My Account" page
+          </p>
+          <p
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Accounts currently linked to ZippyX debit card 4506 4457 3443 3434
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-md-3"
+    >
+      <div
+        className="row"
+        style={
+          Object {
+            "border": "solid #AAAAAA 1px",
+            "justifyItems": "space-between",
+            "margin": "0px 0px 20px 0px",
+          }
+        }
+      >
+        <h6
+          style={
+            Object {
+              "paddingTop": "10px",
+            }
+          }
+        >
+          You can also:
+        </h6>
+        <a
+          href="./"
+          style={
+            Object {
+              "color": "black",
+              "padding": "8px 8px",
+              "textDecoration": "none",
+            }
+          }
+        >
+          Review Transfer
+        </a>
+        <a
+          href="./"
+          style={
+            Object {
+              "color": "black",
+              "padding": "8px 8px",
+              "textDecoration": "none",
+            }
+          }
+        >
+          View Upcoming and Past Payments
+        </a>
+      </div>
+    </div>
+  </div>
+  <table
+    className="table table-borderless"
+  >
+    <thead
+      style={
+        Object {
+          "background": "#EEEEEE",
+          "height": "40px",
+          "margin": "0px",
+        }
+      }
+    >
+      <tr>
+        <th
+          scope="col"
+          style={
+            Object {
+              "width": "33%",
+            }
+          }
+        >
+          ACCOUNT NAME
+        </th>
+        <th
+          scope="col"
+          style={
+            Object {
+              "width": "33%",
+            }
+          }
+        >
+          TRANSIT NUMBER
+        </th>
+        <th
+          scope="col"
+          style={
+            Object {
+              "width": "33%",
+            }
+          }
+        >
+          ACCOUNT NUMBER
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        style={
+          Object {
+            "borderBottom": "1px solid #F4F4F4",
+          }
+        }
+      >
+        <td>
+          <input
+            name="brand"
+            style={
+              Object {
+                "marginRight": "10px",
+              }
+            }
+            type="checkbox"
+          />
+          chequing
+        </td>
+        <td>
+          01702
+        </td>
+        <td>
+          81-99639
+        </td>
+      </tr>
+      <tr
+        style={
+          Object {
+            "borderBottom": "1px solid #F4F4F4",
+          }
+        }
+      >
+        <td>
+          <input
+            name="brand"
+            style={
+              Object {
+                "marginRight": "10px",
+              }
+            }
+            type="checkbox"
+          />
+          Savings
+        </td>
+        <td>
+          01702
+        </td>
+        <td>
+          81-99668
+        </td>
+      </tr>
+      <tr
+        style={
+          Object {
+            "borderBottom": "1px solid #F4F4F4",
+          }
+        }
+      >
+        <td>
+          <input
+            name="brand"
+            style={
+              Object {
+                "marginRight": "10px",
+              }
+            }
+            type="checkbox"
+          />
+          Others
+        </td>
+        <td>
+          01702
+        </td>
+        <td>
+          96-00797
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <hr
+    style={
+      Object {
+        "height": "1px",
+        "width": "100%",
+      }
+    }
+  />
+  <div
+    className="col"
+    style={
+      Object {
+        "borderRadius": "4px",
+        "display": "flex",
+        "justifyContent": "space-between",
+        "marginBottom": "10px",
+        "marginTop": "-18px",
+        "padding": "6px 0px",
+      }
+    }
+  >
+    <button
+      style={
+        Object {
+          "backgroundColor": "white",
+          "border": "2px solid grey",
+          "borderRadius": "4px",
+          "color": "black",
+          "marginRight": "15px",
+          "padding": "5px 12px",
+        }
+      }
+      type="button"
+    >
+      Cancel
+    </button>
+    <button
+      style={
+        Object {
+          "borderRadius": "4px",
+          "padding": "5px 12px",
+        }
+      }
+      type="button"
+    >
+      Next
+    </button>
+  </div>
+</div>
+`;

@@ -1,0 +1,22 @@
+@import './colors';
+
+.quick-tips {
+  padding: 15px 0;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  color: $color-light-black;
+
+  h4 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: $color-black;
+    margin-bottom: 15px;
+  }
+
+  ul {
+    padding-left: 20px;
+    margin: 0;
+  }
+}

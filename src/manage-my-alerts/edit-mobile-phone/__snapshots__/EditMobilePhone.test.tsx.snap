@@ -1,0 +1,172 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditMobilePhone Component matches the snapshot 1`] = `
+Array [
+  <div
+    className="row"
+    style={
+      Object {
+        "padding": "30px",
+      }
+    }
+  >
+    <h3>
+      MOBILE PHONE NUMBER UPDATE
+    </h3>
+    <ul
+      style={
+        Object {
+          "marginLeft": "25px",
+        }
+      }
+    >
+      <li
+        style={
+          Object {
+            "marginBottom": "6px",
+          }
+        }
+      >
+        This will be your SMS (Short Message Service) mobile phone number on file with ZippyX.
+      </li>
+      <li
+        style={
+          Object {
+            "marginBottom": "6px",
+          }
+        }
+      >
+        If you choose to recieve SMS alerts, ZippyX will use this number to send alerts to you.
+      </li>
+      <li
+        style={
+          Object {
+            "marginBottom": "6px",
+          }
+        }
+      >
+        The alerts service is only available to Canadian wireless device numbers.
+      </li>
+      <li
+        style={
+          Object {
+            "marginBottom": "6px",
+          }
+        }
+      >
+        Standard messaging and data rates may apply, ZippyX will send you a monthly reminder through SMS text message to allow you to opt out of recieving SMS text message from us.
+      </li>
+    </ul>
+    <div
+      className="row"
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "justifyContent": "space-evenly",
+          "margin": "30px 0px",
+        }
+      }
+    >
+      <div
+        className="col"
+      >
+        <div
+          className="mb-3 row"
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+            }
+          }
+        >
+          <div
+            className="col-md-4"
+          >
+            <label
+              className="form-label col-form-label col"
+              htmlFor="MobilePhone"
+            >
+              Mobile phone number:
+            </label>
+          </div>
+          <div
+            className="col-md-8"
+          >
+            <input
+              className="form-control"
+              id="MobilePhone"
+              required={true}
+              style={
+                Object {
+                  "width": "120px",
+                }
+              }
+              type="tel"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="row"
+    style={
+      Object {
+        "backgroundColor": "#e3e3e3",
+        "display": "flex",
+        "justifyContent": "space-between",
+        "margin": "0px",
+        "marginTop": "10px",
+        "padding": "20px 10px",
+      }
+    }
+  >
+    <div
+      className="col"
+    >
+      <button
+        id="cancel-btn-edit-mobile-phone"
+        onClick={[MockFunction]}
+        style={
+          Object {
+            "backgroundColor": "transparent",
+            "border": "0",
+            "color": "black",
+            "padding": "5px 12px",
+          }
+        }
+        type="button"
+      >
+        <i />
+        Cancel
+      </button>
+    </div>
+    <div
+      className="col"
+      style={
+        Object {
+          "textAlign": "end",
+        }
+      }
+    >
+      <button
+        id="next-btn-edit-mobile-phone"
+        onClick={[MockFunction]}
+        style={
+          Object {
+            "backgroundColor": "#C41F3E",
+            "borderColor": "#C41F3E",
+            "borderRadius": "3px",
+            "color": "white",
+            "padding": "5px 12px",
+          }
+        }
+        type="button"
+      >
+        Next
+      </button>
+    </div>
+  </div>,
+]
+`;

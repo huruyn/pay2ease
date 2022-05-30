@@ -1,0 +1,156 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactInput Component matches the snapshot 1`] = `
+<div
+  className="contact-selector"
+>
+  <div
+    className="contact-identifier"
+  >
+    <input
+      className="form-control"
+      onChange={[Function]}
+      placeholder="Enter @ZippyUsername or Email"
+      type="text"
+      value=""
+    />
+    <button
+      className="btn-select-contact btn-transparent btn btn-primary"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+      <i
+        className="zippy-cash-icon zc-add"
+      />
+    </button>
+  </div>
+  <div
+    className="contact-list-wrap"
+  >
+    <div
+      className="contact-container hidden"
+    >
+      <div
+        aria-label="Zippy Cash"
+        className="zippy-btn-group btn-group"
+        role="group"
+      >
+        <button
+          className="active btn btn-primary"
+          disabled={true}
+          onClick={[Function]}
+          type="button"
+        >
+          Personal
+        </button>
+        <button
+          className="btn btn-primary"
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+        >
+          Business
+        </button>
+      </div>
+      <div
+        className="contact-search"
+      >
+        <i
+          className="zippy-cash-icon zc-search"
+        />
+        <input
+          className="form-control"
+          onChange={[Function]}
+          placeholder="Search..."
+          value=""
+        />
+      </div>
+      <div
+        className="contact-list-container"
+      >
+        <div>
+          Loading...
+        </div>
+      </div>
+      <div
+        className="action"
+      >
+        <button
+          className="zippy-btn btn btn-primary"
+          disabled={true}
+          onClick={[Function]}
+          type="button"
+        >
+          <div
+            className="loading spinner-border"
+            role="status"
+          />
+          Add Contact
+        </button>
+      </div>
+    </div>
+    <div
+      className="contact-container hidden"
+    >
+      <div
+        className="container-header"
+      >
+        <h2
+          className="title"
+        >
+          Add  Contact
+        </h2>
+      </div>
+      <div
+        className="container-body"
+      >
+        <input
+          className="common-input form-control"
+          name="firstname"
+          onChange={[Function]}
+          placeholder="Firstname"
+          type="text"
+          value=""
+        />
+        <input
+          className="common-input form-control"
+          name="lastname"
+          onChange={[Function]}
+          placeholder="Lastname"
+          type="text"
+          value=""
+        />
+        <input
+          className="common-input form-control"
+          name="email"
+          onChange={[Function]}
+          placeholder="Email"
+          type="text"
+          value=""
+        />
+        <input
+          className="common-input form-control"
+          name="nickname"
+          onChange={[Function]}
+          placeholder="Nickname (optional)"
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="action"
+      >
+        <button
+          className="zippy-btn btn btn-primary"
+          disabled={true}
+          onClick={[Function]}
+          type="button"
+        >
+          Add Contact
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

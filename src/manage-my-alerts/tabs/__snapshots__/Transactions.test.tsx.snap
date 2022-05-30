@@ -1,0 +1,408 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GetAlertedHeader Component matches the snapshot 1`] = `
+Array [
+  <div
+    className="row"
+    style={
+      Object {
+        "backgroundColor": "#EFEFEF",
+        "borderBottom": "1px solid grey",
+      }
+    }
+  >
+    <div
+      className="col-md-8"
+    >
+      <p
+        style={
+          Object {
+            "marginTop": 12,
+          }
+        }
+      >
+        GET ALERTED WHEN...
+      </p>
+    </div>
+    <div
+      className="col-md-4"
+    >
+      <p
+        style={
+          Object {
+            "marginTop": 12,
+          }
+        }
+      >
+        SEND ALERT TO...
+      </p>
+    </div>
+  </div>,
+  <div
+    style={
+      Object {
+        "margin": "20px 5px",
+      }
+    }
+  >
+    <div
+      className="d-flex"
+    >
+      <div
+        className="form-check"
+      >
+        <input
+          className="form-check-input"
+          disabled={false}
+          type="checkbox"
+        />
+        <label
+          className="form-check-label"
+          title=""
+        >
+          A scheduled bill payment has failed
+        </label>
+      </div>
+      <i />
+    </div>
+    <hr
+      style={
+        Object {
+          "color": "C4C4C4",
+          "height": "2px",
+        }
+      }
+    />
+  </div>,
+  <div
+    style={
+      Object {
+        "margin": "20px 5px",
+      }
+    }
+  >
+    <div
+      className="d-flex"
+    >
+      <div
+        className="form-check"
+      >
+        <input
+          className="form-check-input"
+          disabled={false}
+          type="checkbox"
+        />
+        <label
+          className="form-check-label"
+          title=""
+        >
+          A scheduled bill payment was successful
+        </label>
+      </div>
+      <i />
+    </div>
+    <hr
+      style={
+        Object {
+          "color": "C4C4C4",
+          "height": "2px",
+        }
+      }
+    />
+  </div>,
+  <div
+    style={
+      Object {
+        "margin": "20px 5px",
+      }
+    }
+  >
+    <div
+      className="d-flex"
+    >
+      <div
+        className="form-check"
+      >
+        <input
+          className="form-check-input"
+          disabled={false}
+          type="checkbox"
+        />
+        <label
+          className="form-check-label"
+          title=""
+        >
+          A scheduled transfer has failed
+        </label>
+      </div>
+      <i />
+    </div>
+    <hr
+      style={
+        Object {
+          "color": "C4C4C4",
+          "height": "2px",
+        }
+      }
+    />
+  </div>,
+  <div
+    style={
+      Object {
+        "margin": "20px 5px",
+      }
+    }
+  >
+    <div
+      className="d-flex"
+    >
+      <div
+        className="form-check"
+      >
+        <input
+          className="form-check-input"
+          disabled={false}
+          type="checkbox"
+        />
+        <label
+          className="form-check-label"
+          title=""
+        >
+          A scheduled transfer was successful
+        </label>
+      </div>
+      <i />
+    </div>
+    <hr
+      style={
+        Object {
+          "color": "C4C4C4",
+          "height": "2px",
+        }
+      }
+    />
+  </div>,
+  <div
+    style={
+      Object {
+        "margin": "20px 5px",
+      }
+    }
+  >
+    <div
+      className="d-flex"
+    >
+      <div
+        className="form-check"
+      >
+        <input
+          className="form-check-input"
+          disabled={false}
+          type="checkbox"
+        />
+        <label
+          className="form-check-label"
+          title=""
+        >
+          An interac e-Transfer was sent
+        </label>
+      </div>
+      <i />
+    </div>
+    <hr
+      style={
+        Object {
+          "color": "C4C4C4",
+          "height": "2px",
+        }
+      }
+    />
+  </div>,
+  <div
+    style={
+      Object {
+        "margin": "20px 5px",
+      }
+    }
+  >
+    <div
+      className="d-flex"
+    >
+      <div
+        className="form-check"
+      >
+        <input
+          className="form-check-input"
+          disabled={false}
+          type="checkbox"
+        />
+        <label
+          className="form-check-label"
+          title=""
+        >
+          A return has been made
+        </label>
+      </div>
+      <i />
+    </div>
+    <hr
+      style={
+        Object {
+          "color": "C4C4C4",
+          "height": "2px",
+        }
+      }
+    />
+  </div>,
+  <div
+    style={
+      Object {
+        "margin": "20px 5px",
+      }
+    }
+  >
+    <div
+      className="d-flex"
+    >
+      <div
+        className="form-check"
+      >
+        <input
+          className="form-check-input"
+          disabled={false}
+          type="checkbox"
+        />
+        <label
+          className="form-check-label"
+          title=""
+        >
+          Held funds are now available
+        </label>
+      </div>
+      <i />
+    </div>
+    <hr
+      style={
+        Object {
+          "color": "C4C4C4",
+          "height": "2px",
+        }
+      }
+    />
+  </div>,
+  <div
+    className="d-flex justify-content-end row"
+  >
+    <button
+      className="btn btn-outline-danger"
+      disabled={false}
+      style={
+        Object {
+          "marginRight": 10,
+          "width": "auto",
+        }
+      }
+      type="button"
+    >
+      Reset
+    </button>
+    <button
+      className="zippy-btn btn btn-primary"
+      disabled={false}
+      style={
+        Object {
+          "marginRight": 10,
+          "width": "auto",
+        }
+      }
+      type="button"
+    >
+      Save
+    </button>
+  </div>,
+  <div
+    className="mt-2"
+  >
+    <hr
+      style={
+        Object {
+          "color": "C4C4C4",
+          "height": "2px",
+          "marginTop": "3rem",
+        }
+      }
+    />
+    <div
+      className="d-flex"
+    >
+      <div
+        style={
+          Object {
+            "border": "1px dotted grey",
+            "height": 25,
+            "marginRight": 10,
+            "textAlign": "center",
+            "width": 20,
+          }
+        }
+      >
+        P
+      </div>
+      <span
+        style={
+          Object {
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Note:
+      </span>
+    </div>
+    <div
+      className="d-flex flex-column"
+    >
+      <ul>
+        <li>
+          An inactive alert status applies to bank accounts that were automatically transferred from Paperless to eStatements. If your alert status is displayed as 'Inactive', it means you have not agreed to the terms and conditions for eStatements. Once you have accepted the terms and conditions, your alerts will be activated and you will not see an 'Inactive' alert status.
+        </li>
+        <li>
+          In the case of credit cards, your alerts status will always be active.
+        </li>
+        <li>
+          ZippyX Alerts Terms and Conditions are now a part of the
+          <a
+            className="text-black"
+            href="/"
+          >
+            Electronic Access Agreement
+          </a>
+        </li>
+      </ul>
+      <div
+        className="row"
+      >
+        <div
+          className="d-flex align-items-center mt-2 col-md-12"
+        >
+          <div
+            style={
+              Object {
+                "border": "1px dotted grey",
+                "height": 25,
+                "marginRight": 10,
+                "textAlign": "center",
+                "width": 20,
+              }
+            }
+          >
+            P
+          </div>
+          <span>
+            eStatement Terms and Conditions (last updated: November 2011) (PDF, 145KB).
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;

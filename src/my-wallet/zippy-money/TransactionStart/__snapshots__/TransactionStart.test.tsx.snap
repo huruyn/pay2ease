@@ -1,0 +1,273 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TransactionStart Component matches the snapshot 1`] = `
+<div
+  className=""
+>
+  <div
+    className="zippy-cash-container-wrap"
+  >
+    <div
+      className="backdrop backdrop-image-2"
+    />
+    <div
+      className="zippy-cash-container"
+    >
+      <div
+        className="zippy-cash-container-header"
+      >
+        <h1
+          className="title"
+        >
+          Personal Account
+        </h1>
+        <h2
+          className="catch"
+        >
+          Made Fun With Zippy!
+        </h2>
+      </div>
+      <div
+        className="zippy-cash-container-body"
+      >
+        <div
+          aria-label="Zippy Cash"
+          className="zippy-btn-group btn-group"
+          role="group"
+        >
+          <button
+            className="active btn btn-primary"
+            disabled={true}
+            onClick={[Function]}
+            type="button"
+          >
+            Send Money
+          </button>
+          <button
+            className="btn btn-primary"
+            disabled={false}
+            onClick={[Function]}
+            type="button"
+          >
+            Request Money
+          </button>
+        </div>
+        <div
+          className="contact-selector"
+        >
+          <div
+            className="contact-identifier"
+          >
+            <input
+              className="form-control"
+              onChange={[Function]}
+              placeholder="Enter @ZippyUsername or Email"
+              type="text"
+            />
+            <button
+              className="btn-select-contact btn-transparent btn btn-primary"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+            >
+              <i
+                className="zippy-cash-icon zc-add"
+              />
+            </button>
+          </div>
+          <div
+            className="contact-list-wrap"
+          >
+            <div
+              className="contact-container hidden"
+            >
+              <div
+                aria-label="Zippy Cash"
+                className="zippy-btn-group btn-group"
+                role="group"
+              >
+                <button
+                  className="active btn btn-primary"
+                  disabled={true}
+                  onClick={[Function]}
+                  type="button"
+                >
+                  Personal
+                </button>
+                <button
+                  className="btn btn-primary"
+                  disabled={false}
+                  onClick={[Function]}
+                  type="button"
+                >
+                  Business
+                </button>
+              </div>
+              <div
+                className="contact-search"
+              >
+                <i
+                  className="zippy-cash-icon zc-search"
+                />
+                <input
+                  className="form-control"
+                  onChange={[Function]}
+                  placeholder="Search..."
+                  value=""
+                />
+              </div>
+              <div
+                className="contact-list-container"
+              >
+                <div>
+                  Loading...
+                </div>
+              </div>
+              <div
+                className="action"
+              >
+                <button
+                  className="zippy-btn btn btn-primary"
+                  disabled={true}
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <div
+                    className="loading spinner-border"
+                    role="status"
+                  />
+                  Add Contact
+                </button>
+              </div>
+            </div>
+            <div
+              className="contact-container hidden"
+            >
+              <div
+                className="container-header"
+              >
+                <h2
+                  className="title"
+                >
+                  Add  Contact
+                </h2>
+              </div>
+              <div
+                className="container-body"
+              >
+                <input
+                  className="common-input form-control"
+                  name="firstname"
+                  onChange={[Function]}
+                  placeholder="Firstname"
+                  type="text"
+                  value=""
+                />
+                <input
+                  className="common-input form-control"
+                  name="lastname"
+                  onChange={[Function]}
+                  placeholder="Lastname"
+                  type="text"
+                  value=""
+                />
+                <input
+                  className="common-input form-control"
+                  name="email"
+                  onChange={[Function]}
+                  placeholder="Email"
+                  type="text"
+                  value=""
+                />
+                <input
+                  className="common-input form-control"
+                  name="nickname"
+                  onChange={[Function]}
+                  placeholder="Nickname (optional)"
+                  type="text"
+                  value=""
+                />
+              </div>
+              <div
+                className="action"
+              >
+                <button
+                  className="zippy-btn btn btn-primary"
+                  disabled={true}
+                  onClick={[Function]}
+                  type="button"
+                >
+                  Add Contact
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <input
+          className="amount form-control"
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          placeholder="$0.00"
+          type="string"
+          value=""
+        />
+        <div
+          className="select-method"
+        >
+          <div
+            className="actions form-check"
+          >
+            <input
+              checked={false}
+              className="form-check-input"
+              disabled={true}
+              id="zippy-cash"
+              name="actions2"
+              onChange={[Function]}
+              type="radio"
+            />
+            <label
+              className="form-check-label"
+              htmlFor="zippy-cash"
+              title=""
+            >
+              Zippy.Cash
+            </label>
+          </div>
+          <div
+            className="actions form-check"
+          >
+            <input
+              checked={false}
+              className="form-check-input"
+              disabled={false}
+              id="interac-e-transfer"
+              name="actions2"
+              onChange={[Function]}
+              type="radio"
+            />
+            <label
+              className="form-check-label"
+              htmlFor="interac-e-transfer"
+              title=""
+            >
+              Interac® e-Transfer
+            </label>
+          </div>
+        </div>
+        <div
+          className="action"
+        >
+          <button
+            className="zippy-btn btn btn-primary"
+            disabled={true}
+            type="button"
+          >
+            Zipp It
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

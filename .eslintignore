@@ -1,0 +1,6 @@
+build/*
+src/serviceWorker.ts
+src/i18n/config.js
+coverage/*
+public/config.js
+public/mockServiceWorker.js

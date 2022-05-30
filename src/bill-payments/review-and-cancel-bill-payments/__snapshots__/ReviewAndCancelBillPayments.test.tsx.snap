@@ -1,0 +1,532 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReviewAndCancelBillPayments Component matches the snapshot 1`] = `
+<div
+  className="page-content"
+>
+  <div
+    className="d-flex justify-content-between align-items-center"
+  >
+    <h3>
+      Setup Bill Payments
+    </h3>
+  </div>
+  <div
+    className="content-wrapper"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col"
+      >
+        <h2>
+          Review & Cancel Bill Payments
+        </h2>
+      </div>
+    </div>
+    <div
+      className="mt-4 row"
+    >
+      <div
+        className="col-9"
+      >
+        <ul>
+          <li>
+            This page displays the date that you requested a payment, which may be different from the date we processed the payment.
+          </li>
+          <li>
+            A payment scheduled for today can be deleted until 9:30 p.m. ET.
+          </li>
+          <li>
+            If you delete a recurring payment, all payments in the series will be deleted.
+          </li>
+          <li>
+            Sufficient funds must be available in your account 1 business day before the payment date; otherwise, the transaction will be cancelled without notice to you.
+          </li>
+        </ul>
+      </div>
+      <div
+        className="mb-2 col-3"
+      >
+        <div
+          className="border p-2 rounded"
+        >
+          <b>
+            You can also:
+          </b>
+          <br />
+          Change your contact information &gt;
+          <br />
+          Change your statement preferences &gt;
+          <br />
+          View upcoming bill payments and transfers &gt;
+        </div>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col"
+      >
+        <div
+          className="border border-2 border-danger p-2 rounded"
+        >
+          You currently do not have any payees set up for online Bill Payment. Please add a payee to proceed.
+        </div>
+      </div>
+    </div>
+    <div
+      className="mt-4 mb-2 row"
+    >
+      <div
+        className="col"
+      >
+        <h4>
+          PAYMENT DISPLAY OPTIONS
+        </h4>
+      </div>
+    </div>
+    <div
+      className="border-bottom border-4"
+    />
+    <div
+      className="align-items-center mt-2 row"
+    >
+      <div
+        className="col-4"
+      >
+        <span
+          className="px-2"
+        >
+          Payees:
+        </span>
+        <u>
+          Add a Payee
+        </u>
+      </div>
+      <div
+        className="col-8"
+      >
+        <span
+          className="px-2"
+        >
+          Payment type:
+        </span>
+        <select
+          className="d-inline-block w-auto form-select"
+        >
+          <option>
+            Show upcoming and past payments
+          </option>
+        </select>
+      </div>
+    </div>
+    <div
+      className="mt-4 mb-2 row"
+    >
+      <div
+        className="col"
+      >
+        <h4>
+          UPCOMING PAYMENTS
+        </h4>
+      </div>
+    </div>
+    <div
+      className="border-bottom border-4"
+    />
+    <div
+      className="row"
+    >
+      <div
+        className="col"
+      >
+        <table
+          className="table"
+        >
+          <thead
+            style={
+              Object {
+                "backgroundColor": "#f2f3f2",
+              }
+            }
+          >
+            <tr>
+              <th>
+                PAYMENT DATE
+              </th>
+              <th>
+                PAYEE
+              </th>
+              <th>
+                AMOUNT
+              </th>
+              <th>
+                ACCOUNT
+              </th>
+              <th>
+                STATUS
+              </th>
+            </tr>
+          </thead>
+        </table>
+      </div>
+    </div>
+    <div
+      className="my-4 row"
+    >
+      <div
+        className="text-center col"
+      >
+        You currently have no scheduled upcoming payments.
+      </div>
+    </div>
+    <div
+      className="align-items-center mt-4 mb-2 row"
+    >
+      <div
+        className="col-auto"
+      >
+        <h4>
+          PAST PAYMENTS
+        </h4>
+      </div>
+      <div
+        className="col-auto"
+      >
+        <select
+          className="d-inline-block w-auto form-select"
+        >
+          <option>
+            Show past 3 months
+          </option>
+        </select>
+      </div>
+    </div>
+    <div
+      className="border-bottom border-4"
+    />
+    <div
+      className="row"
+    >
+      <div
+        className="col"
+      >
+        <table
+          className="table"
+        >
+          <thead
+            style={
+              Object {
+                "backgroundColor": "#f2f3f2",
+              }
+            }
+          >
+            <tr>
+              <th>
+                PAYMENT DATE
+              </th>
+              <th>
+                PAYEE
+              </th>
+              <th>
+                AMOUNT
+              </th>
+              <th>
+                ACCOUNT
+              </th>
+              <th>
+                STATUS
+              </th>
+              <th>
+                REFERENCE NUMBER
+              </th>
+            </tr>
+          </thead>
+        </table>
+      </div>
+    </div>
+    <div
+      className="my-4 row"
+    >
+      <div
+        className="text-center col"
+      >
+        You have no past payments for this time period.
+      </div>
+    </div>
+    <div
+      className="border-bottom border-1"
+    />
+    <div
+      className="mt-2 mb-4 row"
+    >
+      <div
+        className="text-end col"
+      >
+        <button
+          className="mx-2 btn btn-outline-primary"
+          disabled={false}
+          type="button"
+        >
+          My Accounts
+        </button>
+        <button
+          className="btn btn-primary"
+          disabled={false}
+          type="button"
+        >
+          Pay Bills
+        </button>
+      </div>
+    </div>
+    <div
+      className="border-bottom border-1"
+    />
+    <div
+      className="mt-2 row"
+    >
+      <div
+        className="col"
+      >
+        <b>
+          Note:
+        </b>
+        <br />
+        Payments made to ZippyX credit cards are treated as transfers and are displayed on the "Account Details" page under "My Accounts."
+      </div>
+    </div>
+  </div>
+  <div
+    className="footer-content-wrapper"
+  >
+    <div
+      className="quick-links container"
+    >
+      <div
+        className="row"
+      >
+        <h3
+          className="col-sm-12"
+        >
+          Quick Links
+        </h3>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="col-sm-2"
+        >
+          <ul>
+            <li>
+              <a
+                className="text-decoration-none"
+                href="/"
+                onClick={[Function]}
+              >
+                Home
+              </a>
+            </li>
+            <li>
+              Please Review Our Legal Stuff by visiting our
+               
+              <a
+                className="text-decoration-none"
+                href="/legal"
+                onClick={[Function]}
+              >
+                Privacy Policy | TOU | EULA | CardHolder T&C Pages
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          className="col-sm-2"
+        >
+          8465 W Sahara Ave. Las Vegas, NEVADA
+          <ul>
+            <li>
+              <a
+                href="tel:+17026231876"
+              >
+                1.702.623.1876
+              </a>
+            </li>
+            <li>
+              <a
+                href="mailto:contact@zippy.cash"
+              >
+                contact@zippy.cash
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div
+      className="container"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-12 col-sm-12 col-xs-12 text-left"
+        >
+          © 2021 Zippy Cash LLC  All rights reserved.
+          <br />
+          <br />
+          The Program Manager for the Zippy Cash® Prepaid Visa Debit Card is PayQuicker, LLC
+          <br />
+          Zippy Cash® is a registered trademark of Zippy Cash, LLC
+          <br />
+          The Zippy Cash Prepaid Visa Debit Card is issued by Metropolitan Commercial Bank (Member FDIC) pursuant to a license from Visa U.S.A. Inc. “Metropolitan Commercial Bank” and “Metropolitan” are registered trademarks of Metropolitan Commercial Bank ©2014. BY USING THIS CARD YOU AGREE TO THE TERMS AND CONDITIONS OF THE CARDHOLDER AGREEMENT AND FEE SCHEDULE, IF ANY. All trademarks and service marks are the property of their respective owners.
+          <br />
+          In compliance with the USA PATRIOT Act* and other laws, anyone who is a US resident over 18 with a valid Social Security number and a verifiable physical US address (no PO boxes or APO addresses) can apply for an Zippy Cash Card. This information must be provided, along with other information pertinent to receiving approval, when applying for a Zippy Cash Card. Currently, we do not issue the Zippy Cash Card to residents of Puerto Rico, Guam, the Virgin Islands, American Samoa, or other US territories.
+          <br />
+          *Important information for opening a card account: To help the federal government fight the funding of terrorism and money laundering activities, the USA PATRIOT Act requires all financial institutions and their third parties to obtain, verify and record information that identifies each person who opens a card account. What this means for you: When you open a card account, we will ask for your name, address, date of birth, social security number or country identification number, and other information that will allows us to identify you. We may also request a copy of your driver’s license or other documentation bearing your photo as verification of your identity.
+          <br />
+          Apple and the Apple logo are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc. Google Play is a trademark of Google Inc. Data rates may apply. Samsung Pay is a trademark of Samsung Inc.
+        </div>
+      </div>
+    </div>
+    <footer
+      className="container mb-3"
+    >
+      <div
+        className="d-none d-md-block"
+      >
+        <div
+          className="d-flex justify-content-between border-bottom"
+        />
+        <div
+          className="d-flex justify-content-between border-top"
+        >
+          <div
+            className=""
+          >
+            <div
+              className="footer-link mt-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/personal-profile"
+              >
+                dev docs
+              </a>
+            </div>
+            <div
+              className="footer-link mt-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/"
+                onClick={[Function]}
+              >
+                Lore
+              </a>
+            </div>
+            <div
+              className="footer-link mt-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/"
+                onClick={[Function]}
+              >
+                Ipsum
+              </a>
+            </div>
+            <div
+              className="footer-link mt-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/"
+                onClick={[Function]}
+              >
+                Nullam Atoidio
+              </a>
+            </div>
+          </div>
+          <div
+            className="copyright mt-1"
+          >
+            <span>
+              © 2021 Lorem ipsum dolor sit amet, consectetuer
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="d-block d-md-none"
+      >
+        <div
+          className="d-flex border-bottom"
+        >
+          <div
+            className="d-flex flex-column me-2"
+          >
+            <div
+              className="footer-link mt-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/personal-profile"
+              >
+                dev docs
+              </a>
+            </div>
+            <div
+              className="footer-link mb-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/"
+                onClick={[Function]}
+              >
+                Lore
+              </a>
+            </div>
+            <div
+              className="footer-link mb-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/"
+                onClick={[Function]}
+              >
+                Ipsum
+              </a>
+            </div>
+            <div
+              className="footer-link mb-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/"
+                onClick={[Function]}
+              >
+                Nullam Atoidio
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          className="d-flex justify-content-end border-top"
+        >
+          <div
+            className="copyright mt-2 text-end small"
+          >
+            <span>
+              © 2021 Lorem ipsum dolor sit amet, consectetuer
+            </span>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</div>
+`;

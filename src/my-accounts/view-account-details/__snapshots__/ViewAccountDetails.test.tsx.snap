@@ -1,0 +1,1100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ViewAccountDetails Component matches the snapshot 1`] = `
+<div
+  className="page-content"
+>
+  <div
+    className="d-flex justify-content-between align-items-center"
+  >
+    <h3>
+      Deposit Account Details
+    </h3>
+  </div>
+  <div
+    className="content-wrapper"
+  >
+    <p>
+      Receive notifications when
+       
+      <u>
+        held funds are released
+      </u>
+       
+      and are available to you; when you exceed your bank machine withdrawal and your Point of Sale daily limit.
+    </p>
+    <div
+      className="row"
+    >
+      <div
+        className="col-6"
+      >
+        <select
+          className="form-select"
+        >
+          <option>
+            Chequing (01702-81-99639) $2,260.57
+          </option>
+        </select>
+      </div>
+      <div
+        className="col-6 text-end"
+      >
+        <div
+          className="dropdown btn-group"
+          role="group"
+        >
+          <button
+            aria-expanded={false}
+            className="dropdown-toggle btn btn-outline-primary"
+            disabled={false}
+            onClick={[Function]}
+            type="button"
+          >
+            Manage My Account
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="border-primary mt-2 pt-4 pb-2"
+      style={
+        Object {
+          "backgroundColor": "#f4f4f4",
+          "borderTop": "3px solid",
+        }
+      }
+    >
+      <div
+        className="row mx-0"
+      >
+        <div
+          className="col-6"
+        >
+          <div
+            className="d-flex justify-content-between"
+          >
+            <h3>
+              Balance:
+            </h3>
+            <h3>
+              $2,260.57
+            </h3>
+          </div>
+          <div
+            className="d-flex justify-content-between"
+          >
+            <span>
+              Funds on Hold:
+            </span>
+            <span>
+              $0.00
+            </span>
+          </div>
+          <div
+            className="d-flex justify-content-between"
+          >
+            <span>
+              Overdraft Limit:
+            </span>
+            <span>
+              N/A
+            </span>
+          </div>
+          <div
+            className="d-flex justify-content-between"
+          >
+            <b>
+              Available Funds:
+            </b>
+            <b>
+              $2,260.57
+            </b>
+          </div>
+        </div>
+        <div
+          className="col-6"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="col-6"
+            >
+              <div>
+                <b>
+                  Product Name:
+                </b>
+              </div>
+              <div>
+                Everyday® Checking
+              </div>
+              <div>
+                <b>
+                  Statement Option:
+                </b>
+              </div>
+              <div>
+                View and Edit
+              </div>
+            </div>
+            <div
+              className="col-6"
+            >
+              <div>
+                <b>
+                  Transit Number:
+                </b>
+                 
+                01702
+              </div>
+              <div>
+                <b>
+                  Institution Number:
+                </b>
+                 
+                010
+              </div>
+              <div>
+                <b>
+                  Account Number:
+                </b>
+                 
+                8199639
+              </div>
+            </div>
+          </div>
+          <div
+            className="row mt-4"
+          >
+            <div
+              className="col-6"
+            >
+              <div>
+                <b>
+                  Daily ATM Widthdrawal Limit
+                </b>
+              </div>
+              <div>
+                $3,000.00
+              </div>
+            </div>
+            <div
+              className="col-6"
+            >
+              <div>
+                <b>
+                  Daily Debit Purchase Limit
+                </b>
+              </div>
+              <div>
+                $3,000.00
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="row mx-0"
+      >
+        <div
+          className="col-12"
+        >
+          <button
+            className="btn btn-outline-primary"
+            disabled={false}
+            type="button"
+          >
+            View Upcoming Bills and Transfers
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row mt-4"
+    >
+      <div
+        className="col-9 px-4"
+      >
+        <h3
+          className="d-inline"
+        >
+          PAST TRANSACTIONS
+        </h3>
+         
+        (October 12, 2021 to November 14, 2021)
+      </div>
+      <div
+        className="col-3 text-end"
+      >
+        <button
+          className="btn btn-outline-primary"
+          disabled={false}
+          type="button"
+        >
+          Transaction Glossary
+        </button>
+      </div>
+    </div>
+    <div
+      className="border-primary my-2"
+      style={
+        Object {
+          "borderTop": "3px solid",
+        }
+      }
+    />
+    <div
+      className="row align-items-center"
+    >
+      <div
+        className="col-3"
+      >
+        <button
+          className="btn btn-outline-primary"
+          disabled={false}
+          type="button"
+        >
+          Custom Search
+        </button>
+      </div>
+      <div
+        className="col-9 text-end"
+      >
+        <span
+          className="px-3"
+        >
+          View:
+        </span>
+        <b>
+          Last 4 weeks
+        </b>
+        <span
+          className="px-3"
+        >
+          |
+        </span>
+        <u>
+          Last 3 months
+        </u>
+        <span
+          className="px-3"
+        >
+          |
+        </span>
+        <u>
+          Last 6 months
+        </u>
+        <span
+          className="px-3"
+        >
+          |
+        </span>
+        <u>
+          Last 12 months
+        </u>
+      </div>
+    </div>
+    <div
+      className="border-primary my-2"
+      style={
+        Object {
+          "borderTop": "1px solid",
+        }
+      }
+    />
+    <div
+      className="row my-2"
+    >
+      <div
+        className="col-12 text-end"
+      >
+        <u>
+          Questions about your transactions?
+        </u>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-12"
+      >
+        <table
+          className="table"
+        >
+          <thead
+            style={
+              Object {
+                "backgroundColor": "#f4f4f4",
+              }
+            }
+          >
+            <tr>
+              <th>
+                DATE
+              </th>
+              <th>
+                TRANSACTIONS
+              </th>
+              <th>
+                DEBIT
+              </th>
+              <th>
+                CREDIT
+              </th>
+              <th>
+                RUNNING BALANCE
+              </th>
+            </tr>
+          </thead>
+          <tbody
+            className="border-top-0"
+          >
+            <tr>
+              <td>
+                Nov 2, 2021
+              </td>
+              <td>
+                Internet Banking E-TRANSFER 103935497315 Chelsea Tough
+              </td>
+              <td>
+                $2,000.00
+              </td>
+              <td>
+                
+              </td>
+              <td>
+                $2,260.57
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Oct 29, 2021
+              </td>
+              <td>
+                Branch Transaction E-TRANSFER NETWORK FEE
+              </td>
+              <td>
+                $9.00
+              </td>
+              <td>
+                
+              </td>
+              <td>
+                $4,260.57
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Oct 29, 2021
+              </td>
+              <td>
+                SERVICE CHARGE
+              </td>
+              <td>
+                $22.75
+              </td>
+              <td>
+                
+              </td>
+              <td>
+                $4,269.57
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Oct 29, 2021
+              </td>
+              <td>
+                Internet Banking E-TRANSFER 103931013743 JJJ
+              </td>
+              <td>
+                $2,000.00
+              </td>
+              <td>
+                
+              </td>
+              <td>
+                $4,292.32
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Oct 29, 2021
+              </td>
+              <td>
+                Internet Banking INTERNET DOM TRANSFER 103931010681
+              </td>
+              <td>
+                
+              </td>
+              <td>
+                $5,000.00
+              </td>
+              <td>
+                $6,292.32
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Oct 25, 2021
+              </td>
+              <td>
+                Point of Sale - INTERAC RETAIL PURCHASE 190001001011 TORONTO DUTY FR
+              </td>
+              <td>
+                $137.80
+              </td>
+              <td>
+                
+              </td>
+              <td>
+                $1,292.32
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Oct 25, 2021
+              </td>
+              <td>
+                Point of Sale - INTERAC RETAIL PURCHASE 708011392901 THE HOME DEPOT
+              </td>
+              <td>
+                $46.27
+              </td>
+              <td>
+                
+              </td>
+              <td>
+                $1,430.12
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Oct 25, 2021
+              </td>
+              <td>
+                Point of Sale - INTERAC RETAIL PURCHASE 001001001169 SHOPPERS DRUGM
+              </td>
+              <td>
+                $81.11
+              </td>
+              <td>
+                
+              </td>
+              <td>
+                $1,476.39
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Oct 22, 2021
+              </td>
+              <td>
+                Internet Banking E-TRANSFER 103924692814 JJJ
+              </td>
+              <td>
+                $2,000.00
+              </td>
+              <td>
+                
+              </td>
+              <td>
+                $1,557.50
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Oct 20, 2021
+              </td>
+              <td>
+                Internet Banking E-TRANSFER 103922477947 Gigadat
+              </td>
+              <td>
+                $2,500.00
+              </td>
+              <td>
+                
+              </td>
+              <td>
+                $3,557.50
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Oct 19, 2021
+              </td>
+              <td>
+                Internet Banking INTERNET DOM TRANSFER 103922211371
+              </td>
+              <td>
+                
+              </td>
+              <td>
+                $4,000.00
+              </td>
+              <td>
+                $6,057.50
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Oct 19, 2021
+              </td>
+              <td>
+                Point of Sale - INTERAC RETAIL PURCHASE 129214169682 SOVEREIGN SKIN
+              </td>
+              <td>
+                $132.21
+              </td>
+              <td>
+                
+              </td>
+              <td>
+                $2,057.50
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Oct 18, 2021
+              </td>
+              <td>
+                Point of Sale - INTERAC RETAIL PURCHASE 000001188015 FOOD BASICS #87
+              </td>
+              <td>
+                $49.61
+              </td>
+              <td>
+                
+              </td>
+              <td>
+                $2,189.71
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Oct 18, 2021
+              </td>
+              <td>
+                Point of Sale - INTERAC RETAIL PURCHASE 000034302833 9379 PLANET FIT
+              </td>
+              <td>
+                $24.85
+              </td>
+              <td>
+                
+              </td>
+              <td>
+                $2,239.32
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Oct 18, 2021
+              </td>
+              <td>
+                Point of Sale - INTERAC RETAIL PURCHASE 025001001052 LOBLAWS LESLIE
+              </td>
+              <td>
+                $184.33
+              </td>
+              <td>
+                
+              </td>
+              <td>
+                $2,264.17
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Oct 18, 2021
+              </td>
+              <td>
+                Internet Banking INTERNET DOM TRANSFER 103920345268
+              </td>
+              <td>
+                
+              </td>
+              <td>
+                $2,000.00
+              </td>
+              <td>
+                $2,448.50
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Oct 18, 2021
+              </td>
+              <td>
+                Point of Sale - INTERAC RETAIL PURCHASE 001001001063 SHOPPERS DRUG M
+              </td>
+              <td>
+                $128.13
+              </td>
+              <td>
+                
+              </td>
+              <td>
+                $448.50
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Oct 18, 2021
+              </td>
+              <td>
+                Point of Sale - INTERAC RETAIL PURCHASE 001001001189 SHOPPERS DRUG M
+              </td>
+              <td>
+                $67.90
+              </td>
+              <td>
+                
+              </td>
+              <td>
+                $576.63
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Oct 15, 2021
+              </td>
+              <td>
+                Electronic Funds Transfer PREAUTHORIZED DEBIT Preauthorized ENBRIDGE
+              </td>
+              <td>
+                $89.52
+              </td>
+              <td>
+                
+              </td>
+              <td>
+                $644.53
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Oct 15, 2021
+              </td>
+              <td>
+                Point of Sale - INTERAC RETAIL PURCHASE 001001001041 SHOPPERS DRUG M
+              </td>
+              <td>
+                $381.10
+              </td>
+              <td>
+                
+              </td>
+              <td>
+                $734.05
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Oct 14, 2021
+              </td>
+              <td>
+                Point of Sale - INTERAC RETAIL PURCHASE 000001272053 LCBO/RAO #0011
+              </td>
+              <td>
+                $283.50
+              </td>
+              <td>
+                
+              </td>
+              <td>
+                $1,115.15
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Oct 12, 2021
+              </td>
+              <td>
+                Point of Sale - INTERAC RETAIL PURCHASE 000001001138 STAPLE #286
+              </td>
+              <td>
+                $196.26
+              </td>
+              <td>
+                
+              </td>
+              <td>
+                $1,398,65
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Oct 12, 2021
+              </td>
+              <td>
+                Internet Banking E-TRANSFER 103915342324 392 Jones
+              </td>
+              <td>
+                $3,000.00
+              </td>
+              <td>
+                
+              </td>
+              <td>
+                $1,594.91
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Oct 12, 2021
+              </td>
+              <td>
+                Internet Banking INTERNET DOM TRANSFER 103915341970
+              </td>
+              <td>
+                
+              </td>
+              <td>
+                $4,500.00
+              </td>
+              <td>
+                $4,594.91
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Oct 12, 2021
+              </td>
+              <td>
+                Point of Sale - INTERAC RETAIL PURCHASE 000001001824 WALMART STORE #
+              </td>
+              <td>
+                $145.26
+              </td>
+              <td>
+                
+              </td>
+              <td>
+                $94.91
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Oct 12, 2021
+              </td>
+              <td>
+                Point of Sale - INTERAC RETAIL PURCHASE 000001087039 SHOPPERS DRUGM
+              </td>
+              <td>
+                $46.50
+              </td>
+              <td>
+                
+              </td>
+              <td>
+                $240.17
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Oct 12, 2021
+              </td>
+              <td>
+                Point of Sale - INTERAC RETAIL PURCHASE 000001244067 SHOPPERS DRUGM
+              </td>
+              <td>
+                $18.67
+              </td>
+              <td>
+                
+              </td>
+              <td>
+                $286.67
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Oct 12, 2021
+              </td>
+              <td>
+                Point of Sale - INTERAC RETAIL PURCHASE 000001193107 LCBO/RAO #0011
+              </td>
+              <td>
+                $249.60
+              </td>
+              <td>
+                
+              </td>
+              <td>
+                $305.34
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div
+      className="row mt-4"
+    >
+      <div
+        className="col-12"
+      >
+        <p>
+          For a description of transactions that are included in the ZippyX SmartTM Account monthly fee and the fees for other Personal Services, visit ZippyX or review Personal Account Service Fees (PDF, 210 KB).
+        </p>
+        <p>
+          * Foreign Currency Conversion Fee - If you withdraw foreign currency from a bank machine located outside of Canada, you are charged the same conversion rate ZippyX is required to pay, plus an administration fee of 2.5% of the converted amount (this is in addition to any transaction fee applicable to the withdrawal and the network fee).
+        </p>
+        <div
+          className="border-primary my-1"
+          style={
+            Object {
+              "borderTop": "1px solid",
+            }
+          }
+        />
+        <p
+          className="mt-4"
+        >
+          <b>
+            Note:
+          </b>
+        </p>
+        <p>
+          Transactions from today that are reflected in your balance may not be displayed on this page if a paper statement was recently issued, or if a transaction is backdated. These transactions will appear in your history the following business day.
+        </p>
+        <p>
+          For questions about service fees or Non-Sufficient Fund (NSF) charges, review a list of service charges and account fees.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div
+    className="footer-content-wrapper"
+  >
+    <div
+      className="quick-links container"
+    >
+      <div
+        className="row"
+      >
+        <h3
+          className="col-sm-12"
+        >
+          Quick Links
+        </h3>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="col-sm-2"
+        >
+          <ul>
+            <li>
+              <a
+                className="text-decoration-none"
+                href="/"
+                onClick={[Function]}
+              >
+                Home
+              </a>
+            </li>
+            <li>
+              Please Review Our Legal Stuff by visiting our
+               
+              <a
+                className="text-decoration-none"
+                href="/legal"
+                onClick={[Function]}
+              >
+                Privacy Policy | TOU | EULA | CardHolder T&C Pages
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          className="col-sm-2"
+        >
+          8465 W Sahara Ave. Las Vegas, NEVADA
+          <ul>
+            <li>
+              <a
+                href="tel:+17026231876"
+              >
+                1.702.623.1876
+              </a>
+            </li>
+            <li>
+              <a
+                href="mailto:contact@zippy.cash"
+              >
+                contact@zippy.cash
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div
+      className="container"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-12 col-sm-12 col-xs-12 text-left"
+        >
+          © 2021 Zippy Cash LLC  All rights reserved.
+          <br />
+          <br />
+          The Program Manager for the Zippy Cash® Prepaid Visa Debit Card is PayQuicker, LLC
+          <br />
+          Zippy Cash® is a registered trademark of Zippy Cash, LLC
+          <br />
+          The Zippy Cash Prepaid Visa Debit Card is issued by Metropolitan Commercial Bank (Member FDIC) pursuant to a license from Visa U.S.A. Inc. “Metropolitan Commercial Bank” and “Metropolitan” are registered trademarks of Metropolitan Commercial Bank ©2014. BY USING THIS CARD YOU AGREE TO THE TERMS AND CONDITIONS OF THE CARDHOLDER AGREEMENT AND FEE SCHEDULE, IF ANY. All trademarks and service marks are the property of their respective owners.
+          <br />
+          In compliance with the USA PATRIOT Act* and other laws, anyone who is a US resident over 18 with a valid Social Security number and a verifiable physical US address (no PO boxes or APO addresses) can apply for an Zippy Cash Card. This information must be provided, along with other information pertinent to receiving approval, when applying for a Zippy Cash Card. Currently, we do not issue the Zippy Cash Card to residents of Puerto Rico, Guam, the Virgin Islands, American Samoa, or other US territories.
+          <br />
+          *Important information for opening a card account: To help the federal government fight the funding of terrorism and money laundering activities, the USA PATRIOT Act requires all financial institutions and their third parties to obtain, verify and record information that identifies each person who opens a card account. What this means for you: When you open a card account, we will ask for your name, address, date of birth, social security number or country identification number, and other information that will allows us to identify you. We may also request a copy of your driver’s license or other documentation bearing your photo as verification of your identity.
+          <br />
+          Apple and the Apple logo are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc. Google Play is a trademark of Google Inc. Data rates may apply. Samsung Pay is a trademark of Samsung Inc.
+        </div>
+      </div>
+    </div>
+    <footer
+      className="container mb-3"
+    >
+      <div
+        className="d-none d-md-block"
+      >
+        <div
+          className="d-flex justify-content-between border-bottom"
+        />
+        <div
+          className="d-flex justify-content-between border-top"
+        >
+          <div
+            className=""
+          >
+            <div
+              className="footer-link mt-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/personal-profile"
+              >
+                dev docs
+              </a>
+            </div>
+            <div
+              className="footer-link mt-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/"
+                onClick={[Function]}
+              >
+                Lore
+              </a>
+            </div>
+            <div
+              className="footer-link mt-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/"
+                onClick={[Function]}
+              >
+                Ipsum
+              </a>
+            </div>
+            <div
+              className="footer-link mt-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/"
+                onClick={[Function]}
+              >
+                Nullam Atoidio
+              </a>
+            </div>
+          </div>
+          <div
+            className="copyright mt-1"
+          >
+            <span>
+              © 2021 Lorem ipsum dolor sit amet, consectetuer
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="d-block d-md-none"
+      >
+        <div
+          className="d-flex border-bottom"
+        >
+          <div
+            className="d-flex flex-column me-2"
+          >
+            <div
+              className="footer-link mt-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/personal-profile"
+              >
+                dev docs
+              </a>
+            </div>
+            <div
+              className="footer-link mb-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/"
+                onClick={[Function]}
+              >
+                Lore
+              </a>
+            </div>
+            <div
+              className="footer-link mb-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/"
+                onClick={[Function]}
+              >
+                Ipsum
+              </a>
+            </div>
+            <div
+              className="footer-link mb-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/"
+                onClick={[Function]}
+              >
+                Nullam Atoidio
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          className="d-flex justify-content-end border-top"
+        >
+          <div
+            className="copyright mt-2 text-end small"
+          >
+            <span>
+              © 2021 Lorem ipsum dolor sit amet, consectetuer
+            </span>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</div>
+`;

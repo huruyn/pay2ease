@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddContact Component matches the snapshot 1`] = `
+Array [
+  <div
+    className="container-header"
+  >
+    <h2
+      className="title"
+    >
+      Add  Contact
+    </h2>
+  </div>,
+  <div
+    className="container-body"
+  >
+    <input
+      className="common-input form-control"
+      name="firstname"
+      onChange={[Function]}
+      placeholder="Firstname"
+      type="text"
+      value=""
+    />
+    <input
+      className="common-input form-control"
+      name="lastname"
+      onChange={[Function]}
+      placeholder="Lastname"
+      type="text"
+      value=""
+    />
+    <input
+      className="common-input form-control"
+      name="email"
+      onChange={[Function]}
+      placeholder="Email"
+      type="text"
+      value=""
+    />
+    <input
+      className="common-input form-control"
+      name="nickname"
+      onChange={[Function]}
+      placeholder="Nickname (optional)"
+      type="text"
+      value=""
+    />
+  </div>,
+  <div
+    className="action"
+  >
+    <button
+      className="zippy-btn btn btn-primary"
+      disabled={true}
+      onClick={[Function]}
+      type="button"
+    >
+      Add Contact
+    </button>
+  </div>,
+]
+`;

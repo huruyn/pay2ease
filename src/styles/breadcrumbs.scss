@@ -1,0 +1,44 @@
+@import './colors';
+
+.breadcrumbs {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 15px;
+
+  a, span {
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: $color-dark-gray;
+    text-decoration: none;
+    vertical-align: middle;
+
+    &:not(:last-child):after {
+      content: '';
+      -webkit-mask-size: contain;
+      mask-size: contain;
+      width: 8px;
+      height: 8px;
+      display: inline-block;
+      background-color: $color-blue-gray-50;
+      -webkit-mask-position: center center;
+      mask-position: center center;
+      -webkit-mask-repeat: no-repeat;
+      mask-repeat: no-repeat;
+      -webkit-mask-image: url("../assets/img/icons/right.svg");
+      mask-image: url("../assets/img/icons/right.svg");
+      margin: 0 10px;
+    }
+
+    &[href] {
+      cursor: pointer;
+    }
+
+    &[href]:hover,
+    &:last-child {
+      color: $color-black;
+    }
+  }
+}

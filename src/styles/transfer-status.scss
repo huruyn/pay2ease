@@ -1,0 +1,292 @@
+@import './colors';
+
+.zippy-cash-container-t {
+  padding-left: 240px;
+  width: 100%;
+  height: calc(100vh - 95px);
+  display: flex;
+  flex-direction: row;
+  background-color: $color-red;
+  justify-content: center;
+  position: absolute;
+  overflow: hidden;
+
+  .backdrop {
+    background-image: url('../assets/img/background/transaction_status.png');
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+  }
+
+  @keyframes slidein {
+    from {
+      top: 100%;
+    }
+    to {
+      top: 0;
+    }
+  }
+
+  .zippy-cash-container {
+    position: relative;
+    max-width: 414px;
+    background-color: $color-white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    animation-duration: 0.2s;
+    animation-name: slidein;
+    transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+    box-shadow: 0 0 2px 2px $color-white;
+    .transaction-back-icon{
+        position: absolute;
+        top:22px;
+        left: 12px;
+        button{
+            size: 24px;
+            color: #707272;
+            background-color: white;
+            border-color: white;
+        }
+    }
+
+    .zippy-cash-container-header {
+      display: flex;
+      flex-direction: column;
+      .title {
+        align-self: center;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        text-transform: capitalize;
+      }
+
+      .catch {
+        align-self: center;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        text-transform: capitalize;
+        background: linear-gradient(
+          83.49deg,
+          $color-orange 31.24%,
+          $color-red 99.49%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+
+    .zippy-cash-container-body {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      padding: 37px;
+      gap: 30px;
+      .nav-tab-container {
+        .nav-tabs {
+          display: flex;
+          flex-wrap: nowrap;
+          width: max-content;
+          align-items: center;
+          justify-content: space-between;
+          border: none;
+          background-color: $color-background;
+          border-radius: 38px;
+          gap: 16px;
+          .nav-item {
+            .nav-link {
+              border: none;
+              color: $color-light-black;
+              padding: 10px 18px;
+              animation-delay: 2s;
+              font-weight: 500;
+              font-style: normal;
+              font-size: 14px;
+              line-height: 18px;
+              align-items: center;
+              height: 45px;
+              width: 100px;
+              @media (max-width: 640px) {
+                width: 80px;
+              }
+              &.active {
+                animation-delay: 2s;
+                color: $color-white;
+                border-radius: 42px;
+                background: linear-gradient(90deg, #ff0d26, #ff7300);
+              }
+            }
+          }
+        }
+        .tab-content {
+          .active {
+            .month-select-container {
+              margin-top: 16px;
+              display: flex;
+              align-self: center;
+              justify-content: center;
+              min-width: 160px;
+              padding-left: 15%;
+              padding-right: 15%;
+              .month-select-comp {
+                background: #ffffff;
+                border: 1px solid #cfd2d3;
+                box-sizing: border-box;
+                border-radius: 27px;
+                padding-right: 0px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png)
+                  no-repeat right #ffffff;
+                -webkit-appearance: none;
+                background-position-x: 95%;
+              }
+            }
+
+            .data-list-container {
+              margin-top: 10px;
+              height: 265px;
+              overflow: scroll;
+              .data-list {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                height: 60px;
+                border-radius: 7px;
+                &:hover {
+                  cursor: pointer;
+                  background: rgb(255, 115, 0, 0.2);
+                  border-bottom-color: white;
+                }
+
+                .left-data-list {
+                  display: flex;
+                  align-items: center;
+                  .check-icon {
+                    padding-left: 12px;
+                    padding-right: 12px;
+                  }
+                  .type {
+                    &-name {
+                      color: black;
+                      font-style: normal;
+                      font-weight: 500;
+                      font-size: 12px;
+                    }
+                    &-ref {
+                      color: #707272;
+                      font-style: normal;
+                      font-weight: normal;
+                      font-size: 12px;
+                      text-decoration: underline;
+                    }
+                  }
+                }
+                .right-data-list {
+                  display: flex;
+                  align-items: center;
+                  justify-content: flex-end;
+                  .type {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-end;
+                    &-amount {
+                      color: black;
+                      font-style: normal;
+                      font-weight: 600;
+                      font-size: 12px;
+                    }
+                    &-date {
+                      color: black;
+                      font-style: normal;
+                      font-weight: normal;
+                      font-size: 12px;
+                    }
+                  }
+                  .icon-left {
+                    padding-left: 12px;
+                    span {
+                      margin-right: 5px;
+                      color: #707272;
+                    }
+                  }
+                }
+              }
+              hr{ margin: 0px; background: #DDE1E1;
+              }
+            }
+            .data-list-container::-webkit-scrollbar {
+              width: 2px;
+            }
+            .send-money-btn-container {
+              display: flex;
+              flex-direction: column;
+              .send-btn {
+                font-weight: 600;
+                font-style: normal;
+                font-size: 16px;
+                letter-spacing: 0.05em;
+                text-transform: uppercase;
+                align-items: center;
+                justify-content: center;
+              }
+            }
+            .request-money-btn-container {
+              display: flex;
+              flex-direction: column;
+              .request-btn {
+                font-weight: 600;
+                font-style: normal;
+                font-size: 16px;
+                letter-spacing: 0.05em;
+                text-transform: uppercase;
+                align-items: center;
+                justify-content: center;
+              }
+            }
+          }
+        }
+      }
+      .transaction-details {
+        margin-top: -22px;
+        .header-status {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin: 0px;
+        }
+        .details {
+          .transfer-btn {
+            display: flex;
+            flex-direction: column;
+            width: 330px;
+             @media (max-width: 640px) {
+                width: max-content;
+              }
+            button {
+              justify-content: center;
+            }
+          }
+        }
+      }
+    }
+  }
+}

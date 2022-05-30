@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PayAndFileBusinessTaxes Component matches the snapshot 1`] = `
+<div
+  className="page-content"
+>
+  <div
+    className="row"
+    style={
+      Object {
+        "justifyContent": "space-between",
+        "marginBottom": "15px",
+        "marginTop": "15px",
+      }
+    }
+  >
+    <h3>
+      GOVERNMENT PAYMENT & FILING SERVICE
+    </h3>
+    <span>
+      <i />
+      <i />
+    </span>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col"
+    >
+      <div
+        className="row"
+        style={
+          Object {
+            "margin": "0px 2px",
+            "padding": "15px 0px",
+          }
+        }
+      >
+        <div
+          className="row"
+        >
+          <p>
+            This service provides a simple and fast way to pay taxes to federal and provincial government agencies, giving you more control over your cash flow.
+          </p>
+          <p>
+            To register for the service select : "Next"
+          </p>
+          <p>
+            if you are already register. select "Next" to connect to the ZippyX Govemment Payment and Filing service website.
+          </p>
+          <p>
+            You will need to sign on again ff you would like to continue using Online Banligng after you make government payments or filings.
+          </p>
+          <p>
+            For support, call the Payment and Filing Help Desk
+            <u>
+                
+              1-800-206-9444
+            </u>
+          </p>
+        </div>
+      </div>
+      <hr
+        style={
+          Object {
+            "width": "100%",
+          }
+        }
+      />
+      <div
+        className="col"
+        style={
+          Object {
+            "borderRadius": "4px",
+            "display": "flex",
+            "justifyContent": "flex-end",
+            "marginBottom": "10px",
+            "marginTop": "-13px",
+            "padding": "6px 0px",
+          }
+        }
+      >
+        <button
+          style={
+            Object {
+              "backgroundColor": "white",
+              "border": "2px solid grey",
+              "borderRadius": "4px",
+              "color": "black",
+              "marginRight": "15px",
+              "padding": "5px 12px",
+            }
+          }
+          type="button"
+        >
+          My Accounts
+        </button>
+        <button
+          style={
+            Object {
+              "borderRadius": "4px",
+              "padding": "5px 12px",
+            }
+          }
+          type="button"
+        >
+          Next
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

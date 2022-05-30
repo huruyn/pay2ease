@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReceivedFailed Component matches the snapshot 1`] = `
+Array [
+  <div
+    className="row"
+  >
+    <div
+      className="col-4"
+    >
+      From
+    </div>
+    <div
+      className="col-6"
+    >
+      <strong>
+        
+      </strong>
+    </div>
+  </div>,
+  <div
+    className="row"
+  >
+    <div
+      className="col-4"
+    >
+      To
+    </div>
+    <div
+      className="col-6"
+    >
+      <strong>
+        
+      </strong>
+    </div>
+  </div>,
+  <div
+    className="row"
+  >
+    <div
+      className="col-4"
+    >
+      Transfer Date
+    </div>
+    <div
+      className="col-6"
+    >
+      
+    </div>
+  </div>,
+  <div
+    className="row"
+  >
+    <div
+      className="col-4"
+    >
+      Transfer Amount
+    </div>
+    <div
+      className="col-6"
+    >
+      <strong
+        className="amount"
+      />
+    </div>
+  </div>,
+  <div
+    className="row"
+  >
+    <div
+      className="col-4"
+    >
+      <div>
+        Reference Number
+      </div>
+      <div>
+        (Keep For Your Records)
+      </div>
+    </div>
+    <div
+      className="col-6"
+    />
+  </div>,
+]
+`;

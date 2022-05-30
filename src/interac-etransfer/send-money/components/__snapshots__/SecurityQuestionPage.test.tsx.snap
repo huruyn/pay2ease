@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Security Question Page Component should render SecurityQuestionPage 1`] = `
+<SecurityQuestionPage
+  mainInfo={
+    Object {
+      "amount": 1000,
+      "confirmSecurityAnswer": "security Answer",
+      "destination": Object {
+        "email": "destination@email.com",
+        "name": "destination name",
+      },
+      "fromAccount": "fromAccount (8000 0000 00000000)",
+      "message": "message",
+      "securityAnswer": "security Answer",
+      "securityQuestion": "security Question",
+      "showAnswer": true,
+      "source": Object {
+        "email": "source@email.com",
+        "name": "source name",
+      },
+      "transferMethod": "Email",
+    }
+  }
+  navigateSteps={[MockFunction]}
+  setCurrentStep={[MockFunction]}
+  setErrorMessage={[MockFunction]}
+  setMainInfo={[MockFunction]}
+  showModal={[MockFunction]}
+/>
+`;

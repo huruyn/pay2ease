@@ -1,0 +1,2133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomerServices Component matches the snapshot 1`] = `
+<div
+  className="page-content"
+>
+  <div
+    className="d-flex justify-content-between align-items-center"
+  >
+    <h3>
+      Customer Services
+    </h3>
+  </div>
+  <div
+    className="content-wrapper"
+  >
+    <div
+      className="mt-4"
+    >
+      <h4>
+        ZIPPYX INFORMATION
+      </h4>
+      <div
+        className="row"
+        style={
+          Object {
+            "borderTop": "2px solid grey",
+          }
+        }
+      >
+        <div
+          className="col-md-6"
+          style={
+            Object {
+              "padding": 0,
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "#ebebeb",
+                "padding": 10,
+              }
+            }
+          >
+            <h5>
+              Personal information and Settings
+            </h5>
+          </div>
+          <div
+            style={
+              Object {
+                "paddingLeft": 5,
+                "paddingRight": 5,
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "borderBottom": "1px solid #d9d9d9",
+                  "padding": 10,
+                }
+              }
+            >
+              <a
+                className="text-decoration-none text-black"
+                href="/change-your-contact-information"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "display": "block",
+                    "marginBottom": 5,
+                    "marginTop": 5,
+                  }
+                }
+              >
+                Change your contact information
+                <span
+                  style={
+                    Object {
+                      "color": "rgb(220, 53, 69)",
+                      "marginLeft": 5,
+                    }
+                  }
+                >
+                  &gt;
+                </span>
+              </a>
+            </div>
+          </div>
+          <div
+            style={
+              Object {
+                "paddingLeft": 5,
+                "paddingRight": 5,
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "borderBottom": "1px solid #d9d9d9",
+                  "padding": 10,
+                }
+              }
+            >
+              <a
+                className="text-decoration-none text-black"
+                href="/change-your-address"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "display": "block",
+                    "marginBottom": 5,
+                    "marginTop": 5,
+                  }
+                }
+              >
+                Change your address
+                <span
+                  style={
+                    Object {
+                      "color": "rgb(220, 53, 69)",
+                      "marginLeft": 5,
+                    }
+                  }
+                >
+                  &gt;
+                </span>
+              </a>
+            </div>
+          </div>
+          <div
+            style={
+              Object {
+                "paddingLeft": 5,
+                "paddingRight": 5,
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "borderBottom": "1px solid #d9d9d9",
+                  "padding": 10,
+                }
+              }
+            >
+              <a
+                className="text-decoration-none text-black"
+                href="/change-your-password"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "display": "block",
+                    "marginBottom": 5,
+                    "marginTop": 5,
+                  }
+                }
+              >
+                Change your password
+                <span
+                  style={
+                    Object {
+                      "color": "rgb(220, 53, 69)",
+                      "marginLeft": 5,
+                    }
+                  }
+                >
+                  &gt;
+                </span>
+              </a>
+            </div>
+          </div>
+          <div
+            style={
+              Object {
+                "paddingLeft": 5,
+                "paddingRight": 5,
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "borderBottom": "1px solid #d9d9d9",
+                  "padding": 10,
+                }
+              }
+            >
+              <a
+                className="text-decoration-none text-black"
+                href="/create-or-edit-account-nickname"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "display": "block",
+                    "marginBottom": 5,
+                    "marginTop": 5,
+                  }
+                }
+              >
+                Create or edit account nickname
+                <span
+                  style={
+                    Object {
+                      "color": "rgb(220, 53, 69)",
+                      "marginLeft": 5,
+                    }
+                  }
+                >
+                  &gt;
+                </span>
+              </a>
+            </div>
+          </div>
+          <div
+            style={
+              Object {
+                "paddingLeft": 5,
+                "paddingRight": 5,
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "borderBottom": "1px solid #d9d9d9",
+                  "padding": 10,
+                }
+              }
+            >
+              <a
+                className="text-decoration-none text-black"
+                href="/unlink-accounts-from-your-debit-card"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "display": "block",
+                    "marginBottom": 5,
+                    "marginTop": 5,
+                  }
+                }
+              >
+                Unlink accounts from your ZippyX debit card
+                <span
+                  style={
+                    Object {
+                      "color": "rgb(220, 53, 69)",
+                      "marginLeft": 5,
+                    }
+                  }
+                >
+                  &gt;
+                </span>
+              </a>
+            </div>
+          </div>
+          <div
+            style={
+              Object {
+                "paddingLeft": 5,
+                "paddingRight": 5,
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "borderBottom": "1px solid #d9d9d9",
+                  "padding": 10,
+                }
+              }
+            >
+              <a
+                className="text-decoration-none text-black"
+                href="/remove-association-to-online-investment-account"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "display": "block",
+                    "marginBottom": 5,
+                    "marginTop": 5,
+                  }
+                }
+              >
+                Remove association to online investment account
+                <span
+                  style={
+                    Object {
+                      "color": "rgb(220, 53, 69)",
+                      "marginLeft": 5,
+                    }
+                  }
+                >
+                  &gt;
+                </span>
+              </a>
+            </div>
+          </div>
+          <div
+            style={
+              Object {
+                "paddingLeft": 5,
+                "paddingRight": 5,
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "borderBottom": "1px solid #d9d9d9",
+                  "padding": 10,
+                }
+              }
+            >
+              <a
+                className="text-decoration-none text-black"
+                href="/change-your-tax-residency"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "display": "block",
+                    "marginBottom": 5,
+                    "marginTop": 5,
+                  }
+                }
+              >
+                Change your tax residency
+                <span
+                  style={
+                    Object {
+                      "color": "rgb(220, 53, 69)",
+                      "marginLeft": 5,
+                    }
+                  }
+                >
+                  &gt;
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col-md-6"
+          style={
+            Object {
+              "padding": 0,
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "#ebebeb",
+                "padding": 10,
+              }
+            }
+          >
+            <h5>
+              Secure messages and alerts
+            </h5>
+          </div>
+          <div
+            style={
+              Object {
+                "paddingLeft": 5,
+                "paddingRight": 5,
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "borderBottom": "1px solid #d9d9d9",
+                  "padding": 10,
+                }
+              }
+            >
+              <a
+                className="text-decoration-none text-black"
+                href="/manage-my-alerts"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "display": "block",
+                    "marginBottom": 5,
+                    "marginTop": 5,
+                  }
+                }
+              >
+                Manage My Alerts
+                <span
+                  style={
+                    Object {
+                      "color": "rgb(220, 53, 69)",
+                      "marginLeft": 5,
+                    }
+                  }
+                >
+                  &gt;
+                </span>
+              </a>
+            </div>
+          </div>
+          <div
+            style={
+              Object {
+                "paddingLeft": 5,
+                "paddingRight": 5,
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "borderBottom": "1px solid #d9d9d9",
+                  "padding": 10,
+                }
+              }
+            >
+              <a
+                className="text-decoration-none text-black"
+                href="/set-up-ebills-email-notification"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "display": "block",
+                    "marginBottom": 5,
+                    "marginTop": 5,
+                  }
+                }
+              >
+                Set up eBills email notification
+                <span
+                  style={
+                    Object {
+                      "color": "rgb(220, 53, 69)",
+                      "marginLeft": 5,
+                    }
+                  }
+                >
+                  &gt;
+                </span>
+              </a>
+            </div>
+          </div>
+          <div
+            style={
+              Object {
+                "paddingLeft": 5,
+                "paddingRight": 5,
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "borderBottom": "1px solid #d9d9d9",
+                  "padding": 10,
+                }
+              }
+            >
+              <a
+                className="text-decoration-none text-black"
+                href="/view-ebills"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "display": "block",
+                    "marginBottom": 5,
+                    "marginTop": 5,
+                  }
+                }
+              >
+                View eBills
+                <span
+                  style={
+                    Object {
+                      "color": "rgb(220, 53, 69)",
+                      "marginLeft": 5,
+                    }
+                  }
+                >
+                  &gt;
+                </span>
+              </a>
+            </div>
+          </div>
+          <div
+            style={
+              Object {
+                "paddingLeft": 5,
+                "paddingRight": 5,
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "borderBottom": "1px solid #d9d9d9",
+                  "padding": 10,
+                }
+              }
+            >
+              <a
+                className="text-decoration-none text-black"
+                href="/digital-vault-documents"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "display": "block",
+                    "marginBottom": 5,
+                    "marginTop": 5,
+                  }
+                }
+              >
+                Digital Vault Documents
+                <span
+                  style={
+                    Object {
+                      "color": "rgb(220, 53, 69)",
+                      "marginLeft": 5,
+                    }
+                  }
+                >
+                  &gt;
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h4>
+        ACCOUNT SERVICES
+      </h4>
+      <div
+        className="row"
+        style={
+          Object {
+            "borderTop": "2px solid grey",
+          }
+        }
+      >
+        <div
+          className="col-md-6"
+          style={
+            Object {
+              "padding": 0,
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "#ebebeb",
+                "padding": 10,
+              }
+            }
+          >
+            <h5>
+              Bank Accounts
+            </h5>
+          </div>
+          <div
+            style={
+              Object {
+                "paddingLeft": 5,
+                "paddingRight": 5,
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "borderBottom": "1px solid #d9d9d9",
+                  "padding": 10,
+                }
+              }
+            >
+              <a
+                className="text-decoration-none text-black"
+                href="/change-statement-options"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "display": "block",
+                    "marginBottom": 5,
+                    "marginTop": 5,
+                  }
+                }
+              >
+                Change statement options
+                <span
+                  style={
+                    Object {
+                      "color": "rgb(220, 53, 69)",
+                      "marginLeft": 5,
+                    }
+                  }
+                >
+                  &gt;
+                </span>
+              </a>
+            </div>
+          </div>
+          <div
+            style={
+              Object {
+                "paddingLeft": 5,
+                "paddingRight": 5,
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "borderBottom": "1px solid #d9d9d9",
+                  "padding": 10,
+                }
+              }
+            >
+              <a
+                className="text-decoration-none text-black"
+                href="/send-and-receive-interact-etransfers"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "display": "block",
+                    "marginBottom": 5,
+                    "marginTop": 5,
+                  }
+                }
+              >
+                Send and receive Interac e-Transfers
+                <span
+                  style={
+                    Object {
+                      "color": "rgb(220, 53, 69)",
+                      "marginLeft": 5,
+                    }
+                  }
+                >
+                  &gt;
+                </span>
+              </a>
+            </div>
+          </div>
+          <div
+            style={
+              Object {
+                "paddingLeft": 5,
+                "paddingRight": 5,
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "borderBottom": "1px solid #d9d9d9",
+                  "padding": 10,
+                }
+              }
+            >
+              <a
+                className="text-decoration-none text-black"
+                href="/apply-for-or-change-overdraft-protection-service"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "display": "block",
+                    "marginBottom": 5,
+                    "marginTop": 5,
+                  }
+                }
+              >
+                Apply for or change ZippyX Overdraft Protection Service
+                <span
+                  style={
+                    Object {
+                      "color": "rgb(220, 53, 69)",
+                      "marginLeft": 5,
+                    }
+                  }
+                >
+                  &gt;
+                </span>
+              </a>
+            </div>
+          </div>
+          <div
+            style={
+              Object {
+                "paddingLeft": 5,
+                "paddingRight": 5,
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "borderBottom": "1px solid #d9d9d9",
+                  "padding": 10,
+                }
+              }
+            >
+              <a
+                className="text-decoration-none text-black"
+                href="/payroll-direct-deposit-or-preauthorized-payment-form"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "display": "block",
+                    "marginBottom": 5,
+                    "marginTop": 5,
+                  }
+                }
+              >
+                Payroll, Direct Deposit, or Pre-Authorized Payment Form
+                <span
+                  style={
+                    Object {
+                      "color": "rgb(220, 53, 69)",
+                      "marginLeft": 5,
+                    }
+                  }
+                >
+                  &gt;
+                </span>
+              </a>
+            </div>
+          </div>
+          <div
+            style={
+              Object {
+                "paddingLeft": 5,
+                "paddingRight": 5,
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "borderBottom": "1px solid #d9d9d9",
+                  "padding": 10,
+                }
+              }
+            >
+              <a
+                className="text-decoration-none text-black"
+                href="/set-up-direct-deposit-with-canada-revenue-agency"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "display": "block",
+                    "marginBottom": 5,
+                    "marginTop": 5,
+                  }
+                }
+              >
+                <div
+                  className="bg-danger"
+                  style={
+                    Object {
+                      "borderRadius": 5,
+                      "color": "white",
+                      "display": "inline-block",
+                      "fontSize": 12,
+                      "height": 24,
+                      "marginRight": 5,
+                      "padding": 3,
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  New
+                </div>
+                Set up direct deposit with Canada Revenue Agency
+                <span
+                  style={
+                    Object {
+                      "color": "rgb(220, 53, 69)",
+                      "marginLeft": 5,
+                    }
+                  }
+                >
+                  &gt;
+                </span>
+              </a>
+            </div>
+          </div>
+          <div
+            style={
+              Object {
+                "paddingLeft": 5,
+                "paddingRight": 5,
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "borderBottom": "1px solid #d9d9d9",
+                  "padding": 10,
+                }
+              }
+            >
+              <a
+                className="text-decoration-none text-black"
+                href="/order-cheques"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "display": "block",
+                    "marginBottom": 5,
+                    "marginTop": 5,
+                  }
+                }
+              >
+                Order cheques
+                <span
+                  style={
+                    Object {
+                      "color": "rgb(220, 53, 69)",
+                      "marginLeft": 5,
+                    }
+                  }
+                >
+                  &gt;
+                </span>
+              </a>
+            </div>
+          </div>
+          <div
+            style={
+              Object {
+                "paddingLeft": 5,
+                "paddingRight": 5,
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "borderBottom": "1px solid #d9d9d9",
+                  "padding": 10,
+                }
+              }
+            >
+              <a
+                className="text-decoration-none text-black"
+                href="/stop-payments"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "display": "block",
+                    "marginBottom": 5,
+                    "marginTop": 5,
+                  }
+                }
+              >
+                Stop payments
+                <span
+                  style={
+                    Object {
+                      "color": "rgb(220, 53, 69)",
+                      "marginLeft": 5,
+                    }
+                  }
+                >
+                  &gt;
+                </span>
+              </a>
+            </div>
+          </div>
+          <div
+            style={
+              Object {
+                "paddingLeft": 5,
+                "paddingRight": 5,
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "borderBottom": "1px solid #d9d9d9",
+                  "padding": 10,
+                }
+              }
+            >
+              <a
+                className="text-decoration-none text-black"
+                href="/pay-and-file-business-taxes"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "display": "block",
+                    "marginBottom": 5,
+                    "marginTop": 5,
+                  }
+                }
+              >
+                Pay and file business taxes
+                <span
+                  style={
+                    Object {
+                      "color": "rgb(220, 53, 69)",
+                      "marginLeft": 5,
+                    }
+                  }
+                >
+                  &gt;
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col-md-6"
+          style={
+            Object {
+              "padding": 0,
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "#ebebeb",
+                "padding": 10,
+              }
+            }
+          >
+            <h5>
+              Credit Cards
+            </h5>
+          </div>
+          <div
+            style={
+              Object {
+                "paddingLeft": 5,
+                "paddingRight": 5,
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "borderBottom": "1px solid #d9d9d9",
+                  "padding": 10,
+                }
+              }
+            >
+              <a
+                className="text-decoration-none text-black"
+                href="/apply-for-a-credit-limit-increase"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "display": "block",
+                    "marginBottom": 5,
+                    "marginTop": 5,
+                  }
+                }
+              >
+                Apply for a credit limit increase
+                <span
+                  style={
+                    Object {
+                      "color": "rgb(220, 53, 69)",
+                      "marginLeft": 5,
+                    }
+                  }
+                >
+                  &gt;
+                </span>
+              </a>
+            </div>
+          </div>
+          <div
+            style={
+              Object {
+                "paddingLeft": 5,
+                "paddingRight": 5,
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "borderBottom": "1px solid #d9d9d9",
+                  "padding": 10,
+                }
+              }
+            >
+              <a
+                className="text-decoration-none text-black"
+                href="/request-a-credit-card-balance-transfer"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "display": "block",
+                    "marginBottom": 5,
+                    "marginTop": 5,
+                  }
+                }
+              >
+                Request a credit card balance transfer
+                <span
+                  style={
+                    Object {
+                      "color": "rgb(220, 53, 69)",
+                      "marginLeft": 5,
+                    }
+                  }
+                >
+                  &gt;
+                </span>
+              </a>
+            </div>
+          </div>
+          <div
+            style={
+              Object {
+                "paddingLeft": 5,
+                "paddingRight": 5,
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "borderBottom": "1px solid #d9d9d9",
+                  "padding": 10,
+                }
+              }
+            >
+              <a
+                className="text-decoration-none text-black"
+                href="/add-a-cardholder"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "display": "block",
+                    "marginBottom": 5,
+                    "marginTop": 5,
+                  }
+                }
+              >
+                Add a cardholder
+                <span
+                  style={
+                    Object {
+                      "color": "rgb(220, 53, 69)",
+                      "marginLeft": 5,
+                    }
+                  }
+                >
+                  &gt;
+                </span>
+              </a>
+            </div>
+          </div>
+          <div
+            style={
+              Object {
+                "paddingLeft": 5,
+                "paddingRight": 5,
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "borderBottom": "1px solid #d9d9d9",
+                  "padding": 10,
+                }
+              }
+            >
+              <a
+                className="text-decoration-none text-black"
+                href="/apply-for-payment-protector-insurance-for-credit-cards"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "display": "block",
+                    "marginBottom": 5,
+                    "marginTop": 5,
+                  }
+                }
+              >
+                Apply for ZippyX Payment Protector Insurance for Credit Cards
+                <span
+                  style={
+                    Object {
+                      "color": "rgb(220, 53, 69)",
+                      "marginLeft": 5,
+                    }
+                  }
+                >
+                  &gt;
+                </span>
+              </a>
+            </div>
+          </div>
+          <div
+            style={
+              Object {
+                "paddingLeft": 5,
+                "paddingRight": 5,
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "borderBottom": "1px solid #d9d9d9",
+                  "padding": 10,
+                }
+              }
+            >
+              <a
+                className="text-decoration-none text-black"
+                href="/change-statement-options"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "display": "block",
+                    "marginBottom": 5,
+                    "marginTop": 5,
+                  }
+                }
+              >
+                Change statement options
+                <span
+                  style={
+                    Object {
+                      "color": "rgb(220, 53, 69)",
+                      "marginLeft": 5,
+                    }
+                  }
+                >
+                  &gt;
+                </span>
+              </a>
+            </div>
+          </div>
+          <div
+            style={
+              Object {
+                "paddingLeft": 5,
+                "paddingRight": 5,
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "borderBottom": "1px solid #d9d9d9",
+                  "padding": 10,
+                }
+              }
+            >
+              <a
+                className="text-decoration-none text-black"
+                href="/create-a-click-to-pay-account"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "display": "block",
+                    "marginBottom": 5,
+                    "marginTop": 5,
+                  }
+                }
+              >
+                Create a Click to Pay account
+                <span
+                  style={
+                    Object {
+                      "color": "rgb(220, 53, 69)",
+                      "marginLeft": 5,
+                    }
+                  }
+                >
+                  &gt;
+                </span>
+              </a>
+            </div>
+          </div>
+          <div
+            style={
+              Object {
+                "paddingLeft": 5,
+                "paddingRight": 5,
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "borderBottom": "1px solid #d9d9d9",
+                  "padding": 10,
+                }
+              }
+            >
+              <a
+                className="text-decoration-none text-black"
+                href="/make-a-payment-with-points"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "display": "block",
+                    "marginBottom": 5,
+                    "marginTop": 5,
+                  }
+                }
+              >
+                Make a payment with Points
+                <span
+                  style={
+                    Object {
+                      "color": "rgb(220, 53, 69)",
+                      "marginLeft": 5,
+                    }
+                  }
+                >
+                  &gt;
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="row"
+        style={
+          Object {
+            "borderTop": "2px solid grey",
+          }
+        }
+      >
+        <div
+          className="col-md-6"
+          style={
+            Object {
+              "padding": 0,
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "#ebebeb",
+                "padding": 10,
+              }
+            }
+          >
+            <h5>
+              Exclusive offers and benefits
+            </h5>
+          </div>
+          <div
+            style={
+              Object {
+                "paddingLeft": 5,
+                "paddingRight": 5,
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "borderBottom": "1px solid #d9d9d9",
+                  "padding": 10,
+                }
+              }
+            >
+              <a
+                className="text-decoration-none text-black"
+                href="/register-for-free-spc"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "display": "block",
+                    "marginBottom": 5,
+                    "marginTop": 5,
+                  }
+                }
+              >
+                <div
+                  className="bg-danger"
+                  style={
+                    Object {
+                      "borderRadius": 5,
+                      "color": "white",
+                      "display": "inline-block",
+                      "fontSize": 12,
+                      "height": 24,
+                      "marginRight": 5,
+                      "padding": 3,
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  New
+                </div>
+                Register for FREE SPC (Students and Youth Clients)
+                <span
+                  style={
+                    Object {
+                      "color": "rgb(220, 53, 69)",
+                      "marginLeft": 5,
+                    }
+                  }
+                >
+                  &gt;
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="row"
+        style={
+          Object {
+            "borderTop": "2px solid grey",
+          }
+        }
+      >
+        <div
+          className="col-md-6"
+          style={
+            Object {
+              "padding": 0,
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "#ebebeb",
+                "padding": 10,
+              }
+            }
+          >
+            <h5>
+              Mortagages and Loans
+            </h5>
+          </div>
+          <div
+            style={
+              Object {
+                "paddingLeft": 5,
+                "paddingRight": 5,
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "borderBottom": "1px solid #d9d9d9",
+                  "padding": 10,
+                }
+              }
+            >
+              <a
+                className="text-decoration-none text-black"
+                href="/make-a-loan-payment"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "display": "block",
+                    "marginBottom": 5,
+                    "marginTop": 5,
+                  }
+                }
+              >
+                Make a loan payment
+                <span
+                  style={
+                    Object {
+                      "color": "rgb(220, 53, 69)",
+                      "marginLeft": 5,
+                    }
+                  }
+                >
+                  &gt;
+                </span>
+              </a>
+            </div>
+          </div>
+          <div
+            style={
+              Object {
+                "paddingLeft": 5,
+                "paddingRight": 5,
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "borderBottom": "1px solid #d9d9d9",
+                  "padding": 10,
+                }
+              }
+            >
+              <a
+                className="text-decoration-none text-black"
+                href="/make-a-mortgage-payment"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "display": "block",
+                    "marginBottom": 5,
+                    "marginTop": 5,
+                  }
+                }
+              >
+                Make a mortagage prepayment
+                <span
+                  style={
+                    Object {
+                      "color": "rgb(220, 53, 69)",
+                      "marginLeft": 5,
+                    }
+                  }
+                >
+                  &gt;
+                </span>
+              </a>
+            </div>
+          </div>
+          <div
+            style={
+              Object {
+                "paddingLeft": 5,
+                "paddingRight": 5,
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "borderBottom": "1px solid #d9d9d9",
+                  "padding": 10,
+                }
+              }
+            >
+              <a
+                className="text-decoration-none text-black"
+                href="/change-mortgage-payment-details"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "display": "block",
+                    "marginBottom": 5,
+                    "marginTop": 5,
+                  }
+                }
+              >
+                Change mortagage payment details
+                <span
+                  style={
+                    Object {
+                      "color": "rgb(220, 53, 69)",
+                      "marginLeft": 5,
+                    }
+                  }
+                >
+                  &gt;
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col-md-6"
+          style={
+            Object {
+              "padding": 0,
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "#ebebeb",
+                "padding": 10,
+              }
+            }
+          >
+            <h5>
+              Investment Accounts
+            </h5>
+          </div>
+          <div
+            style={
+              Object {
+                "paddingLeft": 5,
+                "paddingRight": 5,
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "borderBottom": "1px solid #d9d9d9",
+                  "padding": 10,
+                }
+              }
+            >
+              <a
+                className="text-decoration-none text-black"
+                href="/contribute-to-a-tfsa"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "display": "block",
+                    "marginBottom": 5,
+                    "marginTop": 5,
+                  }
+                }
+              >
+                Contribute to a TFSA
+                <span
+                  style={
+                    Object {
+                      "color": "rgb(220, 53, 69)",
+                      "marginLeft": 5,
+                    }
+                  }
+                >
+                  &gt;
+                </span>
+              </a>
+            </div>
+          </div>
+          <div
+            style={
+              Object {
+                "paddingLeft": 5,
+                "paddingRight": 5,
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "borderBottom": "1px solid #d9d9d9",
+                  "padding": 10,
+                }
+              }
+            >
+              <a
+                className="text-decoration-none text-black"
+                href="/withdraw-from-a-tfsa"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "display": "block",
+                    "marginBottom": 5,
+                    "marginTop": 5,
+                  }
+                }
+              >
+                Withdraw from a TFSA
+                <span
+                  style={
+                    Object {
+                      "color": "rgb(220, 53, 69)",
+                      "marginLeft": 5,
+                    }
+                  }
+                >
+                  &gt;
+                </span>
+              </a>
+            </div>
+          </div>
+          <div
+            style={
+              Object {
+                "paddingLeft": 5,
+                "paddingRight": 5,
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "borderBottom": "1px solid #d9d9d9",
+                  "padding": 10,
+                }
+              }
+            >
+              <a
+                className="text-decoration-none text-black"
+                href="/statement-preferences"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "display": "block",
+                    "marginBottom": 5,
+                    "marginTop": 5,
+                  }
+                }
+              >
+                Statement Preferences
+                <span
+                  style={
+                    Object {
+                      "color": "rgb(220, 53, 69)",
+                      "marginLeft": 5,
+                    }
+                  }
+                >
+                  &gt;
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="mt-4"
+      style={
+        Object {
+          "backgroundColor": "#e9e9e9",
+          "padding": 15,
+          "paddingBottom": 25,
+          "paddingTop": 25,
+        }
+      }
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-8"
+        >
+          <h5>
+            Frequently Asked Questions
+          </h5>
+          <ul
+            className="mt-4"
+            style={
+              Object {
+                "listStyle": "none",
+                "padding": 0,
+              }
+            }
+          >
+            <li>
+              <a
+                className="text-decoration-none text-black"
+                href="/"
+                style={
+                  Object {
+                    "display": "block",
+                    "fontSize": 15,
+                    "marginBottom": 5,
+                    "marginTop": 5,
+                  }
+                }
+              >
+                How do I find statements and tax slips for my other ZippyX accounts?
+                <span
+                  style={
+                    Object {
+                      "color": "rgb(220, 53, 69)",
+                      "marginLeft": 5,
+                    }
+                  }
+                >
+                  &gt;
+                </span>
+              </a>
+            </li>
+            <li>
+              <a
+                className="text-decoration-none text-black"
+                href="/"
+                style={
+                  Object {
+                    "display": "block",
+                    "fontSize": 15,
+                    "marginBottom": 5,
+                    "marginTop": 5,
+                  }
+                }
+              >
+                What happens when I link an account to my debit card or ZippyX Credit Card?
+                <span
+                  style={
+                    Object {
+                      "color": "rgb(220, 53, 69)",
+                      "marginLeft": 5,
+                    }
+                  }
+                >
+                  &gt;
+                </span>
+              </a>
+            </li>
+            <li>
+              <a
+                className="text-decoration-none text-black"
+                href="/"
+                style={
+                  Object {
+                    "display": "block",
+                    "fontSize": 15,
+                    "marginBottom": 5,
+                    "marginTop": 5,
+                  }
+                }
+              >
+                Where can I find my branch number and bank account number?
+                <span
+                  style={
+                    Object {
+                      "color": "rgb(220, 53, 69)",
+                      "marginLeft": 5,
+                    }
+                  }
+                >
+                  &gt;
+                </span>
+              </a>
+            </li>
+            <li>
+              <a
+                className="text-decoration-none text-black"
+                href="/"
+                style={
+                  Object {
+                    "display": "block",
+                    "fontSize": 15,
+                    "marginBottom": 5,
+                    "marginTop": 5,
+                  }
+                }
+              >
+                How do I link another ZippyX account to my ZippyX debit card?
+                <span
+                  style={
+                    Object {
+                      "color": "rgb(220, 53, 69)",
+                      "marginLeft": 5,
+                    }
+                  }
+                >
+                  &gt;
+                </span>
+              </a>
+            </li>
+            <li>
+              <a
+                className="text-decoration-none text-black"
+                href="/"
+                style={
+                  Object {
+                    "display": "block",
+                    "fontSize": 15,
+                    "marginBottom": 5,
+                    "marginTop": 5,
+                  }
+                }
+              >
+                Why do you need my ZippyX account credentials?
+                <span
+                  style={
+                    Object {
+                      "color": "rgb(220, 53, 69)",
+                      "marginLeft": 5,
+                    }
+                  }
+                >
+                  &gt;
+                </span>
+              </a>
+            </li>
+            <li>
+              <a
+                className="text-decoration-none text-black"
+                href="/"
+                style={
+                  Object {
+                    "display": "block",
+                    "fontSize": 15,
+                    "marginBottom": 5,
+                    "marginTop": 5,
+                  }
+                }
+              >
+                How do I review my account balance online?
+                <span
+                  style={
+                    Object {
+                      "color": "rgb(220, 53, 69)",
+                      "marginLeft": 5,
+                    }
+                  }
+                >
+                  &gt;
+                </span>
+              </a>
+            </li>
+          </ul>
+          <div
+            className="d-flex justify-content-end"
+          >
+            <a
+              className="text-black"
+              href="/"
+              style={
+                Object {
+                  "display": "block",
+                  "fontSize": 15,
+                  "marginBottom": 5,
+                  "marginTop": 5,
+                }
+              }
+            >
+              More frequently asked questions
+            </a>
+          </div>
+        </div>
+        <div
+          className="col-md-4"
+          style={
+            Object {
+              "borderLeft": "1px solid #dbdbdb",
+              "padding": 10,
+            }
+          }
+        >
+          <p>
+            Use our automated help for immediate answers to your questions
+          </p>
+          <button
+            className="zippy-btn d-flex btn btn-primary"
+            disabled={false}
+            style={
+              Object {
+                "width": "auto",
+              }
+            }
+            type="button"
+          >
+            Ask a Question
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="mt-4"
+    >
+      <div
+        className="d-flex"
+      >
+        <div
+          style={
+            Object {
+              "border": "1px dotted grey",
+              "height": 25,
+              "marginRight": 10,
+              "textAlign": "center",
+              "width": 20,
+            }
+          }
+        >
+          P
+        </div>
+        <span
+          style={
+            Object {
+              "fontWeight": "bold",
+            }
+          }
+        >
+          Note:
+        </span>
+      </div>
+      <p>
+        <a
+          className="text-black"
+          href="/"
+        >
+          Trademarks
+        </a>
+      </p>
+    </div>
+  </div>
+  <div
+    className="footer-content-wrapper"
+  >
+    <div
+      className="quick-links container"
+    >
+      <div
+        className="row"
+      >
+        <h3
+          className="col-sm-12"
+        >
+          Quick Links
+        </h3>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="col-sm-2"
+        >
+          <ul>
+            <li>
+              <a
+                className="text-decoration-none"
+                href="/"
+                onClick={[Function]}
+              >
+                Home
+              </a>
+            </li>
+            <li>
+              Please Review Our Legal Stuff by visiting our
+               
+              <a
+                className="text-decoration-none"
+                href="/legal"
+                onClick={[Function]}
+              >
+                Privacy Policy | TOU | EULA | CardHolder T&C Pages
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          className="col-sm-2"
+        >
+          8465 W Sahara Ave. Las Vegas, NEVADA
+          <ul>
+            <li>
+              <a
+                href="tel:+17026231876"
+              >
+                1.702.623.1876
+              </a>
+            </li>
+            <li>
+              <a
+                href="mailto:contact@zippy.cash"
+              >
+                contact@zippy.cash
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div
+      className="container"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-12 col-sm-12 col-xs-12 text-left"
+        >
+          © 2021 Zippy Cash LLC  All rights reserved.
+          <br />
+          <br />
+          The Program Manager for the Zippy Cash® Prepaid Visa Debit Card is PayQuicker, LLC
+          <br />
+          Zippy Cash® is a registered trademark of Zippy Cash, LLC
+          <br />
+          The Zippy Cash Prepaid Visa Debit Card is issued by Metropolitan Commercial Bank (Member FDIC) pursuant to a license from Visa U.S.A. Inc. “Metropolitan Commercial Bank” and “Metropolitan” are registered trademarks of Metropolitan Commercial Bank ©2014. BY USING THIS CARD YOU AGREE TO THE TERMS AND CONDITIONS OF THE CARDHOLDER AGREEMENT AND FEE SCHEDULE, IF ANY. All trademarks and service marks are the property of their respective owners.
+          <br />
+          In compliance with the USA PATRIOT Act* and other laws, anyone who is a US resident over 18 with a valid Social Security number and a verifiable physical US address (no PO boxes or APO addresses) can apply for an Zippy Cash Card. This information must be provided, along with other information pertinent to receiving approval, when applying for a Zippy Cash Card. Currently, we do not issue the Zippy Cash Card to residents of Puerto Rico, Guam, the Virgin Islands, American Samoa, or other US territories.
+          <br />
+          *Important information for opening a card account: To help the federal government fight the funding of terrorism and money laundering activities, the USA PATRIOT Act requires all financial institutions and their third parties to obtain, verify and record information that identifies each person who opens a card account. What this means for you: When you open a card account, we will ask for your name, address, date of birth, social security number or country identification number, and other information that will allows us to identify you. We may also request a copy of your driver’s license or other documentation bearing your photo as verification of your identity.
+          <br />
+          Apple and the Apple logo are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc. Google Play is a trademark of Google Inc. Data rates may apply. Samsung Pay is a trademark of Samsung Inc.
+        </div>
+      </div>
+    </div>
+    <footer
+      className="container mb-3"
+    >
+      <div
+        className="d-none d-md-block"
+      >
+        <div
+          className="d-flex justify-content-between border-bottom"
+        />
+        <div
+          className="d-flex justify-content-between border-top"
+        >
+          <div
+            className=""
+          >
+            <div
+              className="footer-link mt-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/personal-profile"
+              >
+                dev docs
+              </a>
+            </div>
+            <div
+              className="footer-link mt-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/"
+                onClick={[Function]}
+              >
+                Lore
+              </a>
+            </div>
+            <div
+              className="footer-link mt-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/"
+                onClick={[Function]}
+              >
+                Ipsum
+              </a>
+            </div>
+            <div
+              className="footer-link mt-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/"
+                onClick={[Function]}
+              >
+                Nullam Atoidio
+              </a>
+            </div>
+          </div>
+          <div
+            className="copyright mt-1"
+          >
+            <span>
+              © 2021 Lorem ipsum dolor sit amet, consectetuer
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="d-block d-md-none"
+      >
+        <div
+          className="d-flex border-bottom"
+        >
+          <div
+            className="d-flex flex-column me-2"
+          >
+            <div
+              className="footer-link mt-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/personal-profile"
+              >
+                dev docs
+              </a>
+            </div>
+            <div
+              className="footer-link mb-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/"
+                onClick={[Function]}
+              >
+                Lore
+              </a>
+            </div>
+            <div
+              className="footer-link mb-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/"
+                onClick={[Function]}
+              >
+                Ipsum
+              </a>
+            </div>
+            <div
+              className="footer-link mb-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/"
+                onClick={[Function]}
+              >
+                Nullam Atoidio
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          className="d-flex justify-content-end border-top"
+        >
+          <div
+            className="copyright mt-2 text-end small"
+          >
+            <span>
+              © 2021 Lorem ipsum dolor sit amet, consectetuer
+            </span>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</div>
+`;

@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GetAlertedHeader Component matches the snapshot 1`] = `
+<div
+  className="d-flex align-items-center"
+  style={
+    Object {
+      "backgroundColor": "#F2F3F2",
+      "borderBottom": "2px solid grey",
+      "borderTop": "3px solid green",
+      "marginTop": 10,
+      "paddingBottom": 10,
+      "paddingLeft": 5,
+      "paddingTop": 10,
+    }
+  }
+>
+  <span
+    style={
+      Object {
+        "fontWeight": 500,
+      }
+    }
+  >
+    Test Title
+     
+    |
+     
+  </span>
+  <a
+    className="text-decoration-none"
+    href="/"
+    style={
+      Object {
+        "color": "rgb(220, 53, 69)",
+        "fontSize": 14,
+        "marginLeft": 5,
+      }
+    }
+  >
+    
+  </a>
+</div>
+`;

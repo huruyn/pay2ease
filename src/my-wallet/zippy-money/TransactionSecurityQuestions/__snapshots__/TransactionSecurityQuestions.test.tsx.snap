@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TransactionSecurityQuestions Component matches the snapshot 1`] = `
+<div
+  className=""
+>
+  <div
+    className="zippy-cash-container-wrap"
+  >
+    <div
+      className="backdrop backdrop-image-2"
+    />
+    <div
+      className="zippy-cash-container"
+    >
+      <div
+        className="zippy-cash-container-header"
+      >
+        <h1
+          className="title"
+        >
+          Personal Account
+        </h1>
+        <h2
+          className="catch"
+        >
+          Made Fun With Zippy!
+        </h2>
+      </div>
+      <div
+        className="zippy-cash-container-body"
+      >
+        <div
+          className="title"
+        >
+          Security Question
+        </div>
+        <div
+          className="security-question"
+        >
+          <input
+            className="form-control"
+            onChange={[Function]}
+            placeholder="Create a security question (Up to 40 Char.)"
+            value="security Question"
+          />
+          <input
+            className="form-control"
+            onChange={[Function]}
+            placeholder="Security Answer (No Space)"
+            type="text"
+            value="security Answer"
+          />
+          <input
+            className="form-control"
+            onChange={[Function]}
+            placeholder="Re-enter Security Answer"
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          className="action"
+        >
+          <button
+            className="zippy-btn btn btn-primary"
+            disabled={false}
+            onClick={[Function]}
+            type="button"
+          >
+            Zipp It
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

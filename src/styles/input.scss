@@ -1,0 +1,36 @@
+@import './colors';
+
+input[type=text] {
+  border-radius: 45px;
+  border: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: $color-dark-gray;
+  order: 0;
+  flex-grow: 0;
+  margin: 0;
+  background: $color-background;
+  padding: 14px 18px 14px 18px;
+
+  &::placeholder{
+    color: $color-gray-30;
+    background: $color-background;
+    box-shadow: none;
+  }
+
+  &:valid,
+  &:visited,
+  &:focus,
+  &:placeholder-shown,
+  &:not(:placeholder-shown),
+  &:-webkit-autofill,
+  &:-webkit-autofill:hover,
+  &:-webkit-autofill:focus,
+  &:-webkit-autofill:active {
+    background-color: $color-background !important;
+    color: $color-black !important;
+    -webkit-box-shadow: 0 0 0 100px $color-background inset !important;
+    -webkit-text-fill-color: $color-black !important;
+  }
+}

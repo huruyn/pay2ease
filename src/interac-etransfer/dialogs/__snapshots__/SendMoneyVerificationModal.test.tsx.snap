@@ -1,0 +1,228 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SendMoneyVerificationModal Component matches the snapshot 1`] = `
+Array [
+  <div
+    className="row"
+    style={
+      Object {
+        "padding": "15px",
+      }
+    }
+  >
+    <h2>
+      SEND MONEY - VERIFICATION
+    </h2>
+    <div>
+      <p>
+        Verify that the information below is accurate and select Send Money
+      </p>
+      <p>
+        Note: You can't recall the transfer after it's sent.
+      </p>
+      <div
+        className="row"
+        style={
+          Object {
+            "display": "flex",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <div
+          className="col"
+        >
+          <p>
+            From:
+          </p>
+        </div>
+        <div
+          className="col"
+        >
+          <p>
+            source
+          </p>
+        </div>
+      </div>
+      <hr
+        style={
+          Object {
+            "marginTop": "0px",
+          }
+        }
+      />
+      <div
+        className="row"
+        style={
+          Object {
+            "display": "flex",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <div
+          className="col"
+        >
+          <p>
+            To:
+          </p>
+        </div>
+        <div
+          className="col"
+        >
+          <p>
+            firstName lastName
+          </p>
+          <p>
+            destination@zippy.cash
+          </p>
+        </div>
+      </div>
+      <hr
+        style={
+          Object {
+            "marginTop": "0px",
+          }
+        }
+      />
+      <div
+        className="row"
+        style={
+          Object {
+            "display": "flex",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <div
+          className="col"
+        >
+          <p>
+            Amount:
+          </p>
+        </div>
+        <div
+          className="col"
+        >
+          <p>
+            $10,000.00
+          </p>
+        </div>
+      </div>
+      <hr
+        style={
+          Object {
+            "marginTop": "0px",
+          }
+        }
+      />
+      <div
+        className="row"
+        style={
+          Object {
+            "display": "flex",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <div
+          className="col"
+        >
+          <p>
+            From Account:
+          </p>
+        </div>
+        <div
+          className="col"
+        >
+          <p>
+            Personal (8000 001 000000000) $1,747.46
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="row"
+    style={
+      Object {
+        "backgroundColor": "#EAEAEA",
+        "display": "flex",
+        "justifyContent": "space-between",
+        "margin": "0px",
+        "marginTop": "10px",
+        "padding": "0px",
+      }
+    }
+  >
+    <div
+      className="col"
+      style={
+        Object {
+          "padding": "15px",
+        }
+      }
+    >
+      <button
+        className="btn btn-link"
+        disabled={false}
+        onClick={[MockFunction]}
+        style={
+          Object {
+            "borderRadius": "4px",
+            "color": "black",
+            "padding": "5px 12px",
+            "textDecoration": "none",
+          }
+        }
+        type="button"
+      >
+        <i />
+        Cancel
+      </button>
+    </div>
+    <div
+      className="col"
+      style={
+        Object {
+          "padding": "15px",
+          "textAlign": "end",
+        }
+      }
+    >
+      <button
+        disabled={false}
+        onClick={[MockFunction]}
+        style={
+          Object {
+            "borderColor": "#C41F3E",
+            "borderRadius": "4px",
+            "color": "#C41F3E",
+            "marginRight": "15px",
+            "padding": "5px 12px",
+          }
+        }
+        type="button"
+      >
+        Back
+      </button>
+      <button
+        disabled={false}
+        onClick={[MockFunction]}
+        style={
+          Object {
+            "backgroundColor": "#C41F3E",
+            "borderColor": "#C41F3E",
+            "borderRadius": "4px",
+            "color": "white",
+            "padding": "5px 12px",
+          }
+        }
+        type="button"
+      >
+        Send Money
+      </button>
+    </div>
+  </div>,
+]
+`;

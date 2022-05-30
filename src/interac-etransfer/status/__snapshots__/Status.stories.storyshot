@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots interac-etransfer/status/Status Default 1`] = `
+Array [
+  <div
+    className="border-top my-3"
+  />,
+  <div
+    className="mt-2"
+  >
+    <div
+      className="d-flex"
+    >
+      <div
+        style={
+          Object {
+            "border": "1px dotted grey",
+            "height": 25,
+            "marginRight": 10,
+            "textAlign": "center",
+            "width": 20,
+          }
+        }
+      >
+        P
+      </div>
+      <span
+        style={
+          Object {
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Note:
+      </span>
+    </div>
+    <p
+      className="d-flex align-items-end"
+    >
+      <span>
+        Your use of Interac e-Transfer is subject to the 
+      </span>
+      <div
+        className="row"
+      >
+        <div
+          className="d-flex align-items-center mt-2 col-md-12"
+        >
+          <div
+            style={
+              Object {
+                "border": "1px dotted grey",
+                "height": 25,
+                "marginRight": 10,
+                "textAlign": "center",
+                "width": 20,
+              }
+            }
+          >
+            P
+          </div>
+          <span>
+            Interac e-Transfer Terms and Conditions (PDF, 197KB).
+          </span>
+        </div>
+      </div>
+    </p>
+  </div>,
+]
+`;

@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RequestedReminder Component matches the snapshot 1`] = `
+Array [
+  <div
+    className="row"
+  >
+    <div
+      className="col"
+    >
+      <ul>
+        <li>
+          The request for money was sent but the contact has not yet sent the transfer.
+        </li>
+        <li>
+          You can send your contact a reminder or cancel the request.
+        </li>
+      </ul>
+    </div>
+  </div>,
+  <div
+    className="row"
+  >
+    <div
+      className="col-4"
+    >
+      To
+    </div>
+    <div
+      className="col-6"
+    >
+      <strong>
+        
+      </strong>
+      <div />
+    </div>
+  </div>,
+  <div
+    className="row"
+  >
+    <div
+      className="col-4"
+    >
+      Transfer Amount
+    </div>
+    <div
+      className="col-6"
+    >
+      <strong
+        className="amount"
+      />
+    </div>
+  </div>,
+  <div
+    className="hstack gap-3"
+  >
+    <button
+      className="zippy-btn zippy-flat d-flex btn btn-primary"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+      Back to Status
+    </button>
+    <button
+      className="zippy-btn d-flex ms-auto btn btn-primary"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+      Send Another Request
+    </button>
+  </div>,
+]
+`;

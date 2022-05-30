@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ZippyBalance Component matches the snapshot when loaded 1`] = `
+<div
+  className=""
+>
+  <div
+    className="zippy-cash-container-wrap"
+  >
+    <div
+      className="backdrop backdrop-image-1"
+    />
+    <div
+      className="zippy-cash-container"
+    >
+      <div
+        className="zippy-cash-container-header"
+      >
+        <h1
+          className="title"
+        >
+          Zippy Balance
+        </h1>
+        <h2
+          className="catch"
+        >
+          Welcome back!
+        </h2>
+      </div>
+      <div
+        className="zippy-cash-container-body"
+      >
+        <div
+          className="zippy-balance"
+        >
+          <div
+            className="account-balance"
+          >
+            <div>
+              Your Zippy Balance is
+            </div>
+            <p>
+              <span
+                className="ms-3"
+              >
+                $ 1,000.00 CAD
+              </span>
+            </p>
+          </div>
+          <div
+            className="account-name"
+          >
+            8000 001 000000000
+          </div>
+        </div>
+        <div
+          className="action pair"
+        >
+          <button
+            className="zippy-btn btn btn-primary"
+            disabled={false}
+            onClick={[Function]}
+            type="button"
+          >
+            Send Money
+          </button>
+          <button
+            className="zippy-btn btn btn-primary"
+            disabled={false}
+            onClick={[Function]}
+            type="button"
+          >
+            Request Money
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ZippyBalance Component matches the snapshot when loading 1`] = `
+<div
+  className=""
+>
+  <div
+    className="zippy-cash-container-wrap"
+  >
+    <div
+      className="backdrop backdrop-image-1"
+    />
+    <div
+      className="zippy-cash-container"
+    >
+      <div
+        className="zippy-cash-container-header"
+      >
+        <h1
+          className="title"
+        >
+          Zippy Balance
+        </h1>
+        <h2
+          className="catch"
+        >
+          Welcome back!
+        </h2>
+      </div>
+      <div
+        className="zippy-cash-container-body"
+      >
+        <div
+          className="zippy-balance"
+        >
+          <div
+            className="spinner spinner-border"
+            role="status"
+          >
+            <span
+              className="visually-hidden"
+            >
+              Loading...
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

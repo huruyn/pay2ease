@@ -1,0 +1,138 @@
+@import './colors';
+
+i {
+  &.zippy-cash-icon {
+    display: inline-block;
+    vertical-align: sub;
+    color: inherit;
+
+    &:after {
+      content: '';
+      -webkit-mask-size: contain;
+      mask-size: contain;
+      width: 25px;
+      height: 25px;
+      display: block;
+      background-color: $color-blue-gray-50;
+      -webkit-mask-position: center center;
+      mask-position: center center;
+      -webkit-mask-repeat: no-repeat;
+      mask-repeat: no-repeat;
+    }
+
+    &.zc-account-security:after {
+      -webkit-mask-image: url('../assets/img/icons/account-security.svg');
+      mask-image: url('../assets/img/icons/account-security.svg');
+    }
+
+    &.zc-bill-payments:after {
+      -webkit-mask-image: url('../assets/img/icons/bill-payments.svg');
+      mask-image: url('../assets/img/icons/bill-payments.svg');
+    }
+
+    &.zc-contact-us:after {
+      -webkit-mask-image: url('../assets/img/icons/contact-us.svg');
+      mask-image: url('../assets/img/icons/contact-us.svg');
+    }
+
+    &.zc-customer-services:after {
+      -webkit-mask-image: url('../assets/img/icons/customer-services.svg');
+      mask-image: url('../assets/img/icons/customer-services.svg');
+    }
+
+    &.zc-home:after {
+      -webkit-mask-image: url('../assets/img/icons/home.svg');
+      mask-image: url('../assets/img/icons/home.svg');
+    }
+
+    &.zc-interac-etransfer:after {
+      -webkit-mask-image: url('../assets/img/icons/interac-etransfer.svg');
+      mask-image: url('../assets/img/icons/interac-etransfer.svg');
+    }
+
+    &.zc-manage-my-alerts:after {
+      -webkit-mask-image: url('../assets/img/icons/manage-my-alerts.svg');
+      mask-image: url('../assets/img/icons/manage-my-alerts.svg');
+    }
+
+    &.zc-transfer-funds:after {
+      -webkit-mask-image: url('../assets/img/icons/transfer-funds.svg');
+      mask-image: url('../assets/img/icons/transfer-funds.svg');
+    }
+
+    &.zc-down:after {
+      -webkit-mask-image: url('../assets/img/icons/down.svg');
+      mask-image: url('../assets/img/icons/down.svg');
+    }
+
+    &.zc-up:after {
+      -webkit-mask-image: url('../assets/img/icons/up.svg');
+      mask-image: url('../assets/img/icons/up.svg');
+    }
+
+    &.zc-search:after {
+      -webkit-mask-image: url('../assets/img/icons/search.svg');
+      mask-image: url('../assets/img/icons/search.svg');
+    }
+
+    &.zc-security:after {
+      -webkit-mask-image: url('../assets/img/icons/security.svg');
+      mask-image: url('../assets/img/icons/security.svg');
+    }
+
+    &.zc-x:after {
+      -webkit-mask-image: url('../assets/img/icons/x.svg');
+      mask-image: url('../assets/img/icons/x.svg');
+    }
+
+    &.zc-add:after {
+      -webkit-mask-image: url('../assets/img/icons/add.svg');
+      mask-image: url('../assets/img/icons/add.svg');
+    }
+    &.zc-back-icon:after {
+      -webkit-mask-image: url('../assets/img/icons/back-icon.svg');
+      mask-image: url('../assets/img/icons/back-icon.svg');
+    }
+    &.zc-personal:after {
+      -webkit-mask-image: url('../assets/img/icons/personal.svg');
+      mask-image: url('../assets/img/icons/personal.svg');
+    }
+
+    &.zc-completed:after {
+      background: $color-green;
+      -webkit-mask-image: url('../assets/img/icons/status-icons/completed.svg');
+      mask-image: url('../assets/img/icons/status-icons/completed.svg');
+    }
+    &.zc-cancelled:after {
+      background: $color-red;
+      -webkit-mask-image: url('../assets/img/icons/status-icons/completed.svg');
+      mask-image: url('../assets/img/icons/status-icons/completed.svg');
+    }
+
+    &.zc-failed:after {
+      background: $color-red;
+      -webkit-mask-image: url('../assets/img/icons/status-icons/failed.svg');
+      mask-image: url('../assets/img/icons/status-icons/failed.svg');
+    }
+
+    &.zc-pending:after {
+      background: $color-dark-gray;
+      -webkit-mask-image: url('../assets/img/icons/status-icons/pending.svg');
+      mask-image: url('../assets/img/icons/status-icons/pending.svg');
+    }
+    &.zc-status-info:after {
+      background: $color-gray-40;
+      -webkit-mask-image: url('../assets/img/icons/status-icons/status-info.svg');
+      mask-image: url('../assets/img/icons/status-icons/status-info.svg');
+    }
+    &.zc-personal:after {
+      -webkit-mask-image: url('../assets/img/icons/personal.svg');
+      mask-image: url('../assets/img/icons/personal.svg');
+    }
+
+    &.zc-personal:after {
+      -webkit-mask-image: url('../assets/img/icons/personal.svg');
+      mask-image: url('../assets/img/icons/personal.svg');
+    }
+  }
+}

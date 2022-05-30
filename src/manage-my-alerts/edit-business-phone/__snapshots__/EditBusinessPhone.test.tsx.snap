@@ -1,0 +1,203 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditBusinessPhone Component matches the snapshot 1`] = `
+Array [
+  <div
+    className="row"
+    style={
+      Object {
+        "padding": "30px",
+      }
+    }
+  >
+    <h3>
+      BUSINESS PHONE NUMBER UPDATE
+    </h3>
+    <ul
+      style={
+        Object {
+          "marginLeft": "25px",
+        }
+      }
+    >
+      <li
+        style={
+          Object {
+            "marginBottom": "6px",
+          }
+        }
+      >
+        This is your business phone number on file with ZippyX.
+      </li>
+      <li
+        style={
+          Object {
+            "marginBottom": "6px",
+          }
+        }
+      >
+        ZippyX will use this phone number to contact you or send you alerts.
+      </li>
+      <li
+        style={
+          Object {
+            "marginBottom": "6px",
+          }
+        }
+      >
+        Phone numbers with extension cannot be used to recieve ZippyX alerts.
+      </li>
+    </ul>
+    <div
+      className="row"
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "justifyContent": "space-evenly",
+          "margin": "30px 0px",
+        }
+      }
+    >
+      <div
+        className="col-md-6"
+      >
+        <div
+          className="mb-3 row"
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+            }
+          }
+        >
+          <div
+            className="col-md-6"
+          >
+            <label
+              className="form-label col-form-label col"
+              htmlFor="BusinessPhone"
+            >
+              Business phone:
+            </label>
+          </div>
+          <div
+            className="col-md-6"
+          >
+            <input
+              className="form-control"
+              id="BusinessPhone"
+              required={true}
+              style={
+                Object {
+                  "width": "120px",
+                }
+              }
+              type="tel"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-md-6"
+      >
+        <div
+          className="mb-3"
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+            }
+          }
+        >
+          <label
+            className="form-label col-form-label col"
+            htmlFor="Extension"
+            style={
+              Object {
+                "marginRight": "10px",
+              }
+            }
+          >
+            Extension:
+          </label>
+          <div
+            className="col-sm-10"
+          >
+            <input
+              className="form-control"
+              id="Extension"
+              placeholder=""
+              style={
+                Object {
+                  "padding": "7px 0px",
+                  "width": "100px",
+                }
+              }
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="row"
+    style={
+      Object {
+        "backgroundColor": "#e3e3e3",
+        "display": "flex",
+        "justifyContent": "space-between",
+        "margin": "0px",
+        "marginTop": "10px",
+        "padding": "20px 10px",
+      }
+    }
+  >
+    <div
+      className="col"
+    >
+      <button
+        id="cancel-btn-edit-business-phone"
+        onClick={[MockFunction]}
+        style={
+          Object {
+            "backgroundColor": "transparent",
+            "border": "0",
+            "color": "black",
+            "padding": "5px 12px",
+          }
+        }
+        type="button"
+      >
+        <i />
+        Cancel
+      </button>
+    </div>
+    <div
+      className="col"
+      style={
+        Object {
+          "textAlign": "end",
+        }
+      }
+    >
+      <button
+        id="save-btn-edit-business-phone"
+        onClick={[MockFunction]}
+        style={
+          Object {
+            "backgroundColor": "#C41F3E",
+            "borderColor": "#C41F3E",
+            "borderRadius": "3px",
+            "color": "white",
+            "padding": "5px 12px",
+          }
+        }
+        type="button"
+      >
+        Save
+      </button>
+    </div>
+  </div>,
+]
+`;

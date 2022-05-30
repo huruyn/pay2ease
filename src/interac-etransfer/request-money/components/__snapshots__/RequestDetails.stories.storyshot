@@ -1,0 +1,577 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots interac-etransfer/request-money/components/RequestDetails Default 1`] = `
+<div>
+  <div
+    className="row"
+  >
+    <div
+      className="col"
+    >
+      <h4
+        className="mt-4"
+      >
+        Request Money Details
+      </h4>
+    </div>
+  </div>
+  <div
+    className="align-items-center mt-4 row"
+  >
+    <div
+      className="col-3"
+    >
+      Request Money From:
+    </div>
+    <div
+      className="col-6"
+    >
+      <select
+        className="form-select"
+        onChange={[Function]}
+        value={0}
+      >
+        <option
+          value=""
+        >
+          Select
+        </option>
+      </select>
+    </div>
+  </div>
+  <div
+    className="border-top my-3"
+  />
+  <div
+    className="align-items-center row"
+  >
+    <div
+      className="col-3"
+    >
+      Request Amount:
+    </div>
+    <div
+      className="col-6"
+    >
+      <input
+        className="form-control"
+        onChange={[Function]}
+        placeholder="$"
+        step=".01"
+        type="number"
+        value={0}
+      />
+    </div>
+  </div>
+  <div
+    className="align-items-center mt-2 row"
+  >
+    <div
+      className="col-3"
+    />
+    <div
+      className="col-9"
+    >
+      You can request up to $10,000
+      <br />
+      Financial institutions may have different limits for using
+       
+      <i>
+        Interac
+      </i>
+       
+      e-Transfer. Confirm with your contact that they can send you the amount you're requesting.
+    </div>
+  </div>
+  <div
+    className="border-top my-3"
+  />
+  <div
+    className="align-items-center row"
+  >
+    <div
+      className="col-3"
+    >
+      Deposit To:
+    </div>
+    <div
+      className="col-9"
+    >
+      <select
+        className="form-select"
+        onChange={[Function]}
+        value={0}
+      >
+        <option>
+          Select
+        </option>
+      </select>
+    </div>
+  </div>
+  <div
+    className="align-items-center mt-2 row"
+  >
+    <div
+      className="col-3"
+    />
+    <div
+      className="col-9"
+    >
+      If your request is fulfilled, the money will be deposited automatically to your chosen account.
+    </div>
+  </div>
+  <div
+    className="border-top my-3"
+  />
+  <div
+    className="align-items-center row"
+  >
+    <div
+      className="col-3"
+    >
+      Invoice Due Date (Optional):
+    </div>
+    <div
+      className="col-9"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-auto"
+        >
+          <select
+            className="form-select"
+          >
+            <option
+              value={1}
+            >
+              1
+            </option>
+            <option
+              value={2}
+            >
+              2
+            </option>
+            <option
+              value={3}
+            >
+              3
+            </option>
+            <option
+              value={4}
+            >
+              4
+            </option>
+            <option
+              value={5}
+            >
+              5
+            </option>
+            <option
+              value={6}
+            >
+              6
+            </option>
+            <option
+              value={7}
+            >
+              7
+            </option>
+            <option
+              value={8}
+            >
+              8
+            </option>
+            <option
+              value={9}
+            >
+              9
+            </option>
+            <option
+              value={10}
+            >
+              10
+            </option>
+            <option
+              value={11}
+            >
+              11
+            </option>
+            <option
+              value={12}
+            >
+              12
+            </option>
+          </select>
+        </div>
+        <div
+          className="col-auto"
+        >
+          <select
+            className="form-select"
+          >
+            <option
+              value={1}
+            >
+              1
+            </option>
+            <option
+              value={2}
+            >
+              2
+            </option>
+            <option
+              value={3}
+            >
+              3
+            </option>
+            <option
+              value={4}
+            >
+              4
+            </option>
+            <option
+              value={5}
+            >
+              5
+            </option>
+            <option
+              value={6}
+            >
+              6
+            </option>
+            <option
+              value={7}
+            >
+              7
+            </option>
+            <option
+              value={8}
+            >
+              8
+            </option>
+            <option
+              value={9}
+            >
+              9
+            </option>
+            <option
+              value={10}
+            >
+              10
+            </option>
+            <option
+              value={11}
+            >
+              11
+            </option>
+            <option
+              value={12}
+            >
+              12
+            </option>
+            <option
+              value={13}
+            >
+              13
+            </option>
+            <option
+              value={14}
+            >
+              14
+            </option>
+            <option
+              value={15}
+            >
+              15
+            </option>
+            <option
+              value={16}
+            >
+              16
+            </option>
+            <option
+              value={17}
+            >
+              17
+            </option>
+            <option
+              value={18}
+            >
+              18
+            </option>
+            <option
+              value={19}
+            >
+              19
+            </option>
+            <option
+              value={20}
+            >
+              20
+            </option>
+            <option
+              value={21}
+            >
+              21
+            </option>
+            <option
+              value={22}
+            >
+              22
+            </option>
+            <option
+              value={23}
+            >
+              23
+            </option>
+            <option
+              value={24}
+            >
+              24
+            </option>
+            <option
+              value={25}
+            >
+              25
+            </option>
+            <option
+              value={26}
+            >
+              26
+            </option>
+            <option
+              value={27}
+            >
+              27
+            </option>
+            <option
+              value={28}
+            >
+              28
+            </option>
+            <option
+              value={29}
+            >
+              29
+            </option>
+            <option
+              value={30}
+            >
+              30
+            </option>
+            <option
+              value={31}
+            >
+              31
+            </option>
+          </select>
+        </div>
+        <div
+          className="col-auto"
+        >
+          <select
+            className="form-select"
+          >
+            <option
+              value={2022}
+            >
+              2022
+            </option>
+            <option
+              value={2023}
+            >
+              2023
+            </option>
+            <option
+              value={2024}
+            >
+              2024
+            </option>
+            <option
+              value={2025}
+            >
+              2025
+            </option>
+            <option
+              value={2026}
+            >
+              2026
+            </option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="border-top my-3"
+  />
+  <div
+    className="align-items-center row"
+  >
+    <div
+      className="col-3"
+    >
+      Invoice Number (Optional):
+    </div>
+    <div
+      className="col-9"
+    >
+      <input
+        className="form-control"
+        onChange={[Function]}
+        type="number"
+      />
+    </div>
+  </div>
+  <div
+    className="border-top my-3"
+  />
+  <div
+    className="align-items-center row"
+  >
+    <div
+      className="col-3"
+    >
+      Message Or Reason For Request (Optional):
+    </div>
+    <div
+      className="col-9"
+    >
+      <textarea
+        className="form-control"
+        onChange={[Function]}
+      />
+    </div>
+  </div>
+  <div
+    className="border-top my-3"
+  />
+  <div
+    className="align-items-center row"
+  >
+    <div
+      className="col"
+    >
+      This is how you will appear in all emails to your
+       
+      <i>
+        Interac
+      </i>
+       
+      e-Transfer contacts. If incorrect,
+       
+      <a
+        className="sc-gsDKAQ jumfrC"
+        href="/interac-etransfer/edit-my-profile"
+        onClick={[Function]}
+      >
+        edit your profile
+      </a>
+      .
+    </div>
+  </div>
+  <div
+    className="align-items-center mt-4 row"
+  >
+    <div
+      className="col-3"
+    >
+      Your Email Nickname:
+    </div>
+    <div
+      className="col-6"
+    >
+      
+    </div>
+  </div>
+  <div
+    className="border-top my-3"
+  />
+  <div
+    className="align-items-center row"
+  >
+    <div
+      className="col-3"
+    >
+      Your Email Address:
+    </div>
+    <div
+      className="col-6"
+    />
+  </div>
+  <div
+    className="align-items-center mt-4 row"
+  >
+    <div
+      className="col"
+    >
+      <div
+        className="px-4 py-2"
+        style={
+          Object {
+            "backgroundColor": "#606366",
+            "color": "#fff",
+          }
+        }
+      >
+        <div
+          className="form-check"
+        >
+          <input
+            checked={false}
+            className="form-check-input"
+            disabled={false}
+            id="confirm"
+            onChange={[Function]}
+            type="checkbox"
+          />
+          <label
+            className="form-check-label"
+            htmlFor="confirm"
+            title=""
+          >
+            I confirm that I have an existing relationship with this contact.
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="align-items-center mt-4 row"
+  >
+    <div
+      className="col"
+    >
+      <b>
+        Note: You may be charged a fee when your request for money is completed. Fee may not apply depending on account terms.
+         
+        <u>
+          Review fee details
+        </u>
+        .
+      </b>
+    </div>
+  </div>
+  <div
+    className="border-top my-3"
+  />
+  <div
+    className="row"
+  >
+    <div
+      className="text-end col"
+    >
+      <button
+        className="zippy-btn btn btn-primary"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        Send Request
+      </button>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,25 @@
+@import './colors';
+
+.nav-tabs {
+  display: flex;
+  flex-wrap: nowrap;
+  width: max-content;
+  border: none;
+  background-color: $color-background;
+  border-radius: 8px;
+
+  .nav-item {
+    .nav-link {
+      border: none;
+      color: $color-light-black;
+      padding: 10px 18px;
+      animation-delay: 2s;
+
+      &.active {
+        animation-delay: 2s;
+        color: $color-white;
+        border-radius: 6px;
+      }
+    }
+  }
+}

@@ -1,0 +1,195 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IdentityVerificationModal Component matches the snapshot 1`] = `
+Array [
+  <div
+    className="row"
+    style={
+      Object {
+        "padding": "15px",
+      }
+    }
+  >
+    <h2>
+      EDIT CONTACT - Verification
+    </h2>
+    <div
+      className="mt-5"
+    >
+      <div
+        className="row"
+        style={
+          Object {
+            "display": "flex",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <div
+          className="col"
+        >
+          <p>
+            Name:
+          </p>
+        </div>
+        <div
+          className="col"
+        >
+          <p>
+            392 Jones
+          </p>
+        </div>
+      </div>
+      <hr
+        style={
+          Object {
+            "marginTop": "0px",
+          }
+        }
+      />
+      <div
+        className="row"
+        style={
+          Object {
+            "display": "flex",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <div
+          className="col"
+        >
+          <p>
+            Email Address:
+          </p>
+        </div>
+        <div
+          className="col"
+        >
+          <p>
+            lu_ben2002@yahoo.com
+          </p>
+        </div>
+      </div>
+      <hr
+        style={
+          Object {
+            "marginTop": "0px",
+          }
+        }
+      />
+      <div
+        className="row"
+        style={
+          Object {
+            "display": "flex",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <div
+          className="col"
+        >
+          <p>
+            Notification Language:
+          </p>
+        </div>
+        <div
+          className="col"
+        >
+          <p>
+            English
+          </p>
+        </div>
+      </div>
+      <hr
+        style={
+          Object {
+            "marginTop": "0px",
+          }
+        }
+      />
+    </div>
+  </div>,
+  <div
+    className="row"
+    style={
+      Object {
+        "backgroundColor": "#EAEAEA",
+        "display": "flex",
+        "justifyContent": "space-between",
+        "margin": "0px",
+        "marginTop": "10px",
+        "padding": "0px",
+      }
+    }
+  >
+    <div
+      className="col"
+      style={
+        Object {
+          "padding": "15px",
+        }
+      }
+    >
+      <button
+        className="btn btn-link"
+        disabled={false}
+        onClick={[MockFunction]}
+        style={
+          Object {
+            "borderRadius": "4px",
+            "color": "black",
+            "padding": "5px 12px",
+            "textDecoration": "none",
+          }
+        }
+        type="button"
+      >
+        <i />
+        Cancel
+      </button>
+    </div>
+    <div
+      className="col"
+      style={
+        Object {
+          "padding": "15px",
+          "textAlign": "end",
+        }
+      }
+    >
+      <button
+        onClick={[MockFunction]}
+        style={
+          Object {
+            "borderColor": "#C41F3E",
+            "borderRadius": "4px",
+            "color": "#C41F3E",
+            "marginRight": "15px",
+            "padding": "5px 12px",
+          }
+        }
+        type="button"
+      >
+        Back
+      </button>
+      <button
+        onClick={[MockFunction]}
+        style={
+          Object {
+            "backgroundColor": "#C41F3E",
+            "borderColor": "#C41F3E",
+            "borderRadius": "4px",
+            "color": "white",
+            "padding": "5px 12px",
+          }
+        }
+        type="button"
+      >
+        Continue
+      </button>
+    </div>
+  </div>,
+]
+`;

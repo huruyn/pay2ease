@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreateOrEditAccountNickname Component matches the snapshot 1`] = `
+<div
+  className="page-content"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col"
+    >
+      <h2>
+        ACCOUNT NICKNAME
+      </h2>
+    </div>
+  </div>
+  <div
+    className="mt-4 row"
+  >
+    <div
+      className="col"
+    >
+      <ul>
+        <li>
+          To create an account nickname, select the "Create" link next to the account
+        </li>
+        <li>
+          To edit an existing account nickname, select the "Edit" link next to the account
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div
+    className="mt-4 row"
+  >
+    <div
+      className="col"
+    >
+      <table
+        className="table"
+      >
+        <thead
+          style={
+            Object {
+              "backgroundColor": "#f2f3f2",
+            }
+          }
+        >
+          <tr>
+            <th>
+              ACCOUNTS
+            </th>
+            <th>
+              ACCOUNT NICKNAME
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          className="border-top-0"
+        >
+          <tr>
+            <td>
+              Chequing (8199639)
+            </td>
+            <td>
+              <u>
+                Create
+              </u>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Savings (8199698)
+            </td>
+            <td>
+              <u>
+                Create
+              </u>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Other (9640797)
+            </td>
+            <td>
+              <u>
+                Create
+              </u>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div
+    className="border-top border-1 mt-4 pt-2 row"
+  >
+    <div
+      className="col"
+    >
+      <b>
+        Note:
+      </b>
+      <br />
+      You can add nicknames to all your accounts in ZippyX. You'll see the nickname instead of the account name in ZippyX. However, on ZippyX ATMs, on the phone or in Banking Centres we'll be using the account name, not the nickname.
+    </div>
+  </div>
+</div>
+`;

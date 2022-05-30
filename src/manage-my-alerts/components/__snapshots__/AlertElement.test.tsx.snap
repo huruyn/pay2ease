@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AlertElement Component matches the snapshot 1`] = `
+<div
+  style={
+    Object {
+      "margin": "20px 5px",
+    }
+  }
+>
+  <div
+    className="d-flex"
+  >
+    <div
+      className="form-check"
+    >
+      <input
+        className="form-check-input"
+        disabled={false}
+        type="checkbox"
+      />
+      <label
+        className="form-check-label"
+        title=""
+      >
+        test
+      </label>
+    </div>
+    <i />
+  </div>
+  <hr
+    style={
+      Object {
+        "color": "C4C4C4",
+        "height": "2px",
+      }
+    }
+  />
+</div>
+`;

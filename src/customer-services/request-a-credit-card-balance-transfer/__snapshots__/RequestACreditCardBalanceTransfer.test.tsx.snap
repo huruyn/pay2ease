@@ -1,0 +1,425 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RequestACreditCardBalanceTransfer Component matches the snapshot 1`] = `
+<div
+  className="page-content"
+>
+  <div
+    style={
+      Object {
+        "backgroundColor": "#F2F3F2",
+        "padding": 10,
+      }
+    }
+  >
+    <p
+      style={
+        Object {
+          "marginBottom": 0,
+          "textAlign": "center",
+        }
+      }
+    >
+      Credit card balance transfer
+    </p>
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "#FAF0F3",
+        "padding": 10,
+      }
+    }
+  >
+    <div
+      className="d-flex justify-content-between"
+    >
+      <p
+        className="d-flex"
+        style={
+          Object {
+            "fontSize": 14,
+            "marginBottom": 0,
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "border": "1px dotted grey",
+              "height": 25,
+              "marginRight": 10,
+              "textAlign": "center",
+              "width": 20,
+            }
+          }
+        >
+          P
+        </div>
+        We are sorry. You don't have an account that allows you to complete this request
+      </p>
+      <p>
+        {
+        Result #0356
+        }
+      </p>
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "#DEE9F7",
+        "padding": 10,
+      }
+    }
+  >
+    <p
+      className="d-flex"
+      style={
+        Object {
+          "fontSize": 14,
+          "marginBottom": 0,
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "border": "1px dotted grey",
+            "height": 25,
+            "marginRight": 10,
+            "textAlign": "center",
+            "width": 20,
+          }
+        }
+      >
+        P
+      </div>
+      <ul>
+        <li>
+          It may take up to 5 business days for the funds to transfer out of your account.
+        </li>
+        <li>
+          All fields are required unless stated as optional.
+        </li>
+      </ul>
+    </p>
+  </div>
+  <div
+    className="mt-4 pb-4 row"
+  >
+    <div
+      className="bg-light p-3 col-md-12"
+      style={
+        Object {
+          "borderBottom": "1px solid grey",
+          "fontWeight": 500,
+        }
+      }
+    >
+      <span
+        style={
+          Object {
+            "color": "rgb(220, 53, 69)",
+            "marginRight": 5,
+          }
+        }
+      >
+        +
+      </span>
+      <span>
+        Before you begin
+      </span>
+    </div>
+  </div>
+  <div
+    className="mt-3"
+  >
+    <div
+      className="mt-3 row"
+    >
+      <div
+        className="col-md-6"
+      >
+        <label
+          className="form-label"
+          htmlFor="transfer_to"
+        >
+          Transfer balance to
+        </label>
+        <div
+          className="row"
+        >
+          <div
+            className="col-md-12"
+          >
+            <select
+              className="form-select"
+              id="transfer_to"
+            >
+              <option>
+                 
+              </option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-md-6"
+      >
+        <label
+          className="form-label"
+          htmlFor="payment_amount"
+        >
+          CVVV2
+          <span
+            style={
+              Object {
+                "border": "1px dotted black",
+              }
+            }
+          >
+            P
+          </span>
+        </label>
+        <input
+          aria-describedby="payment_amount"
+          className="form-control"
+          id="payment_amount"
+        />
+      </div>
+    </div>
+    <div
+      className="mt-3 row"
+    >
+      <div
+        className="col-md-6"
+      >
+        <label
+          className="form-label"
+          htmlFor="transfer_from"
+        >
+          Transfer balance from
+          <span
+            style={
+              Object {
+                "border": "1px dotted black",
+              }
+            }
+          >
+            P
+          </span>
+        </label>
+        <div
+          className="row"
+        >
+          <div
+            className="col-md-12"
+          >
+            <select
+              className="form-select"
+              id="transfer_from"
+            >
+              <option>
+                 - Non-ZippyX card account - 
+              </option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-md-6"
+      >
+        <label
+          className="form-label"
+          htmlFor="non_zippyx_card_number"
+        >
+          Non-ZippyX card number
+        </label>
+        <input
+          aria-describedby="non_zippyx_card_number"
+          className="form-control"
+          id="non_zippyx_card_number"
+        />
+      </div>
+    </div>
+    <div
+      className="mt-3 row"
+    >
+      <div
+        className="col-md-6"
+      >
+        <label
+          className="form-label"
+          htmlFor="transfer_amount"
+        >
+          Transfer amount
+        </label>
+        <div
+          className="input-group"
+        >
+          <span
+            className="input-group-text"
+          >
+            $
+          </span>
+          <input
+            aria-label="Transfer Amount"
+            className="form-control"
+          />
+        </div>
+      </div>
+      <div
+        className="col-md-6"
+      >
+        <label
+          className="form-label"
+          htmlFor="email"
+        >
+          Email
+        </label>
+        <input
+          aria-describedby="email"
+          className="form-control"
+          id="email"
+        />
+        <div
+          className="form-check"
+        >
+          <input
+            className="form-check-input"
+            disabled={false}
+            type="checkbox"
+          />
+          <label
+            className="form-check-label"
+            title=""
+          >
+            Send status updates to this email address
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="mt-4 pb-4 row"
+  >
+    <div
+      className="bg-light p-3 col-md-12"
+      style={
+        Object {
+          "borderBottom": "1px solid grey",
+          "fontWeight": 500,
+        }
+      }
+    >
+      <span
+        style={
+          Object {
+            "color": "rgb(220, 53, 69)",
+            "marginRight": 5,
+          }
+        }
+      >
+        +
+      </span>
+      <span>
+        Terms and Conditions
+      </span>
+    </div>
+    <div
+      className="pt-3 col-md-12"
+    >
+      <div>
+        <div
+          className="form-check"
+        >
+          <input
+            className="form-check-input"
+            disabled={false}
+            id="agree_terms_and_conditions"
+            type="checkbox"
+          />
+          <label
+            className="form-check-label"
+            htmlFor="agree_terms_and_conditions"
+            title=""
+          >
+            I have read, understand and agree to the Terms and Conditions
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="mt-4 pb-4 row"
+  >
+    <div
+      className="bg-light p-3 col-md-12"
+      style={
+        Object {
+          "borderBottom": "1px solid grey",
+          "fontWeight": 500,
+        }
+      }
+    >
+      <span
+        style={
+          Object {
+            "color": "rgb(220, 53, 69)",
+            "marginRight": 5,
+          }
+        }
+      >
+        +
+      </span>
+      <span>
+        Note
+      </span>
+    </div>
+  </div>
+  <div
+    className="mt-4"
+  >
+    <div
+      className="mt-4 row"
+    >
+      <div
+        className="col"
+      >
+        <button
+          className="d-flex btn btn-light"
+          disabled={false}
+          type="button"
+        >
+          <div
+            style={
+              Object {
+                "border": "1px dotted grey",
+                "height": 25,
+                "marginRight": 10,
+                "textAlign": "center",
+                "width": 20,
+              }
+            }
+          >
+            P
+          </div>
+          Cancel
+        </button>
+      </div>
+      <div
+        className="d-flex justify-content-end col"
+      >
+        <button
+          className="zippy-btn d-flex btn btn-primary"
+          disabled={false}
+          type="button"
+        >
+          Next
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

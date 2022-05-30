@@ -1,0 +1,188 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RequestedPending Component matches the snapshot 1`] = `
+Array [
+  <div
+    className="row"
+  >
+    <div
+      className="col"
+    >
+      <ul>
+        <li>
+          The request for money was sent but the contact has not yet sent the transfer.
+        </li>
+        <li>
+          You can send your contact a reminder or cancel the request.
+        </li>
+      </ul>
+    </div>
+  </div>,
+  <div
+    className="row"
+  >
+    <div
+      className="col-4"
+    >
+      From
+    </div>
+    <div
+      className="col-6"
+    >
+      <strong>
+        
+      </strong>
+    </div>
+  </div>,
+  <div
+    className="row"
+  >
+    <div
+      className="col-4"
+    >
+      To
+    </div>
+    <div
+      className="col-6"
+    >
+      <strong>
+        
+      </strong>
+    </div>
+  </div>,
+  <div
+    className="row"
+  >
+    <div
+      className="col-4"
+    >
+      Transfer Date
+    </div>
+    <div
+      className="col-6"
+    >
+      
+    </div>
+  </div>,
+  <div
+    className="row"
+  >
+    <div
+      className="col-4"
+    >
+      Transfer Amount
+    </div>
+    <div
+      className="col-6"
+    >
+      <strong
+        className="amount"
+      />
+    </div>
+  </div>,
+  <div
+    className="row"
+  >
+    <div
+      className="col-4"
+    >
+      <div>
+        Reference Number
+      </div>
+      <div>
+        (Keep For Your Records)
+      </div>
+    </div>
+    <div
+      className="col-6"
+    />
+  </div>,
+  <div
+    className="row"
+  >
+    <div
+      className="col-4"
+    >
+      This Request Will Expire On
+    </div>
+    <div
+      className="col-6"
+    >
+      Jan 2,2022
+    </div>
+  </div>,
+  <div
+    className="row"
+  >
+    <div
+      className="col-4"
+    >
+      Actions
+    </div>
+    <div
+      className="col-6"
+    >
+      <div
+        className="actions form-check"
+      >
+        <input
+          checked={true}
+          className="form-check-input"
+          disabled={false}
+          id="actions1"
+          name="actions1"
+          onChange={[Function]}
+          type="radio"
+        />
+        <label
+          className="form-check-label"
+          htmlFor="actions1"
+          title=""
+        >
+          Send Reminder to Contact
+        </label>
+      </div>
+      <div
+        className="actions form-check"
+      >
+        <input
+          checked={false}
+          className="form-check-input"
+          disabled={false}
+          id="actions2"
+          name="actions2"
+          onChange={[Function]}
+          type="radio"
+        />
+        <label
+          className="form-check-label"
+          htmlFor="actions2"
+          title=""
+        >
+          Cancel the Request
+        </label>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="hstack gap-3"
+  >
+    <button
+      className="zippy-btn zippy-flat d-flex btn btn-primary"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+      Back
+    </button>
+    <button
+      className="zippy-btn d-flex ms-auto btn btn-primary"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+      Next
+    </button>
+  </div>,
+]
+`;

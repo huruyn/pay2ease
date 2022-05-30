@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TransactionStatus Component matches the snapshot 1`] = `
+<div
+  className="transaction-status"
+>
+  <div
+    className="zippy-cash-container-wrap"
+  >
+    <div
+      className="backdrop backdrop-image-2"
+    />
+    <div
+      className="zippy-cash-container"
+    >
+      <div
+        className="zippy-cash-container-header"
+      >
+        <h1
+          className="title"
+        >
+          Personal Account
+        </h1>
+        <h2
+          className="catch"
+        >
+          Made Fun With Zippy!
+        </h2>
+      </div>
+      <div
+        className="zippy-cash-container-body"
+      >
+        <div
+          className="title"
+        >
+          Transaction Status
+        </div>
+        <div
+          className="status"
+        >
+          <div>
+            <i
+              className="zippy-cash-icon zc-pending"
+            />
+          </div>
+          <div>
+            Your $0.00 CAD transaction to  is in process.
+          </div>
+        </div>
+        <div
+          className="action"
+        >
+          <button
+            className="zippy-btn btn btn-primary"
+            disabled={false}
+            type="button"
+          >
+            Send Another Transfer
+          </button>
+          <button
+            className="zippy-btn btn-neutral btn btn-primary"
+            disabled={false}
+            onClick={[Function]}
+            type="button"
+          >
+            View Transfer Details
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

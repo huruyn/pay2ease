@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MonthSelectComponent Component matches the snapshot 1`] = `
+<select
+  className="month-select-comp form-select"
+  style={
+    Object {
+      "maxWidth": 300,
+    }
+  }
+>
+  <optgroup
+    label="2022"
+  >
+    <option
+      value="February 2022"
+    >
+      February 2022
+    </option>
+    <option
+      value="January 2022"
+    >
+      January 2022
+    </option>
+  </optgroup>
+  <optgroup
+    label="2021"
+  >
+    <option
+      value="December 2021"
+    >
+      December 2021
+    </option>
+    <option
+      value="November 2021"
+    >
+      November 2021
+    </option>
+    <option
+      value="October 2021"
+    >
+      October 2021
+    </option>
+    <option
+      value="September 2021"
+    >
+      September 2021
+    </option>
+    <option
+      value="August 2021"
+    >
+      August 2021
+    </option>
+    <option
+      value="July 2021"
+    >
+      July 2021
+    </option>
+    <option
+      value="June 2021"
+    >
+      June 2021
+    </option>
+    <option
+      value="May 2021"
+    >
+      May 2021
+    </option>
+    <option
+      value="April 2021"
+    >
+      April 2021
+    </option>
+    <option
+      value="March 2021"
+    >
+      March 2021
+    </option>
+  </optgroup>
+</select>
+`;

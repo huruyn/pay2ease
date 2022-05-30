@@ -1,0 +1,235 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditEmailAccount Component matches the snapshot 1`] = `
+Array [
+  <div
+    className="row"
+    style={
+      Object {
+        "padding": "30px",
+      }
+    }
+  >
+    <h3>
+      EMAIL ADDRESS UPDATE
+    </h3>
+    <p
+      style={
+        Object {
+          "marginTop": "10px",
+        }
+      }
+    >
+      this is your email address on file with ZippyX.
+    </p>
+    <span>
+      Communication for ebills, alerts. interac e-Transfer messages and promotional materials will be sent to you at this email address.
+    </span>
+    <div
+      className="row"
+      style={
+        Object {
+          "display": "flex",
+          "margin": "30px 10px",
+        }
+      }
+    >
+      <div
+        className="col"
+      >
+        <div
+          className="mb-3 row"
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+            }
+          }
+        >
+          <div
+            className="col-md-3"
+          >
+            <label
+              className="form-label"
+              htmlFor="EmailAddress"
+            >
+              Email Address:
+            </label>
+          </div>
+          <div
+            className="col-md-9"
+          >
+            <div
+              className="col"
+            >
+              <input
+                className="form-control"
+                id="EmailAddress"
+                placeholder="dtough@hotmail.com"
+                required={true}
+                style={
+                  Object {
+                    "padding": "7px 7px",
+                    "width": "200px",
+                  }
+                }
+                type="email"
+              />
+              <a
+                href="./"
+                style={
+                  Object {
+                    "color": "black",
+                  }
+                }
+              >
+                Send a test email
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row"
+      style={
+        Object {
+          "display": "flex",
+          "margin": "30px 10px",
+        }
+      }
+    >
+      <div
+        className="col"
+      >
+        <div
+          className="mb-3 row"
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+            }
+          }
+        >
+          <div
+            className="col-md-3"
+          >
+            <label
+              className="form-label col-form-label col"
+              htmlFor="EmailAddress"
+              style={
+                Object {
+                  "marginRight": "40px",
+                }
+              }
+            >
+              Email format:
+            </label>
+          </div>
+          <div
+            className="col"
+          >
+            <div
+              className="form-check"
+            >
+              <input
+                checked={true}
+                className="form-check-input"
+                disabled={false}
+                id="formHorizontalRadios1"
+                name="formHorizontalRadios"
+                onChange={[Function]}
+                type="radio"
+              />
+              <label
+                className="form-check-label"
+                htmlFor="formHorizontalRadios1"
+                title=""
+              >
+                HTML (include graphics)
+              </label>
+            </div>
+            <div
+              className="form-check"
+            >
+              <input
+                className="form-check-input"
+                disabled={false}
+                id="formHorizontalRadios2"
+                name="formHorizontalRadios"
+                type="radio"
+              />
+              <label
+                className="form-check-label"
+                htmlFor="formHorizontalRadios2"
+                title=""
+              >
+                Plain text
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="row"
+    style={
+      Object {
+        "backgroundColor": "#e3e3e3",
+        "display": "flex",
+        "justifyContent": "space-between",
+        "margin": "0px",
+        "marginTop": "10px",
+        "padding": "20px 10px",
+      }
+    }
+  >
+    <div
+      className="col"
+    >
+      <button
+        id="cancel-btn-edit-email-account"
+        onClick={[MockFunction]}
+        style={
+          Object {
+            "backgroundColor": "transparent",
+            "border": "0",
+            "color": "black",
+            "padding": "5px 12px",
+          }
+        }
+        type="button"
+      >
+        <i />
+        Cancel
+      </button>
+    </div>
+    <div
+      className="col"
+      style={
+        Object {
+          "textAlign": "end",
+        }
+      }
+    >
+      <button
+        id="save-btn-edit-email-account"
+        onClick={[MockFunction]}
+        style={
+          Object {
+            "backgroundColor": "#C41F3E",
+            "borderColor": "#C41F3E",
+            "borderRadius": "3px",
+            "color": "white",
+            "padding": "5px 12px",
+          }
+        }
+        type="button"
+      >
+        Save
+      </button>
+    </div>
+  </div>,
+]
+`;

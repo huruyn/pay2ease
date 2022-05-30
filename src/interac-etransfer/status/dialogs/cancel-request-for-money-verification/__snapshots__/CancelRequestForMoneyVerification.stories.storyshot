@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots interac-etransfer/status/dialogs/cancel-request-for-money-verification/CancelRequestForMoneyVerification Default 1`] = `null`;

@@ -1,0 +1,152 @@
+@import './colors';
+
+nav {
+    &.header-layout {
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        padding: 0;
+        background-color: $color-white;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+
+        &.container {
+            margin: 0 auto;
+        }
+
+        .left-side-header {
+            display: flex;
+            width: 240px;
+            min-width: 240px;
+            min-height: 45px;
+            margin: 0;
+
+            .navbar-brand {
+                width: 240px;
+                justify-content: center;
+                text-align: center;
+                margin: 0;
+                display: block;
+            }
+        }
+
+        .content {
+            padding: 0 30px;
+            display: flex;
+            width: 100%;
+
+            .search-box {
+                position: relative;
+                display: flex;
+                margin: 14px 0;
+                padding: 5px 0 5px 30px;
+                border-radius: 6px;
+
+                .zippy-cash-icon {
+                    position: absolute;
+                    left: 15px;
+                    top: 50%;
+                    transform: translateY(-50%);
+
+                    &:after {
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+
+                input {
+                    display: inline-block;
+                    font-size: 14px;
+                    background-color: transparent;
+                    border: none;
+                    border-radius: 0;
+                    vertical-align: middle;
+
+                    &:focus {
+                        outline: none;
+                        border: none;
+                        box-shadow: none;
+                    }
+                }
+
+                select {
+                    display: inline-block;
+                    background-color: transparent;
+                    font-size: 14px;
+                    width: max-content;
+                    border: none;
+                    border-left: 1px solid $color-gray-30;
+                    border-radius: 0;
+                    padding: 0 40px 0 10px;
+                    height: 24px;
+                    margin: 3px 0;
+                    vertical-align: middle;
+
+                    &:focus {
+                        outline: none;
+                        border: none;
+                        border-left: 1px solid $color-gray-30;
+                        box-shadow: none;
+                    }
+                }
+            }
+
+            .search-box {
+                background: $color-gray-10;
+            }
+        }
+
+        .right-side-header {
+            display: flex;
+            width: max-content;
+        }
+
+        button {
+            text-transform: capitalize;
+            font-family: Poppins, serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            color: #1F2430;
+        }
+
+        button,
+        .nav-link {
+            color: #5E7472;
+
+            &:hover {
+                text-decoration: none !important;
+                color: #1F2430 !important;
+            }
+        }
+
+        &.navbar-light {
+            .navbar-collapse {
+                flex-basis: auto;
+                align-content: flex-end;
+                align-items: flex-end;
+                margin-top: 5px;
+                margin-bottom: 5px;
+                margin-right: 20px;
+
+                .navbar-nav {
+                    .nav-link {
+                        white-space: nowrap;
+                        text-transform: capitalize;
+                        font-family: Poppins, serif;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 15px;
+                    }
+                    &.home-pages-links {
+                        .nav-link {
+                            font-size: 1.2em;
+                            font-weight: 500;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

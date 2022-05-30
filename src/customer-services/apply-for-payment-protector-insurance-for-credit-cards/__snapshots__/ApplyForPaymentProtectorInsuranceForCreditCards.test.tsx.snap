@@ -1,0 +1,408 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ApplyForPaymentProtectorInsuranceForCreditCards Component matches the snapshot 1`] = `
+<div
+  className="page-content"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-12"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col"
+        >
+          <div
+            className="border-top border-2 border-danger"
+          />
+          <h1>
+            ZippyX
+            <i />
+          </h1>
+        </div>
+      </div>
+      <div>
+        <div
+          className="row"
+        >
+          <div
+            className="col"
+          >
+            <div
+              className="fade mb-0 rounded-0 text-dark text-center py-3 alert alert-secondary show"
+              role="alert"
+              style={
+                Object {
+                  "fontSize": 15,
+                }
+              }
+            >
+              Apply for ZippyX Payment Protector
+              <sup>
+                TM
+              </sup>
+               Insurance for Credit Cards
+            </div>
+          </div>
+        </div>
+        <div
+          className="row"
+        >
+          <div
+            className="col"
+          >
+            <div
+              className="fade mb-0 rounded-0 text-dark py-2 px-5 alert alert-danger show"
+              role="alert"
+            >
+              <div
+                className="row"
+              >
+                <div
+                  className="text-start col-auto"
+                >
+                  <i />
+                  We are sorry. You do not have a credit card that allows you to complete this request.
+                </div>
+                <div
+                  className="text-end col"
+                >
+                  {Result:#0356}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="row"
+        >
+          <div
+            className="col"
+          >
+            <div
+              className="fade mb-0 rounded-0 text-dark py-2 px-5 alert alert-danger show"
+              role="alert"
+            >
+              <i />
+              All fields are mandatory unless otherwise stated as optional.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="px-5 col-12"
+    >
+      <div
+        className="pt-5 row"
+      >
+        <div
+          className="col-12"
+        >
+          <div
+            className="border-bottom border-2 border-secondary px-4 py-2"
+            style={
+              Object {
+                "backgroundColor": "#D0D0D0",
+                "color": "#000",
+              }
+            }
+          >
+            <i />
+            Before you begin
+          </div>
+        </div>
+        <div
+          className="col"
+        >
+          <div
+            className="align-items-center pt-3 row"
+          >
+            <div
+              className="col"
+            >
+               
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="pt-5 row"
+      >
+        <div
+          className="col-12"
+        >
+          <div
+            className="border-bottom border-2 border-secondary px-4 py-2"
+            style={
+              Object {
+                "backgroundColor": "#D0D0D0",
+                "color": "#000",
+              }
+            }
+          >
+            <i />
+            Eligibility
+          </div>
+        </div>
+        <div
+          className="px-5 pt-1 col-12"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="col-12"
+            >
+              <div
+                className="form-check"
+              >
+                <input
+                  className="form-check-input"
+                  disabled={false}
+                  id="confirm"
+                  type="checkbox"
+                />
+                <label
+                  className="form-check-label"
+                  htmlFor="confirm"
+                  title=""
+                >
+                  I have read the eligibility requirements and confirm that I am eligible to apply for this product.
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="mt-0 col-12"
+        >
+          <div
+            className="border-top my-1"
+          />
+          <p
+            className="text-muted"
+          >
+            If you feel you do not meet any of these eligibility requirements, please contact Canadian Premier Life Insurance Company at 1 800 893-2862 for further assistance.
+          </p>
+        </div>
+      </div>
+      <div
+        className="mt-5 row"
+      >
+        <div
+          className="col"
+        >
+          <h5
+            className="mb-0"
+          >
+            Your information
+          </h5>
+        </div>
+        <div
+          className="border-top my-3"
+        />
+        <div
+          className="col"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="pt-3 text-muted col-6"
+            >
+              Choose a credit card to insure
+              <select
+                aria-label="Default select example"
+                className="form-select"
+              >
+                <option>
+                   
+                </option>
+              </select>
+            </div>
+            <div
+              className="pt-3 text-muted col-6"
+            >
+              Email address (optional)
+              <input
+                className="form-control"
+                placeholder="dtough@hotmail.com "
+                type="number"
+              />
+              <p
+                className="text-muted"
+              >
+                An email will be sent to this email address, confirming successful submission of application.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="mt-5 row"
+      >
+        <div
+          className="col"
+        >
+          <h5
+            className="mb-0"
+          >
+            Coverage plan and cost to you
+          </h5>
+        </div>
+        <div
+          className="border-top my-3"
+        />
+        <div
+          className="col"
+        >
+          You are applying for the 
+          <b>
+            Primary Cardholder Coverage Plan 
+          </b>
+          of ZippyX Payment Protector Insurance for the credit card selected above. Monthly cost is $0.99 per $100 of the amount owing on the insured credit card on its statement date, plus applicable taxes.
+        </div>
+      </div>
+      <div
+        className="mt-5 row"
+      >
+        <div
+          className="col"
+        >
+          <h5
+            className="mb-0"
+          >
+            Summary of Terms and Conditions
+          </h5>
+        </div>
+        <div
+          className="border-top my-3"
+        />
+        <div
+          className="col"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="text-start my-2 col"
+            >
+              <b>
+                Things you should know about this Insurance
+              </b>
+            </div>
+            <div
+              className="text-end my-2 col"
+            >
+              <i />
+              ZippyX Payment Protector Terms and Conditions (PDF, 1355KB)
+            </div>
+          </div>
+          <div
+            className="row"
+          >
+            <div
+              className="col"
+              style={
+                Object {
+                  "overflow": "hidden",
+                }
+              }
+            >
+              <div
+                className="p-3 border border-secondary border-bottom-0"
+                style={
+                  Object {
+                    "boxSizing": "content-box",
+                    "maxHeight": "200px",
+                    "msOverflowStyle": "none",
+                    "overflowInline": "hidden",
+                    "overflowY": "scroll",
+                    "paddingRight": "15px",
+                  }
+                }
+              >
+                Purchasing this insurance is optional, and is not required to obtain any ZippyX product or service.
+                <br />
+                <br />
+                Individual circumstances may vary. You may wish to contact the licensed insurer's representative, or a licensed insurance agent if you need advice about your insurance needs.
+                <br />
+                <br />
+                This section summarizes key important information about this insurance. Please read this information carefully before applying because it is designed to help you decide if this insurance meets your needs.
+                <br />
+                <br />
+                <b>
+                  You are not covered by this insurance until your application is approved by the insurer, Canadian Premier Life Insurance Company ("Canadian Premier" or the "Insurer").
+                </b>
+                 If your application is approved, you will receive a certificate of insurance in the mail indicating the effective date of your coverage. Your certificate will also contain the complete details of your coverage, including the benefits, cost, eligibility conditions, limitations and exclusions, and how to make a claim. Your certificate will be mailed to you approximately 2 weeks from the date of
+              </div>
+              <div
+                className="px-4 py-2"
+                style={
+                  Object {
+                    "backgroundColor": "#606366",
+                    "color": "#fff",
+                  }
+                }
+              >
+                <div
+                  className="form-check"
+                >
+                  <input
+                    className="form-check-input"
+                    disabled={false}
+                    id="confirm"
+                    type="checkbox"
+                  />
+                  <label
+                    className="form-check-label"
+                    htmlFor="confirm"
+                    title=""
+                  >
+                    I have read, understand, agree and consent to the information in this section 
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="border-top mt-5 mb-3"
+          />
+        </div>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="text-start col"
+        >
+          <button
+            className="btn btn-light"
+            disabled={false}
+            type="button"
+          >
+            <i />
+            Cancel
+          </button>
+        </div>
+        <div
+          className="text-end col"
+        >
+          <button
+            className="btn btn-light"
+            disabled={false}
+            type="button"
+          >
+            Next
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

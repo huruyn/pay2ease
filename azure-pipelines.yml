@@ -1,0 +1,72 @@
+trigger: none
+
+name: $(VERSION_MAJOR_MINOR).$(Build.BuildId)
+
+pool:
+  vmImage: ubuntu-latest
+
+variables:
+  VERSION_MAJOR_MINOR: 0.6
+
+jobs:
+- job: Docker
+  variables:
+    DOCKER_BUILDKIT: 1
+    DOCKER_REPOSITORY: zippy-retail-web
+
+  steps:
+  - task: Docker@2
+    displayName: Login
+    inputs:
+      command: login
+      containerRegistry: $(docker.containerRegistry)
+  - task: Docker@2
+    displayName: Build Initial
+    inputs:
+      command: build
+      repository: $(DOCKER_REPOSITORY)-install
+      tags: latest
+      arguments: --target install
+  - script: |
+      set -e
+      docker run --rm $(docker.containerRegistry)/$(DOCKER_REPOSITORY)-install npm run lint
+    displayName: Lint
+  - script: |
+      docker run --name test $(docker.containerRegistry)/$(DOCKER_REPOSITORY)-install npm test -- --coverage --coverageReporters=cobertura --reporters=default --reporters=jest-junit
+      set -e
+      mkdir $(Build.ArtifactStagingDirectory)/app
+      docker cp test:/app/junit.xml $(Build.ArtifactStagingDirectory)/app/junit.xml
+      docker cp test:/app/coverage $(Build.ArtifactStagingDirectory)/app/coverage
+      docker cp test:/app/src $(Build.ArtifactStagingDirectory)/app/src
+      docker rm test
+      sed -i "s|<source>/app</source>|<source>$(Build.ArtifactStagingDirectory)/app</source>|g" $(Build.ArtifactStagingDirectory)/app/coverage/cobertura-coverage.xml
+    displayName: Test
+  - task: PublishCodeCoverageResults@1
+    displayName: Publish Code Coverage Results
+    inputs:
+      codeCoverageTool: Cobertura
+      summaryFileLocation: $(Build.ArtifactStagingDirectory)/app/coverage/cobertura-coverage.xml
+  - task: PublishTestResults@2
+    displayName: Publish Test Results
+    inputs:
+      failTaskOnFailedTests: true
+      testResultsFiles: $(Build.ArtifactStagingDirectory)/app/junit.xml
+  - task: Docker@2
+    condition: and(succeeded(), eq(variables['docker.push'], 'true'))
+    displayName: Build Final
+    inputs:
+      command: build
+      repository: $(DOCKER_REPOSITORY)
+      arguments: --build-arg version=$(Build.BuildNumber)
+      tags: |
+        $(Build.BuildNumber)
+        latest
+  - task: Docker@2
+    condition: and(succeeded(), eq(variables['docker.push'], 'true'))
+    displayName: Push
+    inputs:
+      command: push
+      repository: $(DOCKER_REPOSITORY)
+      tags: |
+        $(Build.BuildNumber)
+        latest

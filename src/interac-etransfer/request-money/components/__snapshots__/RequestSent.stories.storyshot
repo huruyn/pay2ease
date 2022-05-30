@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots interac-etransfer/request-money/components/RequestSent Default 1`] = `
+Array [
+  <div
+    className="d-flex align-items-center mt-4"
+  >
+    <div
+      style={
+        Object {
+          "border": "1px dotted grey",
+          "height": 25,
+          "marginRight": 10,
+          "textAlign": "center",
+          "width": 20,
+        }
+      }
+    >
+      P
+    </div>
+    <h4>
+      Your request has been sent
+    </h4>
+  </div>,
+  <div
+    className="mt-4 row"
+  >
+    <div
+      className="col-md-4"
+    >
+      <p>
+        Sent To:
+      </p>
+    </div>
+    <div
+      className="col-md-8"
+    >
+      <p />
+      <p>
+        kentu@shaw.ca
+      </p>
+    </div>
+  </div>,
+  <div
+    className="border-top my-3"
+  />,
+  <div
+    className="mt-4 row"
+  >
+    <div
+      className="col-md-4"
+    >
+      <p>
+        Request Amount:
+      </p>
+    </div>
+    <div
+      className="col-md-8"
+    >
+      <p />
+    </div>
+  </div>,
+  <div
+    className="border-top my-3"
+  />,
+  <div
+    className="mt-4 row"
+  >
+    <div
+      className="col-md-4"
+    >
+      <p>
+        Deposit To:
+      </p>
+    </div>
+    <div
+      className="col-md-8"
+    >
+      <p />
+    </div>
+  </div>,
+  <div
+    className="border-top my-3"
+  />,
+  <div
+    className="mt-4 row"
+  >
+    <div
+      className="col-md-4"
+    >
+      <p>
+        This Request Will Expire On:
+      </p>
+    </div>
+    <div
+      className="col-md-8"
+    >
+      <p>
+        Jan 2, 2022
+      </p>
+    </div>
+  </div>,
+  <div
+    className="border-top my-3"
+  />,
+  <div
+    className="mt-4 row"
+  >
+    <div
+      className="col-md-4"
+    >
+      <p>
+        Reference Number:
+      </p>
+    </div>
+    <div
+      className="col-md-8"
+    >
+      <p>
+        cbec8cf23v3we3
+      </p>
+    </div>
+  </div>,
+  <div
+    className="border-top my-3"
+  />,
+  <div
+    className="mt-4 mb-4 row"
+  >
+    <div
+      className="d-flex justify-content-end col"
+    >
+      <button
+        className="d-flex btn btn-outline-danger"
+        disabled={false}
+        onClick={[Function]}
+        style={
+          Object {
+            "marginRight": 10,
+          }
+        }
+        type="button"
+      >
+        Check Status
+      </button>
+      <button
+        className="zippy-btn btn btn-danger"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        Send another transfer
+      </button>
+    </div>
+  </div>,
+]
+`;

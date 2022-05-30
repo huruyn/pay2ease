@@ -1,0 +1,548 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ViewEBills Component matches the snapshot 1`] = `
+<div
+  className="page-content"
+>
+  <div
+    className="d-flex justify-content-between align-items-center"
+  >
+    <h3>
+      View Ebills
+    </h3>
+  </div>
+  <div
+    className="content-wrapper"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-9"
+          >
+            <div>
+              <p>
+                Register for eBills to view, manage, and pay your bills online. In partnership with epost
+                <sup>
+                  TM
+                </sup>
+                 from Canada Post, you can receive statements through ZippyX with one login and password.
+              </p>
+            </div>
+          </div>
+          <div
+            className="col-3"
+          >
+            <div
+              className="border p-2 rounded"
+            >
+              <b>
+                You can also:
+              </b>
+              <br />
+              Find Mailers available through epost &gt;
+              <br />
+              Learn how epost protects your privacy &gt;
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="mt-5 row"
+    >
+      <div
+        className="col"
+      >
+        <h5
+          className="mb-0"
+        >
+          Simplify your bill management by signing up today!
+        </h5>
+      </div>
+      <div
+        className="border-top my-3"
+      />
+      <div
+        className="col"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col"
+          >
+            <h6>
+              Register for eBills:
+            </h6>
+          </div>
+        </div>
+        <div
+          className="mt-4 row"
+        >
+          <div
+            className="text-center  col"
+            style={
+              Object {
+                "flex": "0",
+              }
+            }
+          >
+            <p
+              className="border border-2 border-danger text-danger rounded-circle px-2"
+            >
+              <b>
+                1
+              </b>
+            </p>
+          </div>
+          <div
+            className="col"
+          >
+            <h5>
+              Sign up for your free epost mailbox.
+            </h5>
+            Read and agree to the Terms and conditions,
+              then select "Next" to start the registration process.
+          </div>
+        </div>
+        <div
+          className="mt-4 row"
+        >
+          <div
+            className="text-center  col"
+            style={
+              Object {
+                "flex": "0",
+              }
+            }
+          >
+            <p
+              className="border border-2 border-danger text-danger rounded-circle px-2"
+            >
+              <b>
+                2
+              </b>
+            </p>
+          </div>
+          <div
+            className="col"
+          >
+            <h5>
+              Add Mailers.
+            </h5>
+            These are the companies from which you want
+            to receive your bills and
+            statements.
+          </div>
+        </div>
+        <div
+          className="mt-4 row"
+        >
+          <div
+            className="text-center  col"
+            style={
+              Object {
+                "flex": "0",
+              }
+            }
+          >
+            <p
+              className="border border-2 border-danger text-danger rounded-circle px-2"
+            >
+              <b>
+                3
+              </b>
+            </p>
+          </div>
+          <div
+            className="col"
+          >
+            <h5>
+              Receive, view, pay and manage your bills.
+            </h5>
+            Your bills will now be delivered to your epost mailbox.
+          </div>
+        </div>
+        <div
+          className="mt-4 row"
+        >
+          <div
+            className="col"
+          >
+            Want to leam more about receiving bills online?
+            <u>
+              Take a tour
+            </u>
+            .
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="mt-5 row"
+    >
+      <div
+        className="col"
+      >
+        <h5
+          className="mb-0"
+        >
+          Terms and Conditions
+        </h5>
+      </div>
+      <div
+        className="border-top my-3"
+      />
+      <div
+        className="col"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col"
+          >
+            Please read the following terms and conditions and print a copy for your records. To continue, check the box at the bottom of the agreement, then select "Next". If you do not agree, you will not be registered for the service.
+          </div>
+        </div>
+        <div
+          className="row"
+        >
+          <div
+            className="text-end my-2 col"
+          >
+            <i />
+            Print or save Terms and Conditions (588 KB)
+          </div>
+        </div>
+        <div
+          className="row"
+        >
+          <div
+            className="col"
+            style={
+              Object {
+                "overflow": "hidden",
+              }
+            }
+          >
+            <div
+              className="p-3 border border-secondary border-bottom-0"
+              style={
+                Object {
+                  "boxSizing": "content-box",
+                  "maxHeight": "200px",
+                  "msOverflowStyle": "none",
+                  "overflowInline": "hidden",
+                  "overflowY": "scroll",
+                  "paddingRight": "15px",
+                }
+              }
+            >
+              <h6>
+                Terms and Conditions for eBills service
+              </h6>
+              <b>
+                1.
+              </b>
+              General: Your use of ZippyX's Electronic Document Presentment service, known as the eBills service, (the "EDP Service") is governed by these terms and conditions and the Electronic Access Agreement or by their successor agreements. The Electronic Access Agreement may be viewed by selecting the "Agreements" link at the bottom of most pages of ZippyX. In these terms and conditions, "ZippyX means Canadian Imperial Bank of Commerce and its affiliated companies.
+              <br />
+              <b>
+                2.
+              </b>
+              Basic service and epost service: The EDP Service includes access to both a basic document presentment service and the epost document presentment service. The epost service will allow you to receive documents from additional Mailers. However, to access the epost service, you must first register for an epost mailbox with epost, a service provided by Canada Post Corporation. If you register for an epost mailbox, your use of the epost service will also be govemed by additional terms and conditions with Canada Post Corporation that will be made available to you during the epost mailbox registration process. You may access your epost mailbox from ZippyX, from the online banking websites of certain other financial institutions and also through wwwepost.ca.
+            </div>
+            <div
+              className="px-4 py-2"
+              style={
+                Object {
+                  "backgroundColor": "#606366",
+                  "color": "#fff",
+                }
+              }
+            >
+              <div
+                className="form-check"
+              >
+                <input
+                  className="form-check-input"
+                  disabled={false}
+                  id="confirm"
+                  type="checkbox"
+                />
+                <label
+                  className="form-check-label"
+                  htmlFor="confirm"
+                  title=""
+                >
+                  I agree to be bound by the Terms and Conditions for the eBills service.
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="border-top my-3"
+        />
+        <div
+          className="row"
+        >
+          <div
+            className="text-start col"
+          >
+            <i />
+            Cancel
+          </div>
+          <div
+            className="text-end col"
+          >
+            <button
+              className="btn zippy-btn btn btn-primary"
+              disabled={false}
+              type="button"
+            >
+              Next
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="footer-content-wrapper"
+  >
+    <div
+      className="quick-links container"
+    >
+      <div
+        className="row"
+      >
+        <h3
+          className="col-sm-12"
+        >
+          Quick Links
+        </h3>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="col-sm-2"
+        >
+          <ul>
+            <li>
+              <a
+                className="text-decoration-none"
+                href="/"
+                onClick={[Function]}
+              >
+                Home
+              </a>
+            </li>
+            <li>
+              Please Review Our Legal Stuff by visiting our
+               
+              <a
+                className="text-decoration-none"
+                href="/legal"
+                onClick={[Function]}
+              >
+                Privacy Policy | TOU | EULA | CardHolder T&C Pages
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          className="col-sm-2"
+        >
+          8465 W Sahara Ave. Las Vegas, NEVADA
+          <ul>
+            <li>
+              <a
+                href="tel:+17026231876"
+              >
+                1.702.623.1876
+              </a>
+            </li>
+            <li>
+              <a
+                href="mailto:contact@zippy.cash"
+              >
+                contact@zippy.cash
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div
+      className="container"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-12 col-sm-12 col-xs-12 text-left"
+        >
+          © 2021 Zippy Cash LLC  All rights reserved.
+          <br />
+          <br />
+          The Program Manager for the Zippy Cash® Prepaid Visa Debit Card is PayQuicker, LLC
+          <br />
+          Zippy Cash® is a registered trademark of Zippy Cash, LLC
+          <br />
+          The Zippy Cash Prepaid Visa Debit Card is issued by Metropolitan Commercial Bank (Member FDIC) pursuant to a license from Visa U.S.A. Inc. “Metropolitan Commercial Bank” and “Metropolitan” are registered trademarks of Metropolitan Commercial Bank ©2014. BY USING THIS CARD YOU AGREE TO THE TERMS AND CONDITIONS OF THE CARDHOLDER AGREEMENT AND FEE SCHEDULE, IF ANY. All trademarks and service marks are the property of their respective owners.
+          <br />
+          In compliance with the USA PATRIOT Act* and other laws, anyone who is a US resident over 18 with a valid Social Security number and a verifiable physical US address (no PO boxes or APO addresses) can apply for an Zippy Cash Card. This information must be provided, along with other information pertinent to receiving approval, when applying for a Zippy Cash Card. Currently, we do not issue the Zippy Cash Card to residents of Puerto Rico, Guam, the Virgin Islands, American Samoa, or other US territories.
+          <br />
+          *Important information for opening a card account: To help the federal government fight the funding of terrorism and money laundering activities, the USA PATRIOT Act requires all financial institutions and their third parties to obtain, verify and record information that identifies each person who opens a card account. What this means for you: When you open a card account, we will ask for your name, address, date of birth, social security number or country identification number, and other information that will allows us to identify you. We may also request a copy of your driver’s license or other documentation bearing your photo as verification of your identity.
+          <br />
+          Apple and the Apple logo are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc. Google Play is a trademark of Google Inc. Data rates may apply. Samsung Pay is a trademark of Samsung Inc.
+        </div>
+      </div>
+    </div>
+    <footer
+      className="container mb-3"
+    >
+      <div
+        className="d-none d-md-block"
+      >
+        <div
+          className="d-flex justify-content-between border-bottom"
+        />
+        <div
+          className="d-flex justify-content-between border-top"
+        >
+          <div
+            className=""
+          >
+            <div
+              className="footer-link mt-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/personal-profile"
+              >
+                dev docs
+              </a>
+            </div>
+            <div
+              className="footer-link mt-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/"
+                onClick={[Function]}
+              >
+                Lore
+              </a>
+            </div>
+            <div
+              className="footer-link mt-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/"
+                onClick={[Function]}
+              >
+                Ipsum
+              </a>
+            </div>
+            <div
+              className="footer-link mt-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/"
+                onClick={[Function]}
+              >
+                Nullam Atoidio
+              </a>
+            </div>
+          </div>
+          <div
+            className="copyright mt-1"
+          >
+            <span>
+              © 2021 Lorem ipsum dolor sit amet, consectetuer
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="d-block d-md-none"
+      >
+        <div
+          className="d-flex border-bottom"
+        >
+          <div
+            className="d-flex flex-column me-2"
+          >
+            <div
+              className="footer-link mt-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/personal-profile"
+              >
+                dev docs
+              </a>
+            </div>
+            <div
+              className="footer-link mb-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/"
+                onClick={[Function]}
+              >
+                Lore
+              </a>
+            </div>
+            <div
+              className="footer-link mb-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/"
+                onClick={[Function]}
+              >
+                Ipsum
+              </a>
+            </div>
+            <div
+              className="footer-link mb-1"
+            >
+              <a
+                className="text-decoration-none"
+                href="/"
+                onClick={[Function]}
+              >
+                Nullam Atoidio
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          className="d-flex justify-content-end border-top"
+        >
+          <div
+            className="copyright mt-2 text-end small"
+          >
+            <span>
+              © 2021 Lorem ipsum dolor sit amet, consectetuer
+            </span>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</div>
+`;

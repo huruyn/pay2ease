@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ZippyTransaction Component matches the snapshot 1`] = `
+<div
+  className=""
+>
+  <div
+    className="zippy-cash-container-wrap"
+  >
+    <div
+      className="backdrop backdrop-image-2"
+    />
+    <div
+      className="zippy-cash-container"
+    >
+      <div
+        className="zippy-cash-container-header"
+      >
+        <h1
+          className="title"
+        >
+          Personal Account
+        </h1>
+        <h2
+          className="catch"
+        >
+          Made Fun With Zippy!
+        </h2>
+      </div>
+      <div
+        className="zippy-cash-container-body"
+      >
+        <div
+          aria-label="Zippy Cash"
+          className="zippy-btn-group btn-group"
+          role="group"
+        >
+          <button
+            className="active btn btn-primary"
+            disabled={false}
+            type="button"
+          >
+            Send Money
+          </button>
+          <button
+            className="btn btn-primary"
+            disabled={false}
+            type="button"
+          >
+            Request Money
+          </button>
+        </div>
+        <div
+          className="account-identifier"
+        >
+          <input
+            className="form-control"
+            placeholder="Enter @ZippyUsername or Email"
+          />
+          <i
+            className="zippy-cash-icon zc-add"
+          />
+        </div>
+        <input
+          className="amount form-control"
+          step=".01"
+          type="number"
+          value="0.00"
+        />
+        <div
+          className="select-method"
+        >
+          <div
+            className="actions form-check"
+          >
+            <input
+              checked={true}
+              className="form-check-input"
+              disabled={false}
+              id="zippy-cash"
+              name="actions2"
+              type="radio"
+            />
+            <label
+              className="form-check-label"
+              htmlFor="zippy-cash"
+              title=""
+            >
+              Zippy.Cash
+            </label>
+          </div>
+          <div
+            className="actions form-check"
+          >
+            <input
+              className="form-check-input"
+              disabled={false}
+              id="interac-e-transfer"
+              name="actions2"
+              type="radio"
+            />
+            <label
+              className="form-check-label"
+              htmlFor="interac-e-transfer"
+              title=""
+            >
+              Interac® e-Transfer
+            </label>
+          </div>
+        </div>
+        <div
+          className="action"
+        >
+          <button
+            className="zippy-btn btn btn-primary"
+            disabled={false}
+            onClick={[Function]}
+            type="button"
+          >
+            Zipp It
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
